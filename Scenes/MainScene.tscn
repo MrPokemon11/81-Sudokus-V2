@@ -1,12 +1,13 @@
 [gd_scene format=3 uid="uid://bulehki8p403r"]
 
-[ext_resource type="Theme" uid="uid://cr8pglkwyor5f" path="res://MenuCompletedLevel.tres" id="1_hpc76"]
 [ext_resource type="Theme" uid="uid://cv6w28y5tjd6j" path="res://MenuLevelUnsolved.tres" id="1_nhkr4"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="2_tr2i4"]
+[ext_resource type="FontFile" uid="uid://c5v7cgicak1wx" path="res://Fonts/KIN668.TTF" id="3_nhkr4"]
 
 [node name="Node2D" type="Node2D" unique_id=52789031]
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=2132189343]
+color = Color(0.19434929, 0.19434926, 0.19434926, 1)
 polygon = PackedVector2Array(-13, -11, 1165, -11, 1165, 664, -13, 664)
 
 [node name="Node" type="Node" parent="." unique_id=1131065404]
@@ -37,7 +38,6 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
-theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 text = "1"
 flat = true
@@ -47,7 +47,7 @@ script = ExtResource("2_tr2i4")
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "2"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -56,7 +56,7 @@ script = ExtResource("2_tr2i4")
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "3"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -65,7 +65,7 @@ script = ExtResource("2_tr2i4")
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "4"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -74,7 +74,7 @@ script = ExtResource("2_tr2i4")
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "5"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -83,7 +83,7 @@ script = ExtResource("2_tr2i4")
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "6"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -92,7 +92,7 @@ script = ExtResource("2_tr2i4")
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "7"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -101,7 +101,7 @@ script = ExtResource("2_tr2i4")
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "8"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -110,7 +110,7 @@ script = ExtResource("2_tr2i4")
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "9"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -118,7 +118,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level10" type="Button" parent="Control/GridContainer" unique_id=384764049]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "10"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -126,7 +126,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level11" type="Button" parent="Control/GridContainer" unique_id=1232700025]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "11"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -134,7 +134,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level12" type="Button" parent="Control/GridContainer" unique_id=422131004]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "12"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -142,7 +142,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level13" type="Button" parent="Control/GridContainer" unique_id=1734520854]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "13"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -150,7 +150,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level14" type="Button" parent="Control/GridContainer" unique_id=1626418977]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "14"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -158,7 +158,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level15" type="Button" parent="Control/GridContainer" unique_id=549820165]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "15"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -166,7 +166,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level16" type="Button" parent="Control/GridContainer" unique_id=1184931149]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "16"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -174,7 +174,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level17" type="Button" parent="Control/GridContainer" unique_id=825360991]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "17"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -182,7 +182,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level18" type="Button" parent="Control/GridContainer" unique_id=736142472]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "18"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -190,7 +190,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level19" type="Button" parent="Control/GridContainer" unique_id=868527486]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "19"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -198,7 +198,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level20" type="Button" parent="Control/GridContainer" unique_id=1055711229]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "20"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -206,7 +206,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level21" type="Button" parent="Control/GridContainer" unique_id=311162171]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "21"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -214,7 +214,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level22" type="Button" parent="Control/GridContainer" unique_id=1543337972]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "22"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -222,7 +222,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level23" type="Button" parent="Control/GridContainer" unique_id=1607549022]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "23"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -230,7 +230,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level24" type="Button" parent="Control/GridContainer" unique_id=1430169549]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "24"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -238,7 +238,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level25" type="Button" parent="Control/GridContainer" unique_id=1449264134]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "25"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -246,7 +246,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level26" type="Button" parent="Control/GridContainer" unique_id=1377696326]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "26"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -254,7 +254,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level27" type="Button" parent="Control/GridContainer" unique_id=338315954]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "27"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -262,7 +262,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level28" type="Button" parent="Control/GridContainer" unique_id=329161387]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "28"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -270,7 +270,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level29" type="Button" parent="Control/GridContainer" unique_id=1609192898]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "29"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -278,7 +278,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level30" type="Button" parent="Control/GridContainer" unique_id=1687412733]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "30"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -286,7 +286,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level31" type="Button" parent="Control/GridContainer" unique_id=1986939199]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "31"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -294,7 +294,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level32" type="Button" parent="Control/GridContainer" unique_id=10837318]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "32"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -302,7 +302,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level33" type="Button" parent="Control/GridContainer" unique_id=1919519784]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "33"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -310,7 +310,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level34" type="Button" parent="Control/GridContainer" unique_id=701185232]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "34"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -318,7 +318,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level35" type="Button" parent="Control/GridContainer" unique_id=822966715]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "35"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -326,7 +326,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level36" type="Button" parent="Control/GridContainer" unique_id=728414333]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "36"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -334,7 +334,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level37" type="Button" parent="Control/GridContainer" unique_id=783335207]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "37"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -342,7 +342,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level38" type="Button" parent="Control/GridContainer" unique_id=539233797]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "38"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -350,7 +350,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level39" type="Button" parent="Control/GridContainer" unique_id=933958122]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "39"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -358,7 +358,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level40" type="Button" parent="Control/GridContainer" unique_id=1133654215]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "40"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -366,7 +366,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level41" type="Button" parent="Control/GridContainer" unique_id=45020413]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "41"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -374,7 +374,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level42" type="Button" parent="Control/GridContainer" unique_id=2049298023]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "42"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -382,7 +382,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level43" type="Button" parent="Control/GridContainer" unique_id=1577571625]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "43"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -390,7 +390,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level44" type="Button" parent="Control/GridContainer" unique_id=22104728]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "44"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -398,7 +398,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level45" type="Button" parent="Control/GridContainer" unique_id=1091713054]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "45"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -406,7 +406,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level46" type="Button" parent="Control/GridContainer" unique_id=1247739948]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "46"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -414,7 +414,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level47" type="Button" parent="Control/GridContainer" unique_id=1854858798]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "47"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -422,7 +422,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level48" type="Button" parent="Control/GridContainer" unique_id=2042142631]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "48"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -430,7 +430,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level49" type="Button" parent="Control/GridContainer" unique_id=423556511]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "49"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -438,7 +438,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level50" type="Button" parent="Control/GridContainer" unique_id=1182577842]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "50"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -446,7 +446,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level51" type="Button" parent="Control/GridContainer" unique_id=1982983110]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "51"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -454,7 +454,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level52" type="Button" parent="Control/GridContainer" unique_id=335717535]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "52"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -462,7 +462,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level53" type="Button" parent="Control/GridContainer" unique_id=627864955]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "53"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -470,7 +470,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level54" type="Button" parent="Control/GridContainer" unique_id=1295651124]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "54"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -478,7 +478,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level55" type="Button" parent="Control/GridContainer" unique_id=1801478716]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "55"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -486,7 +486,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level56" type="Button" parent="Control/GridContainer" unique_id=1651638336]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "56"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -494,7 +494,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level57" type="Button" parent="Control/GridContainer" unique_id=1624651916]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "57"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -502,7 +502,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level58" type="Button" parent="Control/GridContainer" unique_id=1507991394]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "58"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -510,7 +510,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level59" type="Button" parent="Control/GridContainer" unique_id=494615631]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "59"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -518,7 +518,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level60" type="Button" parent="Control/GridContainer" unique_id=748596172]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "60"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -526,7 +526,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level61" type="Button" parent="Control/GridContainer" unique_id=572801408]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "61"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -534,7 +534,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level62" type="Button" parent="Control/GridContainer" unique_id=1818250405]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "62"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -542,7 +542,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level63" type="Button" parent="Control/GridContainer" unique_id=451187564]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "63"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -550,7 +550,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level64" type="Button" parent="Control/GridContainer" unique_id=442018251]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "64"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -558,7 +558,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level65" type="Button" parent="Control/GridContainer" unique_id=1505916388]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "65"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -566,7 +566,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level66" type="Button" parent="Control/GridContainer" unique_id=1091478044]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "66"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -574,7 +574,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level67" type="Button" parent="Control/GridContainer" unique_id=865457555]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "67"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -582,7 +582,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level68" type="Button" parent="Control/GridContainer" unique_id=1300475277]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "68"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -590,7 +590,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level69" type="Button" parent="Control/GridContainer" unique_id=798292622]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "69"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -598,7 +598,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level70" type="Button" parent="Control/GridContainer" unique_id=455314606]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "70"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -606,7 +606,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level71" type="Button" parent="Control/GridContainer" unique_id=391360596]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "71"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -614,7 +614,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level72" type="Button" parent="Control/GridContainer" unique_id=1275114778]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "72"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -622,7 +622,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level73" type="Button" parent="Control/GridContainer" unique_id=1725701923]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "73"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -630,7 +630,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level74" type="Button" parent="Control/GridContainer" unique_id=1071664916]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "74"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -638,7 +638,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level75" type="Button" parent="Control/GridContainer" unique_id=197754388]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "75"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -646,7 +646,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level76" type="Button" parent="Control/GridContainer" unique_id=2068255586]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "76"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -654,7 +654,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level77" type="Button" parent="Control/GridContainer" unique_id=756213944]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "77"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -662,7 +662,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level78" type="Button" parent="Control/GridContainer" unique_id=1301091366]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "78"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -670,7 +670,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level79" type="Button" parent="Control/GridContainer" unique_id=847767359]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "79"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -678,7 +678,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level80" type="Button" parent="Control/GridContainer" unique_id=331956053]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "80"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -686,7 +686,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level81" type="Button" parent="Control/GridContainer" unique_id=119164948]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("1_hpc76")
+theme = ExtResource("1_nhkr4")
 text = "81"
 flat = true
 script = ExtResource("2_tr2i4")
@@ -698,127 +698,137 @@ position = Vector2(0, 19)
 position = Vector2(0, 5)
 points = PackedVector2Array(324, 93, 832, 93)
 width = 5.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThickLine2" type="Line2D" parent="CanvasGroup" unique_id=1850561821]
 position = Vector2(0, 173)
 points = PackedVector2Array(324, 93, 831, 93)
 width = 5.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThickLine3" type="Line2D" parent="CanvasGroup" unique_id=1269198110]
 position = Vector2(0, 341)
 points = PackedVector2Array(325, 93, 831, 93)
 width = 5.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThickLine4" type="Line2D" parent="CanvasGroup" unique_id=1458614772]
 position = Vector2(4, 509)
 points = PackedVector2Array(320, 93, 828, 93)
 width = 5.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThickLine5" type="Line2D" parent="CanvasGroup" unique_id=767815129]
 position = Vector2(923, -230)
 rotation = 1.5707964
 points = PackedVector2Array(326, 93, 834, 93)
 width = 5.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThickLine6" type="Line2D" parent="CanvasGroup" unique_id=1065116824]
 position = Vector2(755, -229.75676)
 rotation = 1.5707964
 points = PackedVector2Array(327.75677, 93, 832.7568, 93)
 width = 5.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThickLine7" type="Line2D" parent="CanvasGroup" unique_id=1549056128]
 position = Vector2(587, -229.51633)
 rotation = 1.5707964
 points = PackedVector2Array(325.51633, 93, 832.51636, 93)
 width = 5.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThickLine8" type="Line2D" parent="CanvasGroup" unique_id=1945066016]
 position = Vector2(419, -225.27457)
 rotation = 1.5707964
 points = PackedVector2Array(321.27457, 93, 829.2746, 92.99997)
 width = 5.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine" type="Line2D" parent="CanvasGroup" unique_id=1627573970]
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine2" type="Line2D" parent="CanvasGroup" unique_id=1773301561]
 position = Vector2(0, 56)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine3" type="Line2D" parent="CanvasGroup" unique_id=898899592]
 position = Vector2(0, 168)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine4" type="Line2D" parent="CanvasGroup" unique_id=1164209538]
 position = Vector2(0, 224)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine5" type="Line2D" parent="CanvasGroup" unique_id=996460941]
 position = Vector2(0, 336)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine6" type="Line2D" parent="CanvasGroup" unique_id=911696587]
 position = Vector2(0, 392)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine7" type="Line2D" parent="CanvasGroup" unique_id=120476975]
 position = Vector2(536, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine8" type="Line2D" parent="CanvasGroup" unique_id=1899526699]
 position = Vector2(592, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine9" type="Line2D" parent="CanvasGroup" unique_id=223142583]
 position = Vector2(704, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine10" type="Line2D" parent="CanvasGroup" unique_id=1483845014]
 position = Vector2(760, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine11" type="Line2D" parent="CanvasGroup" unique_id=1101542882]
 position = Vector2(872, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="ThinLine12" type="Line2D" parent="CanvasGroup" unique_id=1912154889]
 position = Vector2(928, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0, 0, 0, 1)
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="Title" type="RichTextLabel" parent="." unique_id=530568592]
+offset_left = 363.0
+offset_top = 36.0
+offset_right = 792.0
+offset_bottom = 84.0
+theme_override_fonts/normal_font = ExtResource("3_nhkr4")
+theme_override_font_sizes/normal_font_size = 48
+text = "81 Sudokus"
+horizontal_alignment = 1

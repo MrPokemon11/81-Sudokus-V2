@@ -1,5 +1,9 @@
 [gd_resource type="Theme" format=3 uid="uid://cr8pglkwyor5f"]
 
+[ext_resource type="FontFile" uid="uid://c5v7cgicak1wx" path="res://Fonts/KIN668.TTF" id="1_a1dfv"]
+
 [resource]
-Button/colors/font_color = Color(0, 0, 0, 1)
-Button/colors/font_hover_color = Color(0.16206542, 0.16206557, 0.16206601, 1)
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_color = Color(0.6830775, 0.68307734, 0.68307734, 1)
+Button/font_sizes/font_size = 20
+Button/fonts/font = ExtResource("1_a1dfv")

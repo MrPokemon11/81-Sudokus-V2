@@ -3,6 +3,7 @@
 [node name="Node2D" type="Node2D" unique_id=1425518412]
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=220250481]
+color = Color(0.19434929, 0.19434926, 0.19434926, 1)
 polygon = PackedVector2Array(-13, -11, 1165, -9, 1159, 664, -12, 664)
 
 [node name="Control" type="Control" parent="." unique_id=2100910018]
@@ -13,6 +14,156 @@ offset_bottom = 40.0
 
 [node name="GridContainer" type="GridContainer" parent="Control" unique_id=979869428]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-columns = 9
+offset_left = 329.0
+offset_top = 112.0
+offset_right = 829.0
+offset_bottom = 612.0
+columns = 4
+
+[node name="TextEdit" type="TextEdit" parent="Control/GridContainer" unique_id=1690889187]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit2" type="TextEdit" parent="Control/GridContainer" unique_id=107862742]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit3" type="TextEdit" parent="Control/GridContainer" unique_id=1357925749]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit4" type="TextEdit" parent="Control/GridContainer" unique_id=1060959170]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit5" type="TextEdit" parent="Control/GridContainer" unique_id=82781570]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit6" type="TextEdit" parent="Control/GridContainer" unique_id=1999196835]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit7" type="TextEdit" parent="Control/GridContainer" unique_id=525796530]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit8" type="TextEdit" parent="Control/GridContainer" unique_id=1971222397]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit9" type="TextEdit" parent="Control/GridContainer" unique_id=325770862]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit10" type="TextEdit" parent="Control/GridContainer" unique_id=1319552849]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit11" type="TextEdit" parent="Control/GridContainer" unique_id=939037276]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit12" type="TextEdit" parent="Control/GridContainer" unique_id=214411614]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit13" type="TextEdit" parent="Control/GridContainer" unique_id=1940676826]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit14" type="TextEdit" parent="Control/GridContainer" unique_id=747732419]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit15" type="TextEdit" parent="Control/GridContainer" unique_id=1269696699]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit16" type="TextEdit" parent="Control/GridContainer" unique_id=152152646]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=1191619077]
+position = Vector2(24, 0)
+
+[node name="ThinLine" type="Line2D" parent="CanvasGroup" unique_id=18149782]
+position = Vector2(-24, 82)
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThinLine2" type="Line2D" parent="CanvasGroup" unique_id=364428825]
+position = Vector2(-24, 334)
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThinLine3" type="Line2D" parent="CanvasGroup" unique_id=174298895]
+position = Vector2(583, -215)
+rotation = 1.5707964
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThinLine4" type="Line2D" parent="CanvasGroup" unique_id=1506882281]
+position = Vector2(835, -215)
+rotation = 1.5707964
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine" type="Line2D" parent="CanvasGroup" unique_id=936297104]
+position = Vector2(-23, 16)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine2" type="Line2D" parent="CanvasGroup" unique_id=774441993]
+position = Vector2(-24, 269)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine3" type="Line2D" parent="CanvasGroup" unique_id=1212523351]
+position = Vector2(-23, 522)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine4" type="Line2D" parent="CanvasGroup" unique_id=37616142]
+position = Vector2(395, -216)
+rotation = 1.5707964
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine5" type="Line2D" parent="CanvasGroup" unique_id=2003323809]
+position = Vector2(648, -217)
+rotation = 1.5707964
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine6" type="Line2D" parent="CanvasGroup" unique_id=438157439]
+position = Vector2(901, -216)
+rotation = 1.5707964
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)

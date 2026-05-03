@@ -1,3 +1,8 @@
 [gd_resource type="Theme" format=3 uid="uid://cv6w28y5tjd6j"]
 
+[ext_resource type="FontFile" uid="uid://fgfxpsqnbwwq" path="res://Fonts/Halogen.ttf" id="1_gc4av"]
+
 [resource]
+Button/colors/font_color = Color(0.8776157, 0.8776158, 0.8776157, 1)
+Button/colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+Button/fonts/font = ExtResource("1_gc4av")
