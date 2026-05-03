@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://boa3ka6h3xi28"]
+
+[node name="Node2D" type="Node2D" unique_id=1425518412]
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=220250481]
+polygon = PackedVector2Array(-13, -11, 1165, -9, 1159, 664, -12, 664)
+
+[node name="Control" type="Control" parent="." unique_id=2100910018]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="Control" unique_id=979869428]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+columns = 9
