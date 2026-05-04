@@ -1,0 +1,9 @@
+[gd_resource type="Theme" format=3 uid="uid://c67d0lb8qj3ov"]
+
+[ext_resource type="FontFile" uid="uid://c5v7cgicak1wx" path="res://Fonts/KIN668.TTF" id="1_u7hxl"]
+
+[resource]
+TextEdit/colors/font_color = Color(1, 1, 1, 1)
+TextEdit/colors/font_outline_color = Color(1, 1, 1, 1)
+TextEdit/constants/outline_size = 2
+TextEdit/fonts/font = ExtResource("1_u7hxl")

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bulehki8p403r"]
 
-[ext_resource type="Theme" uid="uid://cv6w28y5tjd6j" path="res://MenuLevelUnsolved.tres" id="1_nhkr4"]
+[ext_resource type="Theme" uid="uid://cv6w28y5tjd6j" path="res://Themes/MenuLevelUnsolved.tres" id="1_nhkr4"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="2_tr2i4"]
 [ext_resource type="FontFile" uid="uid://c5v7cgicak1wx" path="res://Fonts/KIN668.TTF" id="3_nhkr4"]
 
