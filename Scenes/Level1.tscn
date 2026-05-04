@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://boa3ka6h3xi28"]
 
+[ext_resource type="Script" uid="uid://dmjtkwkqt7f26" path="res://Scripts/check_validity.gd" id="1_2llne"]
+
 [node name="Node2D" type="Node2D" unique_id=1425518412]
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=220250481]
@@ -20,85 +22,104 @@ offset_right = 829.0
 offset_bottom = 612.0
 columns = 4
 
-[node name="TextEdit" type="TextEdit" parent="Control/GridContainer" unique_id=1690889187]
+[node name="TextEdit1" type="TextEdit" parent="Control/GridContainer" unique_id=1690889187]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
+metadata/Row = [NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit3"), NodePath("../TextEdit4")]
+metadata/column = [NodePath("."), NodePath("../TextEdit5"), NodePath("../TextEdit9"), NodePath("../TextEdit13")]
+metadata/region = [NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit5"), NodePath("../TextEdit6")]
 
 [node name="TextEdit2" type="TextEdit" parent="Control/GridContainer" unique_id=107862742]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit3" type="TextEdit" parent="Control/GridContainer" unique_id=1357925749]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit4" type="TextEdit" parent="Control/GridContainer" unique_id=1060959170]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit5" type="TextEdit" parent="Control/GridContainer" unique_id=82781570]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit6" type="TextEdit" parent="Control/GridContainer" unique_id=1999196835]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit7" type="TextEdit" parent="Control/GridContainer" unique_id=525796530]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit8" type="TextEdit" parent="Control/GridContainer" unique_id=1971222397]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit9" type="TextEdit" parent="Control/GridContainer" unique_id=325770862]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit10" type="TextEdit" parent="Control/GridContainer" unique_id=1319552849]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit11" type="TextEdit" parent="Control/GridContainer" unique_id=939037276]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit12" type="TextEdit" parent="Control/GridContainer" unique_id=214411614]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit13" type="TextEdit" parent="Control/GridContainer" unique_id=1940676826]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit14" type="TextEdit" parent="Control/GridContainer" unique_id=747732419]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit15" type="TextEdit" parent="Control/GridContainer" unique_id=1269696699]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="TextEdit16" type="TextEdit" parent="Control/GridContainer" unique_id=152152646]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_2llne")
 
 [node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=1191619077]
 position = Vector2(24, 0)
