@@ -3,4 +3,5 @@
 [ext_resource type="FontFile" uid="uid://c5v7cgicak1wx" path="res://Fonts/KIN668.TTF" id="1_fa3uk"]
 
 [resource]
+TextEdit/font_sizes/font_size = 32
 TextEdit/fonts/font = ExtResource("1_fa3uk")
