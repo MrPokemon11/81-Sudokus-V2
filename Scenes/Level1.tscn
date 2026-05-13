@@ -3,6 +3,7 @@
 [ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="1_q12u6"]
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="2_q12u6"]
 [ext_resource type="Script" uid="uid://bd1jqhdy0kk8n" path="res://Scripts/BrainwaveScripting/check_equality.gd" id="3_jghel"]
+[ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="3_slnnj"]
 [ext_resource type="Script" uid="uid://boywh75v4gr6v" path="res://Scripts/BrainwaveScripting/change_color_red.gd" id="4_slnnj"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q12u6"]
@@ -28,7 +29,7 @@ offset_bottom = 612.0
 columns = 4
 metadata/validInputs = [1, 2, 3, 4]
 
-[node name="TextEdit0" type="TextEdit" parent="Control/TextEdits" unique_id=1690889187 groups=["Region1"]]
+[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=1690889187 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -38,11 +39,11 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
-metadata/Row = [NodePath("."), NodePath("../TextEdit1"), NodePath("../TextEdit2"), NodePath("../TextEdit3")]
-metadata/column = [NodePath("."), NodePath("../TextEdit4"), NodePath("../TextEdit8"), NodePath("../TextEdit12")]
-metadata/region = [NodePath("."), NodePath("../TextEdit1"), NodePath("../TextEdit4"), NodePath("../TextEdit5")]
+metadata/Row = [NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit3"), NodePath("../TextEdit4")]
+metadata/column = [NodePath("."), NodePath("../TextEdit5"), NodePath("../TextEdit9"), NodePath("../TextEdit13")]
+metadata/region = [NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit5"), NodePath("../TextEdit6")]
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit0" unique_id=413905321]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit1" unique_id=413905321]
 layout_mode = 0
 offset_right = 122.0
 offset_bottom = 122.0
@@ -56,7 +57,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=107862742 groups=["Region1"]]
+[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=107862742 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -66,9 +67,9 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
-metadata/Row = [NodePath("../TextEdit0"), NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit3")]
+metadata/Row = [NodePath("../TextEdit1"), NodePath("."), NodePath("../TextEdit3"), NodePath("../TextEdit4")]
 
-[node name="Label2" type="RichTextLabel" parent="Control/TextEdits/TextEdit1" unique_id=282377115]
+[node name="Label2" type="RichTextLabel" parent="Control/TextEdits/TextEdit2" unique_id=282377115]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -82,7 +83,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=1357925749 groups=["Region2"]]
+[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=1357925749 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -93,7 +94,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label3" type="RichTextLabel" parent="Control/TextEdits/TextEdit2" unique_id=1230871674]
+[node name="Label3" type="RichTextLabel" parent="Control/TextEdits/TextEdit3" unique_id=1230871674]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -107,7 +108,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=1060959170 groups=["Region2"]]
+[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=1060959170 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -118,7 +119,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label4" type="RichTextLabel" parent="Control/TextEdits/TextEdit3" unique_id=1163909861]
+[node name="Label4" type="RichTextLabel" parent="Control/TextEdits/TextEdit4" unique_id=1163909861]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -132,7 +133,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=82781570 groups=["Region1"]]
+[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=82781570 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -143,7 +144,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label5" type="RichTextLabel" parent="Control/TextEdits/TextEdit4" unique_id=1330409473]
+[node name="Label5" type="RichTextLabel" parent="Control/TextEdits/TextEdit5" unique_id=1330409473]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -157,7 +158,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=1999196835 groups=["Region1"]]
+[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=1999196835 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -168,7 +169,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label6" type="RichTextLabel" parent="Control/TextEdits/TextEdit5" unique_id=1016121812]
+[node name="Label6" type="RichTextLabel" parent="Control/TextEdits/TextEdit6" unique_id=1016121812]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -182,7 +183,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=525796530 groups=["Region2"]]
+[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=525796530 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -193,7 +194,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label7" type="RichTextLabel" parent="Control/TextEdits/TextEdit6" unique_id=291204891]
+[node name="Label7" type="RichTextLabel" parent="Control/TextEdits/TextEdit7" unique_id=291204891]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -207,7 +208,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=1971222397 groups=["Region2"]]
+[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=1971222397 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -218,7 +219,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label8" type="RichTextLabel" parent="Control/TextEdits/TextEdit7" unique_id=1747086440]
+[node name="Label8" type="RichTextLabel" parent="Control/TextEdits/TextEdit8" unique_id=1747086440]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -232,7 +233,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=325770862 groups=["Region3"]]
+[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=325770862 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -243,7 +244,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label9" type="RichTextLabel" parent="Control/TextEdits/TextEdit8" unique_id=287622391]
+[node name="Label9" type="RichTextLabel" parent="Control/TextEdits/TextEdit9" unique_id=287622391]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -257,7 +258,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=1319552849 groups=["Region3"]]
+[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=1319552849 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -268,7 +269,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label10" type="RichTextLabel" parent="Control/TextEdits/TextEdit9" unique_id=1421550629]
+[node name="Label10" type="RichTextLabel" parent="Control/TextEdits/TextEdit10" unique_id=1421550629]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -282,7 +283,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=939037276 groups=["Region4"]]
+[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=939037276 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -293,7 +294,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label11" type="RichTextLabel" parent="Control/TextEdits/TextEdit10" unique_id=1921841367]
+[node name="Label11" type="RichTextLabel" parent="Control/TextEdits/TextEdit11" unique_id=1921841367]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -307,7 +308,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=214411614 groups=["Region4"]]
+[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=214411614 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -318,7 +319,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label12" type="RichTextLabel" parent="Control/TextEdits/TextEdit11" unique_id=745676767]
+[node name="Label12" type="RichTextLabel" parent="Control/TextEdits/TextEdit12" unique_id=745676767]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -332,7 +333,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=1940676826 groups=["Region3"]]
+[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=1940676826 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -343,7 +344,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label13" type="RichTextLabel" parent="Control/TextEdits/TextEdit12" unique_id=1120039638]
+[node name="Label13" type="RichTextLabel" parent="Control/TextEdits/TextEdit13" unique_id=1120039638]
 layout_mode = 1
 offset_right = 122.0
 offset_bottom = 122.0
@@ -357,7 +358,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=747732419 groups=["Region3"]]
+[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=747732419 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -368,7 +369,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label14" type="RichTextLabel" parent="Control/TextEdits/TextEdit13" unique_id=1147579530]
+[node name="Label14" type="RichTextLabel" parent="Control/TextEdits/TextEdit14" unique_id=1147579530]
 layout_mode = 1
 offset_right = 123.0
 offset_bottom = 122.0
@@ -382,7 +383,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=1269696699 groups=["Region4"]]
+[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=1269696699 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -393,7 +394,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label15" type="RichTextLabel" parent="Control/TextEdits/TextEdit14" unique_id=2086777464]
+[node name="Label15" type="RichTextLabel" parent="Control/TextEdits/TextEdit15" unique_id=2086777464]
 layout_mode = 1
 offset_right = 124.0
 offset_bottom = 122.0
@@ -407,7 +408,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=152152646 groups=["Region4"]]
+[node name="TextEdit16" type="TextEdit" parent="Control/TextEdits" unique_id=152152646 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -418,7 +419,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
 script = ExtResource("2_q12u6")
 
-[node name="Label16" type="RichTextLabel" parent="Control/TextEdits/TextEdit15" unique_id=1414004940]
+[node name="Label16" type="RichTextLabel" parent="Control/TextEdits/TextEdit16" unique_id=1414004940]
 layout_mode = 1
 offset_right = 125.0
 offset_bottom = 122.0
@@ -431,6 +432,16 @@ theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Back" type="Button" parent="Control" unique_id=916322587]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 18.0
+offset_right = 124.0
+offset_bottom = 85.0
+text = "Return to
+Level Select"
+script = ExtResource("3_slnnj")
 
 [node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=1191619077]
 position = Vector2(24, 0)

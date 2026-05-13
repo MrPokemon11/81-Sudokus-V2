@@ -21,7 +21,7 @@ func _ready() -> void:
 	# regions needs to be done manually because they're not always square,
 	# but at least i only need to do 1/3 of the work :P
 	var column_count = get_parent().columns
-	var this_row = floor(idNum / column_count)
+	var this_row = floor((idNum-1) / column_count)
 	var this_column = idNum % column_count
 	self.add_to_group("Row" + str(this_row), true)
 	self.add_to_group("Column" + str(this_column), true)

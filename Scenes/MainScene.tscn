@@ -2,6 +2,7 @@
 
 [ext_resource type="Theme" uid="uid://cv6w28y5tjd6j" path="res://Themes/MenuLevelUnsolved.tres" id="1_nhkr4"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="2_tr2i4"]
+[ext_resource type="Script" uid="uid://cd35bkiuq1t5k" path="res://Scripts/QuitGame.gd" id="3_7rqgy"]
 [ext_resource type="FontFile" uid="uid://c5v7cgicak1wx" path="res://Fonts/KIN668.TTF" id="3_nhkr4"]
 
 [node name="Node2D" type="Node2D" unique_id=52789031]
@@ -690,6 +691,16 @@ theme = ExtResource("1_nhkr4")
 text = "81"
 flat = true
 script = ExtResource("2_tr2i4")
+
+[node name="QuitButton" type="Button" parent="Control" unique_id=1908324727]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 526.0
+offset_right = 234.0
+offset_bottom = 621.0
+theme_override_font_sizes/font_size = 29
+text = "Quit Game"
+script = ExtResource("3_7rqgy")
 
 [node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=248923721]
 position = Vector2(0, 19)
