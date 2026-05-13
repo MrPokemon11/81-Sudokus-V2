@@ -1,7 +1,11 @@
 [gd_scene format=3 uid="uid://boa3ka6h3xi28"]
 
-[ext_resource type="Script" uid="uid://dmjtkwkqt7f26" path="res://Scripts/check_validity.gd" id="1_2llne"]
 [ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="1_q12u6"]
+[ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="2_q12u6"]
+[ext_resource type="Script" uid="uid://bd1jqhdy0kk8n" path="res://Scripts/BrainwaveScripting/check_equality.gd" id="3_jghel"]
+[ext_resource type="Script" uid="uid://boywh75v4gr6v" path="res://Scripts/BrainwaveScripting/change_color_red.gd" id="4_slnnj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q12u6"]
 
 [node name="Node2D" type="Node2D" unique_id=1425518412]
 
@@ -15,7 +19,7 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="GridContainer" type="GridContainer" parent="Control" unique_id=979869428]
+[node name="TextEdits" type="GridContainer" parent="Control" unique_id=979869428]
 layout_mode = 0
 offset_left = 329.0
 offset_top = 112.0
@@ -24,121 +28,409 @@ offset_bottom = 612.0
 columns = 4
 metadata/validInputs = [1, 2, 3, 4]
 
-[node name="TextEdit1" type="TextEdit" parent="Control/GridContainer" unique_id=1690889187]
+[node name="TextEdit0" type="TextEdit" parent="Control/TextEdits" unique_id=1690889187 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
-metadata/Row = [NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit3"), NodePath("../TextEdit4")]
-metadata/column = [NodePath("."), NodePath("../TextEdit5"), NodePath("../TextEdit9"), NodePath("../TextEdit13")]
-metadata/region = [NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit5"), NodePath("../TextEdit6")]
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+metadata/Row = [NodePath("."), NodePath("../TextEdit1"), NodePath("../TextEdit2"), NodePath("../TextEdit3")]
+metadata/column = [NodePath("."), NodePath("../TextEdit4"), NodePath("../TextEdit8"), NodePath("../TextEdit12")]
+metadata/region = [NodePath("."), NodePath("../TextEdit1"), NodePath("../TextEdit4"), NodePath("../TextEdit5")]
 
-[node name="TextEdit2" type="TextEdit" parent="Control/GridContainer" unique_id=107862742]
-layout_mode = 2
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit0" unique_id=413905321]
+layout_mode = 0
+offset_right = 122.0
+offset_bottom = 122.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
-metadata/Row = [NodePath("../TextEdit1"), NodePath("../TextEdit2"), NodePath("../TextEdit3"), NodePath("../TextEdit4")]
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TextEdit3" type="TextEdit" parent="Control/GridContainer" unique_id=1357925749]
+[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=107862742 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+metadata/Row = [NodePath("../TextEdit0"), NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit3")]
 
-[node name="TextEdit4" type="TextEdit" parent="Control/GridContainer" unique_id=1060959170]
-layout_mode = 2
+[node name="Label2" type="RichTextLabel" parent="Control/TextEdits/TextEdit1" unique_id=282377115]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TextEdit5" type="TextEdit" parent="Control/GridContainer" unique_id=82781570]
+[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=1357925749 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
 
-[node name="TextEdit6" type="TextEdit" parent="Control/GridContainer" unique_id=1999196835]
-layout_mode = 2
+[node name="Label3" type="RichTextLabel" parent="Control/TextEdits/TextEdit2" unique_id=1230871674]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TextEdit7" type="TextEdit" parent="Control/GridContainer" unique_id=525796530]
+[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=1060959170 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
 
-[node name="TextEdit8" type="TextEdit" parent="Control/GridContainer" unique_id=1971222397]
-layout_mode = 2
+[node name="Label4" type="RichTextLabel" parent="Control/TextEdits/TextEdit3" unique_id=1163909861]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TextEdit9" type="TextEdit" parent="Control/GridContainer" unique_id=325770862]
+[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=82781570 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
 
-[node name="TextEdit10" type="TextEdit" parent="Control/GridContainer" unique_id=1319552849]
-layout_mode = 2
+[node name="Label5" type="RichTextLabel" parent="Control/TextEdits/TextEdit4" unique_id=1330409473]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TextEdit11" type="TextEdit" parent="Control/GridContainer" unique_id=939037276]
+[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=1999196835 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
 
-[node name="TextEdit12" type="TextEdit" parent="Control/GridContainer" unique_id=214411614]
-layout_mode = 2
+[node name="Label6" type="RichTextLabel" parent="Control/TextEdits/TextEdit5" unique_id=1016121812]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TextEdit13" type="TextEdit" parent="Control/GridContainer" unique_id=1940676826]
+[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=525796530 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
 
-[node name="TextEdit14" type="TextEdit" parent="Control/GridContainer" unique_id=747732419]
-layout_mode = 2
+[node name="Label7" type="RichTextLabel" parent="Control/TextEdits/TextEdit6" unique_id=291204891]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TextEdit15" type="TextEdit" parent="Control/GridContainer" unique_id=1269696699]
+[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=1971222397 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
 
-[node name="TextEdit16" type="TextEdit" parent="Control/GridContainer" unique_id=152152646]
+[node name="Label8" type="RichTextLabel" parent="Control/TextEdits/TextEdit7" unique_id=1747086440]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_q12u6")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=325770862 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("1_q12u6")
-script = ExtResource("1_2llne")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+
+[node name="Label9" type="RichTextLabel" parent="Control/TextEdits/TextEdit8" unique_id=287622391]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_q12u6")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=1319552849 groups=["Region3"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_q12u6")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+
+[node name="Label10" type="RichTextLabel" parent="Control/TextEdits/TextEdit9" unique_id=1421550629]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_q12u6")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=939037276 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_q12u6")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+
+[node name="Label11" type="RichTextLabel" parent="Control/TextEdits/TextEdit10" unique_id=1921841367]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_q12u6")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=214411614 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_q12u6")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+
+[node name="Label12" type="RichTextLabel" parent="Control/TextEdits/TextEdit11" unique_id=745676767]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_q12u6")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=1940676826 groups=["Region3"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_q12u6")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+
+[node name="Label13" type="RichTextLabel" parent="Control/TextEdits/TextEdit12" unique_id=1120039638]
+layout_mode = 1
+offset_right = 122.0
+offset_bottom = 122.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_q12u6")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=747732419 groups=["Region3"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_q12u6")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+
+[node name="Label14" type="RichTextLabel" parent="Control/TextEdits/TextEdit13" unique_id=1147579530]
+layout_mode = 1
+offset_right = 123.0
+offset_bottom = 122.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_q12u6")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=1269696699 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_q12u6")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+
+[node name="Label15" type="RichTextLabel" parent="Control/TextEdits/TextEdit14" unique_id=2086777464]
+layout_mode = 1
+offset_right = 124.0
+offset_bottom = 122.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_q12u6")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=152152646 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_q12u6")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+emoji_menu_enabled = false
+script = ExtResource("2_q12u6")
+
+[node name="Label16" type="RichTextLabel" parent="Control/TextEdits/TextEdit15" unique_id=1414004940]
+layout_mode = 1
+offset_right = 125.0
+offset_bottom = 122.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_q12u6")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=1191619077]
 position = Vector2(24, 0)
@@ -207,3 +499,9 @@ rotation = 1.5707964
 points = PackedVector2Array(324, 93, 832, 93)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="Equality Checker" type="Node" parent="." unique_id=1693249551]
+script = ExtResource("3_jghel")
+
+[node name="Label Painter" type="Node" parent="." unique_id=937362450]
+script = ExtResource("4_slnnj")
