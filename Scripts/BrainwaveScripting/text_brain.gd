@@ -13,7 +13,10 @@ func _ready() -> void:
 	allowedInputs = get_parent().get_meta("validInputs")
 	self.text_changed.connect(_on_text_changed.bind(self))
 	this_label = get_child(0)
+	if self.editable == false:
+		this_label.text = self.text
 	
+	set_label_font()
 	#debug
 	#self.focus_entered.connect(focus_debug)
 	
@@ -46,7 +49,7 @@ func _on_text_changed(textfield: TextEdit) -> void:
 	
 	this_label.text = textfield.text
 	
-	
+
 	check_groups_for_errors()
 	get_tree().call_group("hasError", "check_groups_for_errors")
 
@@ -58,7 +61,7 @@ func check_groups_for_errors():
 	# taken directly from the docs
 	var non_internal_groups = []
 	for group in get_groups():
-		if not str(group).begins_with("_"):
+		if str(group).begins_with("Region"):
 			non_internal_groups.push_back(group)	
 	
 	# get the nodes in the same row, column, and region as this node (there will be duplicates but w/e)
@@ -108,6 +111,21 @@ func set_red(label: RichTextLabel) -> void:
 # removes the red from a given label
 func clear_red(label: RichTextLabel) -> void:
 	label.remove_theme_color_override("default_color")
+
+func reset():
+	if self.editable:
+		self.text = ""
+		get_child(0).text = ""
+	
+	if self.is_in_group("hasError"):
+		clear_red(this_label)
+		remove_from_group("hasError")
+
+func set_label_font():
+	if self.editable:
+		this_label.add_theme_font_override("normal_font", load("res://Fonts/Halogen.ttf"))
+	else:
+		this_label.add_theme_font_override("normal_font", load("res://Fonts/KIN668.TTF"))
 
 # debug
 #func focus_debug():

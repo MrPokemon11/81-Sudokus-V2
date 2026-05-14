@@ -15,6 +15,10 @@ run/main_scene="uid://bulehki8p403r"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[global_group]
+
+CompletedLevels="Levels in this group have been completed successfully"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

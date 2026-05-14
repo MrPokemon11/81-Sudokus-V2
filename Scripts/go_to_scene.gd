@@ -11,11 +11,29 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	pass
 
+# loads the relevant scene/level
 func _on_pressed(lvlNum: String) -> void:
-	if (lvlNum.containsn("Back")):
+	#if (lvlNum.containsn("Next")): # proceed to the next uncompleted level
+		#lvlNum = handle_next_level()	
+	
+	if (lvlNum.containsn("Back")): # return to the level select screen
 		get_tree().change_scene_to_file("res://Scenes/MainScene.tscn")
-	else:
-		if(FileAccess.file_exists("res://Scenes/" + str(lvlNum) + ".tscn")):
-			get_tree().change_scene_to_file("res://Scenes/" + str(lvlNum) + ".tscn")
+	else: # go to a specific level
+		if(FileAccess.file_exists("res://Scenes/Levels/" + str(lvlNum) + ".tscn")):
+			get_tree().change_scene_to_file("res://Scenes/Levels/" + str(lvlNum) + ".tscn")
 		else:
 			printerr("Level " + str(lvlNum) + " not found.")
+
+# to do: make a Next Level loader that doesn't lag the larger the gap/# of completed levels
+#func handle_next_level() -> String:
+	#var result: Node = null
+	#if ResourceLoader.exists("res://Scenes/LoadingLabel.tscn"): 
+		#result = ResourceLoader.load("res://Scenes/LoadingLabel.tscn").instantiate()
+		#if result:
+				#get_tree().root.add_child(result)
+	#
+	#var this_level = get_tree().root.name.right(-5)
+	#for i in range(this_level+1,82,1):
+		
+	
+	

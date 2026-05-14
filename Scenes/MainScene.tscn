@@ -760,79 +760,79 @@ default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 [node name="ThinLine" type="Line2D" parent="CanvasGroup" unique_id=1627573970]
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine2" type="Line2D" parent="CanvasGroup" unique_id=1773301561]
 position = Vector2(0, 56)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine3" type="Line2D" parent="CanvasGroup" unique_id=898899592]
 position = Vector2(0, 168)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine4" type="Line2D" parent="CanvasGroup" unique_id=1164209538]
 position = Vector2(0, 224)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine5" type="Line2D" parent="CanvasGroup" unique_id=996460941]
 position = Vector2(0, 336)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine6" type="Line2D" parent="CanvasGroup" unique_id=911696587]
 position = Vector2(0, 392)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine7" type="Line2D" parent="CanvasGroup" unique_id=120476975]
 position = Vector2(536, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine8" type="Line2D" parent="CanvasGroup" unique_id=1899526699]
 position = Vector2(592, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine9" type="Line2D" parent="CanvasGroup" unique_id=223142583]
 position = Vector2(704, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine10" type="Line2D" parent="CanvasGroup" unique_id=1483845014]
 position = Vector2(760, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine11" type="Line2D" parent="CanvasGroup" unique_id=1101542882]
 position = Vector2(872, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine12" type="Line2D" parent="CanvasGroup" unique_id=1912154889]
 position = Vector2(928, -228)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="Title" type="RichTextLabel" parent="." unique_id=530568592]
 offset_left = 363.0

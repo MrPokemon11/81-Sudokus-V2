@@ -1,15 +1,14 @@
 [gd_scene format=3 uid="uid://boa3ka6h3xi28"]
 
-[ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="1_q12u6"]
-[ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_t3or0"]
-[ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="2_q12u6"]
-[ext_resource type="Script" uid="uid://bd1jqhdy0kk8n" path="res://Scripts/BrainwaveScripting/check_equality.gd" id="3_jghel"]
-[ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="3_slnnj"]
-[ext_resource type="Script" uid="uid://boywh75v4gr6v" path="res://Scripts/BrainwaveScripting/change_color_red.gd" id="4_slnnj"]
+[ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_kri6y"]
+[ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_4d3fe"]
+[ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_3ipdw"]
+[ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_8h4de"]
+[ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_jcebb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q12u6"]
 
-[node name="Node2D" type="Node2D" unique_id=1425518412]
+[node name="Level1" type="Node2D" unique_id=1425518412]
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=220250481]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)
@@ -28,19 +27,23 @@ offset_top = 112.0
 offset_right = 829.0
 offset_bottom = 612.0
 columns = 4
-script = ExtResource("1_t3or0")
+script = ExtResource("1_kri6y")
 metadata/validInputs = [1, 2, 3, 4]
 
 [node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=1690889187 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+focus_mode = 0
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+text = "1"
+editable = false
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 metadata/Row = [NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit3"), NodePath("../TextEdit4")]
 metadata/column = [NodePath("."), NodePath("../TextEdit5"), NodePath("../TextEdit9"), NodePath("../TextEdit13")]
 metadata/region = [NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit5"), NodePath("../TextEdit6")]
@@ -53,8 +56,9 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
+text = "1"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -63,12 +67,13 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 metadata/Row = [NodePath("../TextEdit1"), NodePath("."), NodePath("../TextEdit3"), NodePath("../TextEdit4")]
 
 [node name="Label2" type="RichTextLabel" parent="Control/TextEdits/TextEdit2" unique_id=282377115]
@@ -79,7 +84,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
@@ -89,12 +94,13 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label3" type="RichTextLabel" parent="Control/TextEdits/TextEdit3" unique_id=1230871674]
 layout_mode = 1
@@ -104,7 +110,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
@@ -114,12 +120,15 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+text = "4"
+editable = false
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label4" type="RichTextLabel" parent="Control/TextEdits/TextEdit4" unique_id=1163909861]
 layout_mode = 1
@@ -129,8 +138,9 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
+text = "4"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -139,12 +149,13 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label5" type="RichTextLabel" parent="Control/TextEdits/TextEdit5" unique_id=1330409473]
 layout_mode = 1
@@ -154,7 +165,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
@@ -164,12 +175,15 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+text = "2"
+editable = false
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label6" type="RichTextLabel" parent="Control/TextEdits/TextEdit6" unique_id=1016121812]
 layout_mode = 1
@@ -179,8 +193,9 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
+text = "2"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -189,12 +204,15 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+text = "1"
+editable = false
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label7" type="RichTextLabel" parent="Control/TextEdits/TextEdit7" unique_id=291204891]
 layout_mode = 1
@@ -204,8 +222,9 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
+text = "1"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -214,12 +233,13 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label8" type="RichTextLabel" parent="Control/TextEdits/TextEdit8" unique_id=1747086440]
 layout_mode = 1
@@ -229,7 +249,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
@@ -239,12 +259,15 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+text = "3"
+editable = false
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label9" type="RichTextLabel" parent="Control/TextEdits/TextEdit9" unique_id=287622391]
 layout_mode = 1
@@ -254,8 +277,9 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
+text = "3"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -264,12 +288,13 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label10" type="RichTextLabel" parent="Control/TextEdits/TextEdit10" unique_id=1421550629]
 layout_mode = 1
@@ -279,7 +304,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
@@ -289,12 +314,13 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label11" type="RichTextLabel" parent="Control/TextEdits/TextEdit11" unique_id=1921841367]
 layout_mode = 1
@@ -304,7 +330,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
@@ -314,12 +340,15 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+text = "2"
+editable = false
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label12" type="RichTextLabel" parent="Control/TextEdits/TextEdit12" unique_id=745676767]
 layout_mode = 1
@@ -329,8 +358,9 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
+text = "2"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -339,12 +369,15 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+text = "2"
+editable = false
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label13" type="RichTextLabel" parent="Control/TextEdits/TextEdit13" unique_id=1120039638]
 layout_mode = 1
@@ -354,8 +387,9 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
+text = "2"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -364,12 +398,13 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label14" type="RichTextLabel" parent="Control/TextEdits/TextEdit14" unique_id=1147579530]
 layout_mode = 1
@@ -379,7 +414,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
@@ -389,12 +424,15 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
+text = "3"
+editable = false
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label15" type="RichTextLabel" parent="Control/TextEdits/TextEdit15" unique_id=2086777464]
 layout_mode = 1
@@ -404,8 +442,9 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
+text = "3"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -414,12 +453,13 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_q12u6")
 emoji_menu_enabled = false
-script = ExtResource("2_q12u6")
+script = ExtResource("3_3ipdw")
 
 [node name="Label16" type="RichTextLabel" parent="Control/TextEdits/TextEdit16" unique_id=1414004940]
 layout_mode = 1
@@ -429,7 +469,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("1_q12u6")
+theme = ExtResource("2_4d3fe")
 theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
@@ -443,7 +483,16 @@ offset_right = 124.0
 offset_bottom = 85.0
 text = "Return to
 Level Select"
-script = ExtResource("3_slnnj")
+script = ExtResource("4_8h4de")
+
+[node name="RetartButton" type="Button" parent="Control" unique_id=775713051]
+layout_mode = 0
+offset_left = 970.0
+offset_top = 23.0
+offset_right = 1128.0
+offset_bottom = 86.0
+text = "Restart Level"
+script = ExtResource("5_jcebb")
 
 [node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=1191619077]
 position = Vector2(24, 0)
@@ -452,27 +501,27 @@ position = Vector2(24, 0)
 position = Vector2(-24, 82)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine2" type="Line2D" parent="CanvasGroup" unique_id=364428825]
 position = Vector2(-24, 334)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine3" type="Line2D" parent="CanvasGroup" unique_id=174298895]
 position = Vector2(583, -215)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThinLine4" type="Line2D" parent="CanvasGroup" unique_id=1506882281]
 position = Vector2(835, -215)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="ThickLine" type="Line2D" parent="CanvasGroup" unique_id=936297104]
 position = Vector2(-23, 16)
@@ -513,8 +562,67 @@ points = PackedVector2Array(324, 93, 832, 93)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="Equality Checker" type="Node" parent="." unique_id=1693249551]
-script = ExtResource("3_jghel")
+[node name="Title" type="Label" parent="." unique_id=1122939630]
+offset_left = 417.0
+offset_top = 17.0
+offset_right = 741.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 32
+text = "Level 1: First Steps"
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="Label Painter" type="Node" parent="." unique_id=937362450]
-script = ExtResource("4_slnnj")
+[node name="AvailableInputs" type="Label" parent="." unique_id=1008191668]
+offset_left = 869.0
+offset_top = 110.0
+offset_right = 1126.0
+offset_bottom = 172.0
+theme_override_font_sizes/font_size = 32
+text = "Valid Inputs:"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Label" type="Label" parent="AvailableInputs" unique_id=353650132]
+layout_mode = 0
+offset_top = 61.0
+offset_right = 251.0
+offset_bottom = 141.0
+theme_override_font_sizes/font_size = 32
+text = "1, 2, 3, 4"
+horizontal_alignment = 1
+
+[node name="TutorialText" type="Label" parent="." unique_id=899852941]
+offset_left = 28.0
+offset_top = 113.0
+offset_right = 308.0
+offset_bottom = 591.0
+text = "Welcome to 81 Sudokus!
+
+For those unfamiliar with how Sudoku works, the rules are simple:
+- Each row, column, and region (marked with thick lines) must contain each input exactly once. 
+- Valid inputs are displayed on the right.
+
+Any errors will be highlighted in red. Your goal is to fill the grid completely.
+
+Oh, and don't worry about the Extra Rules yet. We'll get to that soon :)"
+autowrap_mode = 3
+
+[node name="ExtraRules" type="Label" parent="." unique_id=118326069]
+offset_left = 852.0
+offset_top = 328.0
+offset_right = 1133.0
+offset_bottom = 407.0
+theme_override_font_sizes/font_size = 32
+text = "Extra Rules:"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Label" type="Label" parent="ExtraRules" unique_id=1781455332]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 85.0
+offset_right = 207.0
+offset_bottom = 173.0
+theme_override_font_sizes/font_size = 24
+text = "None"
+horizontal_alignment = 1
