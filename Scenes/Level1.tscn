@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://boa3ka6h3xi28"]
 
 [ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="1_q12u6"]
+[ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_t3or0"]
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="2_q12u6"]
 [ext_resource type="Script" uid="uid://bd1jqhdy0kk8n" path="res://Scripts/BrainwaveScripting/check_equality.gd" id="3_jghel"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="3_slnnj"]
@@ -27,6 +28,7 @@ offset_top = 112.0
 offset_right = 829.0
 offset_bottom = 612.0
 columns = 4
+script = ExtResource("1_t3or0")
 metadata/validInputs = [1, 2, 3, 4]
 
 [node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=1690889187 groups=["Region1"]]

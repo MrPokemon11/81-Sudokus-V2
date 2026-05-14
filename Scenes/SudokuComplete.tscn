@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cqcj4qgmqnd2m"]
+
+[node name="SudokuCompleteScreen" type="Node2D" unique_id=880229675]
+
+[node name="SudokuComplete" type="Polygon2D" parent="." unique_id=341438400]
+position = Vector2(389, 215.00002)
+scale = Vector2(0.33, 0.33)
+color = Color(0.19607843, 0.19607843, 0.19607843, 0.69411767)
+polygon = PackedVector2Array(-13, -11, 1165, -9, 1159, 664, -12, 664)
+
+[node name="Label" type="Label" parent="SudokuComplete" unique_id=1908095513]
+offset_left = -9.09082
+offset_top = -15.151489
+offset_right = 1163.6365
+offset_bottom = 663.6363
+theme_override_font_sizes/font_size = 120
+text = "Sudoku Complete!"
+horizontal_alignment = 1
+vertical_alignment = 1

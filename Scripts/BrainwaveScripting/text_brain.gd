@@ -80,6 +80,8 @@ func check_groups_for_errors():
 	else:
 		clear_red(this_label)
 		remove_from_group("hasError")
+	
+	get_parent().check_completion()
 
 # check whether the comparison string is the same as this node's text, and if so, make the label red
 # current issues: this will clear red even if there are still other errors
