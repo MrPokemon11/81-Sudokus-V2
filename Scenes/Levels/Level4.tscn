@@ -8,7 +8,16 @@
 [ext_resource type="Texture2D" uid="uid://drfeyfvu0hxjf" path="res://Textures/CageLine.png" id="6_rl5px"]
 [ext_resource type="Script" uid="uid://dtmsekiogwy7h" path="res://Scripts/BrainwaveScripting/check_cage.gd" id="7_inj8u"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ca5bt"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_inj8u"]
+bg_color = Color(0.2992325, 0.5084096, 0.9903404, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xp8yv"]
+bg_color = Color(0.2784314, 0.62352943, 0.92156863, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p4u3k"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bfawm"]
+bg_color = Color(0.2766075, 0.62380576, 0.9208631, 1)
 
 [node name="Level4" type="Node2D" unique_id=727200872]
 
@@ -36,13 +45,12 @@ metadata/validInputs = [1, 2, 3, 4]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-focus_mode = 0
 theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_colors/background_color = Color(0.2992325, 0.5084096, 0.9903404, 1)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_inj8u")
+theme_override_styles/focus = SubResource("StyleBoxFlat_xp8yv")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 metadata/Row = [NodePath("."), NodePath("../TextEdit2"), NodePath("../TextEdit3"), NodePath("../TextEdit4")]
@@ -71,7 +79,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 text = "2"
 editable = false
 emoji_menu_enabled = false
@@ -103,7 +111,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -129,7 +137,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -155,7 +163,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -183,8 +191,8 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_colors/background_color = Color(0.2992325, 0.5084096, 0.9903404, 1)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_inj8u")
+theme_override_styles/focus = SubResource("StyleBoxFlat_bfawm")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -210,7 +218,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -238,7 +246,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -264,7 +272,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -290,7 +298,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -318,8 +326,8 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_colors/background_color = Color(0.2992325, 0.5084096, 0.9903404, 1)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_inj8u")
+theme_override_styles/focus = SubResource("StyleBoxFlat_bfawm")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -345,7 +353,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -373,7 +381,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -399,7 +407,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -425,7 +433,7 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_p4u3k")
 text = "4"
 editable = false
 emoji_menu_enabled = false
@@ -456,8 +464,8 @@ theme = ExtResource("2_rl5px")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_colors/background_color = Color(0.2992325, 0.5084096, 0.9903404, 1)
-theme_override_styles/focus = SubResource("StyleBoxFlat_ca5bt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_inj8u")
+theme_override_styles/focus = SubResource("StyleBoxFlat_bfawm")
 emoji_menu_enabled = false
 script = ExtResource("3_inj8u")
 
@@ -584,6 +592,7 @@ default_color = Color(0.30513737, 0.39678526, 1, 1)
 texture = ExtResource("6_rl5px")
 texture_mode = 1
 script = ExtResource("7_inj8u")
+metadata/CageValue = 4
 
 [node name="Label" type="RichTextLabel" parent="CanvasGroup/Cage1" unique_id=1604846957]
 offset_left = 27.0
@@ -653,6 +662,7 @@ offset_left = 28.0
 offset_top = 113.0
 offset_right = 308.0
 offset_bottom = 591.0
+mouse_filter = 2
 theme_override_font_sizes/normal_font_size = 18
 theme_override_font_sizes/bold_font_size = 18
 bbcode_enabled = true

@@ -15,6 +15,7 @@ func _ready() -> void:
 	this_label = get_child(0)
 	if self.editable == false:
 		this_label.text = self.text
+		self.focus_mode = 0
 	
 	set_label_font()
 	#debug
@@ -57,16 +58,15 @@ func _on_text_changed(textfield: TextEdit) -> void:
 # this is separated so that fields with errors can re-check themselves
 func check_groups_for_errors():
 	hasError = false
-	# Stores the node's non-internal groups only (as an array of StringNames).
-	# taken directly from the docs
-	var non_internal_groups = []
+	# Gets the cell's row, column, and region
+	var regular_cell_groups = []
 	for group in get_groups():
-		if str(group).begins_with("Region"):
-			non_internal_groups.push_back(group)	
+		if str(group).begins_with("Region") or str(group).begins_with("Row") or str(group).begins_with("Column"):
+			regular_cell_groups.push_back(group)	
 	
 	# get the nodes in the same row, column, and region as this node (there will be duplicates but w/e)
 	var nodes = []
-	for group in non_internal_groups:
+	for group in regular_cell_groups:
 		for node in get_tree().get_nodes_in_group(group):
 			if not node.name == self.name:
 				nodes.push_back(node)
