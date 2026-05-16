@@ -6,3 +6,5 @@
 
 - I can use normal textedits for Notes mode, and the above for regular mode. I could set it to swap between them using the N key.
 	Downside: I'd need twice as many text edits, but I'm sure it'd be fine.
+
+- use placeholder_text for notes?

@@ -1,0 +1,1279 @@
+[gd_scene format=3 uid="uid://dxj14rh5mmi6g"]
+
+[ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_lqmyh"]
+[ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_2hhi4"]
+[ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_agfdu"]
+[ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_d7gg6"]
+[ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_1us0t"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hy6wf"]
+
+[node name="Level5" type="Node2D" unique_id=860904507]
+
+[node name="Background" type="Polygon2D" parent="." unique_id=1931464335]
+color = Color(0.19434929, 0.19434926, 0.19434926, 1)
+polygon = PackedVector2Array(-13, -11, 1165, -9, 1159, 664, -12, 664)
+
+[node name="Control" type="Control" parent="." unique_id=1221051677]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextEdits" type="GridContainer" parent="Control" unique_id=412452979]
+layout_mode = 0
+offset_left = 329.0
+offset_top = 112.0
+offset_right = 829.0
+offset_bottom = 612.0
+columns = 6
+script = ExtResource("1_lqmyh")
+metadata/validInputs = ["1", "2", "3", "4", "5", "6"]
+
+[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=2010191563 groups=["Region1"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit1" unique_id=164551433]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=992983554 groups=["Region1"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit2" unique_id=1668242238]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=650732071 groups=["Region1"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit3" unique_id=816476770]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=73696394 groups=["Region2"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+text = "2"
+editable = false
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit4" unique_id=407875593]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+text = "2"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=1895728738 groups=["Region2"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit5" unique_id=2016653054]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=598877745 groups=["Region2"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+text = "5"
+editable = false
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit6" unique_id=9087639]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+text = "5"
+fit_content = true
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=607768502 groups=["Region1"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit7" unique_id=2126917866]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=1295841018 groups=["Region1"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit8" unique_id=682296840]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=1179152710 groups=["Region1"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+text = "2"
+editable = false
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit9" unique_id=1544946848]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+text = "2"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=1321639989 groups=["Region2"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+text = "6"
+editable = false
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit10" unique_id=1729773457]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+text = "6"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=32773652 groups=["Region2"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+text = "4"
+placeholder_text = "4"
+editable = false
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit11" unique_id=1611357498]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+text = "4"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=1098916829 groups=["Region2"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit12" unique_id=266172782]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=880595883 groups=["Region3"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit13" unique_id=670671947]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=979491036 groups=["Region3"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+text = "3"
+editable = false
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit14" unique_id=1593163931]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+text = "3"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=1088966015 groups=["Region3"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit15" unique_id=1167823014]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit16" type="TextEdit" parent="Control/TextEdits" unique_id=1808141889 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit16" unique_id=88647717]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit17" type="TextEdit" parent="Control/TextEdits" unique_id=1052353685 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit17" unique_id=1303689231]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit18" type="TextEdit" parent="Control/TextEdits" unique_id=1573923642 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+text = "2"
+editable = false
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit18" unique_id=918928344]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+text = "2"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit19" type="TextEdit" parent="Control/TextEdits" unique_id=1295607061 groups=["Region3"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+text = "6"
+editable = false
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit19" unique_id=1240566687]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+text = "6"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit20" type="TextEdit" parent="Control/TextEdits" unique_id=1319291261 groups=["Region3"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit20" unique_id=932357966]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit21" type="TextEdit" parent="Control/TextEdits" unique_id=1837343291 groups=["Region3"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit21" unique_id=653503068]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit22" type="TextEdit" parent="Control/TextEdits" unique_id=1494276302 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit22" unique_id=1454126309]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit23" type="TextEdit" parent="Control/TextEdits" unique_id=227244317 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+placeholder_text = "5"
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit23" unique_id=363183765]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit24" type="TextEdit" parent="Control/TextEdits" unique_id=1046240048 groups=["Region4"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit24" unique_id=115255523]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit25" type="TextEdit" parent="Control/TextEdits" unique_id=1414031500 groups=["Region5"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit25" unique_id=296707081]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit26" type="TextEdit" parent="Control/TextEdits" unique_id=1299945771 groups=["Region5"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+placeholder_text = "4"
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit26" unique_id=1353244110]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit27" type="TextEdit" parent="Control/TextEdits" unique_id=1440251092 groups=["Region5"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+placeholder_text = "1"
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit27" unique_id=1669845339]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit28" type="TextEdit" parent="Control/TextEdits" unique_id=1233180468 groups=["Region6"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+placeholder_text = "5"
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit28" unique_id=198081591]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit29" type="TextEdit" parent="Control/TextEdits" unique_id=792568692 groups=["Region6"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit29" unique_id=2070562918]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit30" type="TextEdit" parent="Control/TextEdits" unique_id=61554253 groups=["Region6"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit30" unique_id=1272401016]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit31" type="TextEdit" parent="Control/TextEdits" unique_id=1546212798 groups=["Region5"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+placeholder_text = "2"
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit31" unique_id=965210096]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit32" type="TextEdit" parent="Control/TextEdits" unique_id=1303341318 groups=["Region5"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit32" unique_id=1524829922]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit33" type="TextEdit" parent="Control/TextEdits" unique_id=1639070675 groups=["Region5"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+placeholder_text = "6"
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit33" unique_id=2000790940]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit34" type="TextEdit" parent="Control/TextEdits" unique_id=900617538 groups=["Region6"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit34" unique_id=313996351]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit35" type="TextEdit" parent="Control/TextEdits" unique_id=1253530477 groups=["Region6"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit35" unique_id=210340310]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit36" type="TextEdit" parent="Control/TextEdits" unique_id=1481038691 groups=["Region6"]]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_2hhi4")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+emoji_menu_enabled = false
+script = ExtResource("3_agfdu")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit36" unique_id=2118307710]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_2hhi4")
+theme_override_font_sizes/normal_font_size = 32
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Back" type="Button" parent="Control" unique_id=2141060650]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 18.0
+offset_right = 124.0
+offset_bottom = 85.0
+text = "Return to
+Level Select"
+script = ExtResource("4_d7gg6")
+
+[node name="RetartButton" type="Button" parent="Control" unique_id=2018091524]
+layout_mode = 0
+offset_left = 970.0
+offset_top = 23.0
+offset_right = 1128.0
+offset_bottom = 86.0
+text = "Restart Level"
+script = ExtResource("5_1us0t")
+
+[node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=2104125964]
+position = Vector2(24, 0)
+
+[node name="ThinLine" type="Line2D" parent="CanvasGroup" unique_id=802998843]
+position = Vector2(-22, 40)
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThinLine2" type="Line2D" parent="CanvasGroup" unique_id=612539094]
+position = Vector2(-22, 208)
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThinLine3" type="Line2D" parent="CanvasGroup" unique_id=1909464398]
+position = Vector2(-22, 376)
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThinLine4" type="Line2D" parent="CanvasGroup" unique_id=1218285105]
+position = Vector2(-22, 376)
+points = PackedVector2Array(409, 238, 409, -267)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThinLine5" type="Line2D" parent="CanvasGroup" unique_id=1811636734]
+position = Vector2(62, 376)
+points = PackedVector2Array(409, 238, 409, -267)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThinLine6" type="Line2D" parent="CanvasGroup" unique_id=1887474684]
+position = Vector2(230, 376)
+points = PackedVector2Array(409, 238, 409, -267)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThinLine7" type="Line2D" parent="CanvasGroup" unique_id=688473871]
+position = Vector2(314, 376)
+points = PackedVector2Array(409, 238, 409, -267)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThickLine" type="Line2D" parent="CanvasGroup" unique_id=750078646]
+position = Vector2(-24, 16)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine2" type="Line2D" parent="CanvasGroup" unique_id=1782909082]
+position = Vector2(-24, 184)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine3" type="Line2D" parent="CanvasGroup" unique_id=1997413488]
+position = Vector2(-24, 352)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine4" type="Line2D" parent="CanvasGroup" unique_id=1623897173]
+position = Vector2(-24, 521)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine5" type="Line2D" parent="CanvasGroup" unique_id=1308935764]
+position = Vector2(-22, 521)
+points = PackedVector2Array(324, 93, 324, -413)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine6" type="Line2D" parent="CanvasGroup" unique_id=1873994662]
+position = Vector2(231, 521)
+points = PackedVector2Array(324, 93, 324, -413)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine7" type="Line2D" parent="CanvasGroup" unique_id=327314947]
+position = Vector2(484, 521)
+points = PackedVector2Array(324, 93, 324, -413)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="Title" type="Label" parent="." unique_id=1147960091]
+offset_left = 406.0
+offset_top = 19.0
+offset_right = 748.0
+offset_bottom = 98.0
+theme_override_font_sizes/font_size = 32
+text = "Level 5: Stepping It Up"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AvailableInputs" type="Label" parent="." unique_id=2021096784]
+offset_left = 869.0
+offset_top = 110.0
+offset_right = 1126.0
+offset_bottom = 172.0
+theme_override_font_sizes/font_size = 32
+text = "Valid Inputs:"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Label" type="Label" parent="AvailableInputs" unique_id=763634967]
+layout_mode = 0
+offset_top = 61.0
+offset_right = 251.0
+offset_bottom = 141.0
+theme_override_font_sizes/font_size = 32
+text = "1, 2, 3,
+4, 5, 6"
+horizontal_alignment = 1
+
+[node name="ExtraRules" type="Label" parent="." unique_id=1425495238]
+offset_left = 852.0
+offset_top = 328.0
+offset_right = 1133.0
+offset_bottom = 407.0
+theme_override_font_sizes/font_size = 32
+text = "Extra Rules:"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Label" type="RichTextLabel" parent="ExtraRules" unique_id=1346363354]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 85.0
+offset_right = 268.0
+offset_bottom = 295.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = "None"
+horizontal_alignment = 1
+
+[node name="TutorialText" type="RichTextLabel" parent="." unique_id=1193897690]
+offset_left = 28.0
+offset_top = 113.0
+offset_right = 308.0
+offset_bottom = 591.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 18
+theme_override_font_sizes/bold_font_size = 18
+theme_override_font_sizes/italics_font_size = 18
+bbcode_enabled = true
+text = "Well done! Now let's go for something a little larger.
+
+No extra rules this time. 
+Good luck!"

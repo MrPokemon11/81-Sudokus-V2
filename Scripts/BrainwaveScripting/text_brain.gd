@@ -13,6 +13,22 @@ func _ready() -> void:
 	allowedInputs = get_parent().get_meta("validInputs")
 	self.text_changed.connect(_on_text_changed.bind(self))
 	this_label = get_child(0)
+	
+	# ensure that each cell is part of exactly 1 region.
+	# regions are done manually, but that can lead to human error so better safe than sorry
+	var region_check = 0
+	for groups in get_groups():
+		if groups.begins_with("Region"):
+			region_check += 1
+	if region_check != 1:
+		printerr("The cell " + self.name + " has a region error! It is in this many regions: " + str(region_check))
+	
+	# the below code block may look silly, but it handles the various ways i've set up the cells
+	# why not go back and change things? I'm lazy and this works.
+	if(self.placeholder_text != ""):
+		self.text = self.placeholder_text
+	if(self.text != ""):
+		self.editable = false
 	if self.editable == false:
 		this_label.text = self.text
 		self.focus_mode = 0

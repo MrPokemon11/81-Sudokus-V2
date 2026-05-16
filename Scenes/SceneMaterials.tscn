@@ -1,0 +1,180 @@
+[gd_scene format=3 uid="uid://cm0egm57yvgiu"]
+
+[ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_ipt7o"]
+[ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_af7gn"]
+[ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_o0tfi"]
+[ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_uugyr"]
+[ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_su1yv"]
+[ext_resource type="Texture2D" uid="uid://drfeyfvu0hxjf" path="res://Textures/CageLine.png" id="6_0xia4"]
+[ext_resource type="Script" uid="uid://dtmsekiogwy7h" path="res://Scripts/BrainwaveScripting/check_cage.gd" id="7_mbfqw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jkhob"]
+
+[node name="Node2D" type="Node2D" unique_id=350711708]
+
+[node name="Background" type="Polygon2D" parent="." unique_id=1625143667]
+color = Color(0.19434929, 0.19434926, 0.19434926, 1)
+polygon = PackedVector2Array(-13, -11, 1165, -9, 1159, 664, -12, 664)
+
+[node name="Control" type="Control" parent="." unique_id=2041862271]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextEdits" type="GridContainer" parent="Control" unique_id=135067755]
+layout_mode = 0
+offset_left = 329.0
+offset_top = 112.0
+offset_right = 829.0
+offset_bottom = 612.0
+columns = 4
+script = ExtResource("1_ipt7o")
+metadata/validInputs = [1, 2, 3, 4]
+
+[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=959812401]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_af7gn")
+theme_override_colors/caret_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
+theme_override_styles/focus = SubResource("StyleBoxFlat_jkhob")
+emoji_menu_enabled = false
+script = ExtResource("3_o0tfi")
+
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit1" unique_id=1986626392]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("2_af7gn")
+theme_override_font_sizes/normal_font_size = 32
+fit_content = true
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Back" type="Button" parent="Control" unique_id=586953588]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 18.0
+offset_right = 124.0
+offset_bottom = 85.0
+text = "Return to
+Level Select"
+script = ExtResource("4_uugyr")
+
+[node name="RetartButton" type="Button" parent="Control" unique_id=743880370]
+layout_mode = 0
+offset_left = 970.0
+offset_top = 23.0
+offset_right = 1128.0
+offset_bottom = 86.0
+text = "Restart Level"
+script = ExtResource("5_su1yv")
+
+[node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=44763247]
+position = Vector2(24, 0)
+
+[node name="ThinLine" type="Line2D" parent="CanvasGroup" unique_id=1959418180]
+position = Vector2(-319, 192)
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThickLine" type="Line2D" parent="CanvasGroup" unique_id=928588147]
+position = Vector2(-328, 282)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="Title" type="Label" parent="." unique_id=1029234337]
+offset_left = 417.0
+offset_top = 17.0
+offset_right = 741.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 32
+text = "Level #: [Title card]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AvailableInputs" type="Label" parent="." unique_id=1571062696]
+offset_left = 869.0
+offset_top = 110.0
+offset_right = 1126.0
+offset_bottom = 172.0
+theme_override_font_sizes/font_size = 32
+text = "Valid Inputs:"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Label" type="Label" parent="AvailableInputs" unique_id=866875195]
+layout_mode = 0
+offset_top = 61.0
+offset_right = 251.0
+offset_bottom = 141.0
+theme_override_font_sizes/font_size = 32
+text = "1, 2, 3, 4"
+horizontal_alignment = 1
+
+[node name="ExtraRules" type="Label" parent="." unique_id=1831157868]
+offset_left = 852.0
+offset_top = 328.0
+offset_right = 1133.0
+offset_bottom = 407.0
+theme_override_font_sizes/font_size = 32
+text = "Extra Rules:"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Label" type="RichTextLabel" parent="ExtraRules" unique_id=1654729758]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 85.0
+offset_right = 268.0
+offset_bottom = 295.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = "None"
+horizontal_alignment = 1
+
+[node name="TutorialText" type="RichTextLabel" parent="." unique_id=1738013906]
+offset_left = 28.0
+offset_top = 113.0
+offset_right = 308.0
+offset_bottom = 591.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 18
+theme_override_font_sizes/bold_font_size = 18
+theme_override_font_sizes/italics_font_size = 18
+bbcode_enabled = true
+text = "[Insert Tutorial Text]"
+
+[node name="Cage1" type="Line2D" parent="." unique_id=711353811 groups=["Cage1"]]
+texture_repeat = 2
+position = Vector2(633, 116)
+points = PackedVector2Array(8, 6, 8, 128, 51, 178, 151, 179, 197, 86, 133, 6)
+closed = true
+default_color = Color(0.30513737, 0.39678526, 1, 1)
+texture = ExtResource("6_0xia4")
+texture_mode = 1
+script = ExtResource("7_mbfqw")
+metadata/CageValue = 4
+
+[node name="Label" type="RichTextLabel" parent="Cage1" unique_id=701868244]
+offset_left = 27.0
+offset_top = 19.0
+offset_right = 68.0
+offset_bottom = 63.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 28
+bbcode_enabled = true
+text = "[i]4"
