@@ -2681,7 +2681,6 @@ text = "Boo"
 
 [node name="Darkness" type="ColorRect" parent="." unique_id=201772845]
 process_priority = 1
-visible = false
 material = SubResource("ShaderMaterial_sjdby")
 offset_left = -15.0
 offset_top = -11.0
