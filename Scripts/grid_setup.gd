@@ -28,24 +28,25 @@ func _run() -> void:
 	
 	if scene_root:
 		# add values to their proper locations
-		for index in grid_locations:
+		for index in range(0,grid_locations.size()-1):
 			var target_node = scene_root.find_child("TextEdit" + str(grid_locations[index]), true, false)
 			if (target_node):
-				target_node.placeholder_text = grid_values[index]
+				target_node.placeholder_text = str(grid_values[index])
 			else:
 				printerr("Target node not found in current scene. Attempted to find " + target_node.name + " at index " + str(index))
 				return
 
 		# assign cells to regions
+		var region_index = 0
 		for region in cell_regions:
-			for cell in region:
-				var target_node = scene_root.find_child("TextEdit" + str(grid_locations[cell]), true, false)
+			for cell in range(0,region.size()):
+				var target_node = scene_root.find_child("TextEdit" + str(cell_regions[region_index][cell]), true, false)
 				if (target_node):
-					target_node.add_to_group("Region" + str(region+1), true)
+					target_node.add_to_group("Region" + str(region_index+1), true)
 				else:
 					printerr("Target node not found in current scene. Attempted to find " + target_node.name)
 					return
-		
+			region_index += 1
 	else:
 		printerr("No scene is current open in the editor.")
 		
