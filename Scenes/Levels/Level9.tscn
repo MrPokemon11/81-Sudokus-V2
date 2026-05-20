@@ -39,7 +39,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "1"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -185,7 +184,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "6"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -303,7 +301,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "2"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -391,7 +388,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "5"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -421,7 +417,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "1"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -509,7 +504,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "4"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -597,7 +591,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "4"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -685,7 +678,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "3"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -715,7 +707,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "1"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -803,7 +794,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "2"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -833,7 +823,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "1"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -921,7 +910,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "3"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -1067,7 +1055,6 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
-placeholder_text = "5"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -1176,9 +1163,9 @@ points = PackedVector2Array(324, 93, 832, 93)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="ThickLine2" type="Line2D" parent="CanvasGroup" unique_id=152519960]
-position = Vector2(-24, 269)
-points = PackedVector2Array(411, 93, 747, 93)
+[node name="ThickLine2" type="Line2D" parent="CanvasGroup" unique_id=1448025187]
+position = Vector2(-24, 268)
+points = PackedVector2Array(324, 93, 832, 93)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
@@ -1194,27 +1181,22 @@ points = PackedVector2Array(324, 93, 324, -413)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="ThickLine6" type="Line2D" parent="CanvasGroup" unique_id=1558697902]
-position = Vector2(63, 521)
-points = PackedVector2Array(324, 93, 324, -413)
+[node name="ThickLine6" type="Line2D" parent="CanvasGroup" unique_id=220752477]
+position = Vector2(231, 521)
+points = PackedVector2Array(324, -75, 324, -243)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="ThickLine8" type="Line2D" parent="CanvasGroup" unique_id=342096319]
-position = Vector2(399, 521)
-points = PackedVector2Array(324, 93, 324, -413)
+[node name="ThickLine8" type="Line2D" parent="CanvasGroup" unique_id=1879753604]
+position = Vector2(63, 688)
+points = PackedVector2Array(324, -75, 324, -158, 408, -158, 408, -242, 576, -242, 576, -158, 660, -158, 660, -74)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="ThickLine9" type="Line2D" parent="CanvasGroup" unique_id=447168619]
-position = Vector2(315, 521)
-points = PackedVector2Array(72, -75, 156, -75, 156, 9, 324, 9, 324, -75, 408, -75)
-width = 5.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
-
-[node name="ThickLine10" type="Line2D" parent="CanvasGroup" unique_id=474449087]
-position = Vector2(147, 521)
-points = PackedVector2Array(240, -243, 324.00003, -243, 324, -327, 492, -327, 492, -243, 576, -243)
+[node name="ThickLine9" type="Line2D" parent="CanvasGroup" unique_id=79088315]
+position = Vector2(1047, 36)
+rotation = 3.1415927
+points = PackedVector2Array(324, -74.00003, 324, -158, 408, -158, 408, -242, 576, -242, 576, -158, 660, -158, 660, -74)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 

@@ -1,14 +1,9 @@
 extends Node
 
-var quitConf = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	self.pressed.connect(_on_pressed)
 
 func _on_pressed() -> void:
-	if(!quitConf):
-		self.text = "Click to confirm."
-		quitConf = true
-	else:
-		get_tree().quit()
+	self.get_parent().get_parent().queue_free()

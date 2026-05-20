@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cqcj4qgmqnd2m"]
 
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="1_us78w"]
+[ext_resource type="Script" uid="uid://cjexdubqo20jk" path="res://Scripts/BrainwaveScripting/close_complete_screen.gd" id="2_b5l7v"]
 
 [node name="SudokuCompleteScreen" type="Node2D" unique_id=880229675]
 
@@ -12,9 +13,9 @@ polygon = PackedVector2Array(-13, -11, 1165, -9, 1159, 664, -12, 664)
 
 [node name="Label" type="Label" parent="SudokuComplete" unique_id=1908095513]
 offset_left = -9.09082
-offset_top = -15.151489
+offset_top = 18.181747
 offset_right = 1163.6365
-offset_bottom = 236.36359
+offset_bottom = 269.69684
 theme_override_font_sizes/font_size = 120
 text = "Sudoku Complete!"
 horizontal_alignment = 1
@@ -23,7 +24,7 @@ vertical_alignment = 1
 [node name="NextLevel" type="Button" parent="SudokuComplete" unique_id=882929345]
 offset_left = 118.18179
 offset_top = 299.99994
-offset_right = 478.78784
+offset_right = 478.78787
 offset_bottom = 554.54535
 tooltip_text = "Not available until I figure out an efficient way of calculating what the next level is."
 theme_override_font_sizes/font_size = 48
@@ -40,3 +41,11 @@ theme_override_font_sizes/font_size = 48
 text = "Return to
 Level Select"
 script = ExtResource("1_us78w")
+
+[node name="Close" type="Button" parent="SudokuComplete" unique_id=444868954]
+offset_left = 1015.15137
+offset_right = 1151.5151
+offset_bottom = 69.69701
+theme_override_font_sizes/font_size = 40
+text = "Close"
+script = ExtResource("2_b5l7v")

@@ -25,12 +25,10 @@ func _ready() -> void:
 	
 	# the below code block may look silly, but it handles the various ways i've set up the cells
 	# why not go back and change things? I'm lazy and this works.
+	# Update: The code no longer looks silly, because things no longer worked and went back and changed things.
 	if(self.placeholder_text != ""):
-		self.text = self.placeholder_text
-	if(self.text != ""):
 		self.editable = false
-	if self.editable == false:
-		this_label.text = self.text
+		this_label.text = self.placeholder_text
 		self.focus_mode = 0
 	
 	set_label_font()
@@ -89,7 +87,7 @@ func check_groups_for_errors():
 	
 	# check each row, column, and region for duplicate values
 	for node in nodes:
-		var eqChecker = node.check_for_issues(self.text)
+		var eqChecker = node.check_for_issues(self.get_value_special())
 		if(eqChecker):
 			hasError = true
 	
@@ -105,7 +103,7 @@ func check_groups_for_errors():
 # check whether the comparison string is the same as this node's text, and if so, make the label red
 # current issues: this will clear red even if there are still other errors
 func check_for_issues(comparator: String) -> bool:
-	var isEqual = check_equality(self.text, comparator)
+	var isEqual = check_equality(self.get_value_special(), comparator)
 	if (isEqual):
 		#set_red(this_label)
 		add_to_group("hasError", true)
@@ -143,6 +141,11 @@ func set_label_font():
 	else:
 		this_label.add_theme_font_override("normal_font", load("res://Fonts/KIN668.TTF"))
 
+func get_value_special() -> String:
+	if self.editable:
+		return self.text
+	else:
+		return self.placeholder_text
 # debug
 #func focus_debug():
 	#print(get_groups())
