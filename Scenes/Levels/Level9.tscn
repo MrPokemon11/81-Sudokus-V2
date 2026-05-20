@@ -39,6 +39,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "1"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -175,7 +176,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=1243670599 groups=["Region4"]]
+[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=1243670599 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -184,6 +185,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "5"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -234,7 +236,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=101689459 groups=["Region2"]]
+[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=101689459 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -243,6 +245,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "2"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -263,7 +266,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=692365154 groups=["Region3"]]
+[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=692365154 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -292,7 +295,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=919211344 groups=["Region3"]]
+[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=919211344 groups=["Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -321,7 +324,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=150365312 groups=["Region2"]]
+[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=150365312 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -330,6 +333,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "3"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -350,7 +354,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=891446935 groups=["Region4"]]
+[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=891446935 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -408,7 +412,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=1804305735 groups=["Region3"]]
+[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=1804305735 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -437,7 +441,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=1928725509 groups=["Region3"]]
+[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=1928725509 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -446,6 +450,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "3"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -475,6 +480,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "6"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -524,7 +530,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit18" type="TextEdit" parent="Control/TextEdits" unique_id=1566113227 groups=["Region4"]]
+[node name="TextEdit18" type="TextEdit" parent="Control/TextEdits" unique_id=1566113227 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -553,7 +559,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit19" type="TextEdit" parent="Control/TextEdits" unique_id=677056827 groups=["Region1"]]
+[node name="TextEdit19" type="TextEdit" parent="Control/TextEdits" unique_id=677056827 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -582,7 +588,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit20" type="TextEdit" parent="Control/TextEdits" unique_id=336818894 groups=["Region5"]]
+[node name="TextEdit20" type="TextEdit" parent="Control/TextEdits" unique_id=336818894 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -611,7 +617,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit21" type="TextEdit" parent="Control/TextEdits" unique_id=870184567 groups=["Region5"]]
+[node name="TextEdit21" type="TextEdit" parent="Control/TextEdits" unique_id=870184567 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -620,6 +626,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "5"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -649,6 +656,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "4"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -698,7 +706,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit24" type="TextEdit" parent="Control/TextEdits" unique_id=1032154455 groups=["Region4"]]
+[node name="TextEdit24" type="TextEdit" parent="Control/TextEdits" unique_id=1032154455 groups=["Region5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -727,7 +735,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit25" type="TextEdit" parent="Control/TextEdits" unique_id=908387900 groups=["Region1"]]
+[node name="TextEdit25" type="TextEdit" parent="Control/TextEdits" unique_id=908387900 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -756,7 +764,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit26" type="TextEdit" parent="Control/TextEdits" unique_id=1348728544 groups=["Region6"]]
+[node name="TextEdit26" type="TextEdit" parent="Control/TextEdits" unique_id=1348728544 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -765,6 +773,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "1"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -785,7 +794,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit27" type="TextEdit" parent="Control/TextEdits" unique_id=978414089 groups=["Region5"]]
+[node name="TextEdit27" type="TextEdit" parent="Control/TextEdits" unique_id=978414089 groups=["Region6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -814,7 +823,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit28" type="TextEdit" parent="Control/TextEdits" unique_id=2069609501 groups=["Region5"]]
+[node name="TextEdit28" type="TextEdit" parent="Control/TextEdits" unique_id=2069609501 groups=["Region6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -843,7 +852,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit29" type="TextEdit" parent="Control/TextEdits" unique_id=561961763 groups=["Region6"]]
+[node name="TextEdit29" type="TextEdit" parent="Control/TextEdits" unique_id=561961763 groups=["Region5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -852,6 +861,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "5"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -872,7 +882,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit30" type="TextEdit" parent="Control/TextEdits" unique_id=1833971400 groups=["Region4"]]
+[node name="TextEdit30" type="TextEdit" parent="Control/TextEdits" unique_id=1833971400 groups=["Region5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -901,7 +911,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit31" type="TextEdit" parent="Control/TextEdits" unique_id=624274181 groups=["Region1"]]
+[node name="TextEdit31" type="TextEdit" parent="Control/TextEdits" unique_id=624274181 groups=["Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -910,6 +920,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "3"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 
@@ -1046,7 +1057,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit36" type="TextEdit" parent="Control/TextEdits" unique_id=815785172 groups=["Region4"]]
+[node name="TextEdit36" type="TextEdit" parent="Control/TextEdits" unique_id=815785172 groups=["Region5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1055,6 +1066,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_s7g4t")
+placeholder_text = "6"
 emoji_menu_enabled = false
 script = ExtResource("3_bq3cp")
 

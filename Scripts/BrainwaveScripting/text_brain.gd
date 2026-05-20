@@ -29,6 +29,7 @@ func _ready() -> void:
 	if(self.placeholder_text != ""):
 		self.editable = false
 		this_label.text = self.placeholder_text
+		self["theme_override_colors/font_placeholder_color"] = 00000000
 		self.focus_mode = 0
 	
 	set_label_font()
