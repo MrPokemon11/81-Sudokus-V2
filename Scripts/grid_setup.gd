@@ -16,6 +16,17 @@ func _run() -> void:
 	# also, the grid is still 1 indexed.
 	cell_regions = []
 	
+	# default regions for the classic 9x9 grid (replace cell_regions with the below)
+	# 	cell_regions = [[1,2,3,10,11,12,19,20,21], #top left
+					#[4,5,6,13,14,15,22,23,24], # top middle
+					#[7,8,9,16,17,18,25,26,27], # top right
+					#[28,29,30,37,38,39,46,47,48], # middle left
+					#[31,32,33,40,41,42,49,50,51], # true middle
+					#[34,35,36,43,44,45,52,53,54], # middle right
+					#[55,56,57,64,65,66,73,74,75], # bottom left
+					#[58,59,60,67,68,69,76,77,78], # bottom middle
+					#[61,62,63,70,71,72,79,80,81]] # bottom right
+	
 	# ensure that the number of locations and number of values is the same.
 	# if not, print an error and stop execution.
 	if grid_locations.size() != grid_values.size():

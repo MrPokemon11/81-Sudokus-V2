@@ -7,6 +7,8 @@ var allowedInputs
 var hasError = false
 var error_checked = false
 var this_label
+var column_count
+@export var auto_focus = true
 
 func _ready() -> void:
 	idNum = self.name.right(-8).to_int() # this will remove "TextEdit" from the name, leaving just the number
@@ -30,7 +32,7 @@ func _ready() -> void:
 		self.editable = false
 		this_label.text = self.placeholder_text
 		self["theme_override_colors/font_placeholder_color"] = 00000000
-		self.focus_mode = 0
+		#self.focus_mode = 0
 	
 	set_label_font()
 	#debug
@@ -39,11 +41,21 @@ func _ready() -> void:
 	# this code adds each node to a row and column automatically.
 	# regions needs to be done manually because they're not always square,
 	# but at least i only need to do 1/3 of the work :P
-	var column_count = get_parent().columns
+	column_count = get_parent().columns
 	var this_row = floor((idNum-1) / column_count)
 	var this_column = idNum % column_count
 	self.add_to_group("Row" + str(this_row), true)
 	self.add_to_group("Column" + str(this_column), true)
+	
+	if auto_focus:
+		apply_focusing()
+
+# handles traversing focus neighbors using arrow keys, since TextEdits don't seem able to do that by default
+func _gui_input(event: InputEvent) -> void:
+	pass
+
+func _unhandled_input(event: InputEvent) -> void:
+	pass
 
 func _on_text_changed(textfield: TextEdit) -> void:
 	# ensure no more than 1 line
@@ -147,6 +159,23 @@ func get_value_special() -> String:
 		return self.text
 	else:
 		return self.placeholder_text
+
+func apply_focusing() -> void: # apply Focus via code
+	# if this node isn't in the top row, give it a top neighbor
+	if idNum > column_count: 
+		self.focus_neighbor_top = "Control/TextEdits/TextEdit" + str(idNum - column_count)
+	# if this node isn't in the bottom row, give it a bottom neighbor
+	# ONLY WORKS FOR SQUARE GRIDS (which is admittedly true for all of them)
+	if idNum + column_count < column_count * column_count:
+		self.focus_neighbor_bottom = "Control/TextEdits/TextEdit" + str(idNum + column_count)
+	# if this node isn't in the leftmost column, give it a left neighbor
+	if idNum % column_count != 1:
+		self.focus_neighbor_left = "Control/TextEdits/TextEdit" + str(idNum - 1)
+	# if this node isn't in the rightmost column, give it a right neighbor
+	if idNum % column_count != 0:
+		self.focus_neighbor_right = "Contol/TextEdits/TextEdit" + str(idNum + 1)
+	pass
+
 # debug
 #func focus_debug():
 	#print(get_groups())
