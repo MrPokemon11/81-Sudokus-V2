@@ -5,12 +5,12 @@ var grid_values = []
 var grid_locations = []
 var cell_regions = []
 
-# Called when the node enters the scene tree for the first time.
+# called when the tool is run
 func _run() -> void:
 	# values (ie 1, 2, A, B, etc) go in here
-	grid_values = []
+	grid_values = [9,7,3,4,3,4,6,2,5,6,8,2,4,2,9,6,4,6,1,8,7,9,9,3,6,2,5,3,4,8,2,2,8,6,5,3,1]
 	# the locations of the above values go here. Note that the grid is 1 indexed.
-	grid_locations = []
+	grid_locations = [1,2,5,9,10,11,13,15,17,19,20,21,24,28,31,35,37,39,40,42,44,45,47,49,50,52,54,57,61,62,63,65,68,69,70,71,74]
 	# each array is a region, containing every cell within that region.
 	# it still needs to be manually filled, but it's faster than setting them in the editor. Probably.
 	# also, the grid is still 1 indexed.
