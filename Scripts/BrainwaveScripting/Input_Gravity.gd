@@ -21,32 +21,39 @@ func _on_text_changed(textfield: TextEdit) -> void:
 			textfield.text = textfield.text.left(1)
 			textfield.set_caret_column(1)
 	
+	recursive_fall()
+
 	this_label.text = textfield.text
-	
-	# this should work recursively
-	if (idNum + column_count < get_parent().get_child_count()) && self.text != "": # if this is false, this is the bottom of the grid
+
+	check_groups_for_errors()
+	get_tree().call_group("hasError", "check_groups_for_errors")
+
+func recursive_fall():
+	var textfield = self
+	if (idNum + column_count < get_parent().get_child_count()) && textfield.text != "": # if this is false, this is the bottom of the grid
 		var cell_below = get_node(self.focus_neighbor_bottom)
 		var is_cell_below_given = false
 		if cell_below.placeholder_text != "":
 			is_cell_below_given = true
 		
 		if textfield.text == "-":
-			self.text = ""
 			if is_cell_below_given:
 				pass
 			elif cell_below.text != "":
 				cell_below.text = ""
 			else:
 				cell_below.text = "-"
+			textfield.text = ""
 		else:
 			if cell_below.get_value_special() != "":
 				pass
 			else:
-				cell_below.text = self.text
-				self.text = ""
-	elif self.text != "":
-		if self.text == "-":
-			self.text = ""
-
-	check_groups_for_errors()
-	get_tree().call_group("hasError", "check_groups_for_errors")
+				cell_below.text = textfield.text
+				textfield.text = ""
+		
+		cell_below.recursive_fall()
+	elif textfield.text != "":
+		if textfield.text == "-":
+			textfield.text = ""
+	
+	

@@ -2199,6 +2199,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+placeholder_text = "2"
 emoji_menu_enabled = false
 script = ExtResource("3_metij")
 
