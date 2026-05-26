@@ -154,26 +154,27 @@ func set_label_font():
 	else:
 		this_label.add_theme_font_override("normal_font", load("res://Fonts/KIN668.TTF"))
 
+# if the cell has placeholder text, return that. Otherwise, return the normal text.
 func get_value_special() -> String:
-	if self.editable:
-		return self.text
-	else:
+	if self.placeholder_text != "":
 		return self.placeholder_text
+	else:
+		return self.text
 
 func apply_focusing() -> void: # apply Focus via code
 	# if this node isn't in the top row, give it a top neighbor
 	if idNum > column_count: 
-		self.focus_neighbor_top = "Control/TextEdits/TextEdit" + str(idNum - column_count)
+		self.focus_neighbor_top = "/root/Control/TextEdits/TextEdit" + str(idNum - column_count)
 	# if this node isn't in the bottom row, give it a bottom neighbor
 	# ONLY WORKS FOR SQUARE GRIDS (which is admittedly true for all of them)
 	if idNum + column_count < column_count * column_count:
-		self.focus_neighbor_bottom = "Control/TextEdits/TextEdit" + str(idNum + column_count)
+		self.focus_neighbor_bottom = "/root/Control/TextEdits/TextEdit" + str(idNum + column_count)
 	# if this node isn't in the leftmost column, give it a left neighbor
 	if idNum % column_count != 1:
-		self.focus_neighbor_left = "Control/TextEdits/TextEdit" + str(idNum - 1)
+		self.focus_neighbor_left = "/root/Control/TextEdits/TextEdit" + str(idNum - 1)
 	# if this node isn't in the rightmost column, give it a right neighbor
 	if idNum % column_count != 0:
-		self.focus_neighbor_right = "Contol/TextEdits/TextEdit" + str(idNum + 1)
+		self.focus_neighbor_right = "/root/Control/TextEdits/TextEdit" + str(idNum + 1)
 	pass
 
 # debug
