@@ -15,6 +15,7 @@ func _ready() -> void:
 	allowedInputs = get_parent().get_meta("validInputs")
 	self.text_changed.connect(_on_text_changed.bind(self))
 	this_label = get_child(0)
+	self.tab_input_mode = false
 	
 	# ensure that each cell is part of exactly 1 region.
 	# regions are done manually, but that can lead to human error so better safe than sorry

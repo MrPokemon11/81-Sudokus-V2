@@ -40,6 +40,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit1" unique_id=1441893341]
@@ -70,6 +71,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit2" unique_id=864656571]
@@ -100,6 +102,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit3" unique_id=72558255]
@@ -130,6 +133,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit4" unique_id=1757480983]
@@ -160,6 +164,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit5" unique_id=1198183202]
@@ -190,6 +195,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit6" unique_id=915630993]
@@ -220,6 +226,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit7" unique_id=1144437988]
@@ -250,6 +257,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit8" unique_id=2047040984]
@@ -280,6 +288,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit9" unique_id=657132703]
@@ -309,7 +318,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit10" unique_id=1970655341]
@@ -339,7 +350,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit11" unique_id=1049828196]
@@ -369,7 +382,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit12" unique_id=1963986360]
@@ -399,7 +414,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit13" unique_id=1225303819]
@@ -429,7 +446,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit14" unique_id=1301144371]
@@ -459,7 +478,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit15" unique_id=649347860]
@@ -489,7 +510,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit16" unique_id=1898161995]
@@ -519,7 +542,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit17" unique_id=1472022486]
@@ -549,7 +574,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit18" unique_id=450058225]
@@ -579,7 +606,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit19" unique_id=406767877]
@@ -609,7 +638,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit20" unique_id=1323952178]
@@ -639,7 +670,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit21" unique_id=1492997880]
@@ -669,7 +702,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit22" unique_id=799165218]
@@ -699,7 +734,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit23" unique_id=990554697]
@@ -729,7 +766,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit24" unique_id=2073180891]
@@ -759,7 +798,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit25" unique_id=1245186375]
@@ -789,7 +830,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit26" unique_id=902772841]
@@ -819,7 +862,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit27" unique_id=397319093]
@@ -849,7 +894,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit28" unique_id=575970490]
@@ -879,7 +926,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit29" unique_id=843797621]
@@ -909,7 +958,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit30" unique_id=52362535]
@@ -939,7 +990,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit31" unique_id=1966039443]
@@ -969,7 +1022,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit32" unique_id=664982311]
@@ -999,7 +1054,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit33" unique_id=1392670251]
@@ -1029,7 +1086,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit34" unique_id=402176576]
@@ -1059,7 +1118,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit35" unique_id=253689237]
@@ -1089,7 +1150,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit36" unique_id=1229953499]
@@ -1119,7 +1182,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit37" unique_id=1833953837]
@@ -1149,7 +1214,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit38" unique_id=632237073]
@@ -1179,7 +1246,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit39" unique_id=899264319]
@@ -1209,7 +1278,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit40" unique_id=647000384]
@@ -1239,7 +1310,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit41" unique_id=1285642892]
@@ -1269,7 +1342,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit42" unique_id=775032088]
@@ -1299,7 +1374,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit43" unique_id=142578988]
@@ -1329,7 +1406,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit44" unique_id=2136912230]
@@ -1359,7 +1438,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit45" unique_id=17225306]
@@ -1389,7 +1470,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit46" unique_id=26336700]
@@ -1419,7 +1502,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit47" unique_id=1602161401]
@@ -1449,7 +1534,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit48" unique_id=956985278]
@@ -1479,7 +1566,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit49" unique_id=1071125964]
@@ -1509,7 +1598,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit50" unique_id=1105998229]
@@ -1539,7 +1630,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit51" unique_id=819015253]
@@ -1569,7 +1662,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit52" unique_id=391518224]
@@ -1599,7 +1694,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit53" unique_id=1734374388]
@@ -1629,7 +1726,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit54" unique_id=770393779]
@@ -1659,7 +1758,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit55" unique_id=1167804303]
@@ -1689,7 +1790,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit56" unique_id=36144312]
@@ -1719,7 +1822,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit57" unique_id=1435226120]
@@ -1749,7 +1854,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit58" unique_id=758168859]
@@ -1779,7 +1886,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit59" unique_id=262272752]
@@ -1809,7 +1918,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit60" unique_id=998011678]
@@ -1839,7 +1950,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit61" unique_id=647068333]
@@ -1869,7 +1982,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit62" unique_id=552818820]
@@ -1899,7 +2014,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit63" unique_id=814024591]
@@ -1929,7 +2046,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit64" unique_id=2096662999]
@@ -1959,7 +2078,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit65" unique_id=890357454]
@@ -1989,7 +2110,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit66" unique_id=1419688557]
@@ -2019,7 +2142,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit67" unique_id=1723022126]
@@ -2049,7 +2174,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit68" unique_id=2025114430]
@@ -2079,7 +2206,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit69" unique_id=1287389048]
@@ -2109,7 +2238,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit70" unique_id=450038971]
@@ -2139,7 +2270,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit71" unique_id=793282297]
@@ -2169,7 +2302,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit72" unique_id=887115092]
@@ -2200,7 +2335,9 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
 placeholder_text = "2"
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit73" unique_id=612953006]
@@ -2230,7 +2367,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit74" unique_id=1753538574]
@@ -2260,7 +2399,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit75" unique_id=1425016000]
@@ -2290,7 +2431,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit76" unique_id=1597785050]
@@ -2320,7 +2463,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit77" unique_id=1958712274]
@@ -2350,7 +2495,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit78" unique_id=1527520665]
@@ -2380,7 +2527,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit79" unique_id=258434920]
@@ -2410,7 +2559,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit80" unique_id=1007949363]
@@ -2440,7 +2591,9 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+editable = false
 emoji_menu_enabled = false
+tab_input_mode = false
 script = ExtResource("3_metij")
 
 [node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit81" unique_id=1812114458]

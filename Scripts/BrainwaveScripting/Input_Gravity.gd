@@ -3,6 +3,7 @@ extends "res://Scripts/BrainwaveScripting/text_brain.gd"
 func _on_text_changed(textfield: TextEdit) -> void:
 	# debug
 	#print(self.focus_neighbor_bottom)
+	print(self.get_groups())
 	
 	# ensure no more than 1 line
 	if (textfield.get_line_count() > 1):
@@ -30,7 +31,7 @@ func _on_text_changed(textfield: TextEdit) -> void:
 
 func recursive_fall():
 	var textfield = self
-	if (idNum + column_count < get_parent().get_child_count()) && textfield.text != "": # if this is false, this is the bottom of the grid
+	if (idNum + column_count < get_parent().get_child_count()) && (textfield.text != "" or textfield.placeholder_text != ""): # if this is false, this is the bottom of the grid
 		var cell_below = get_node(self.focus_neighbor_bottom)
 		var is_cell_below_given = false
 		if cell_below.placeholder_text != "":
@@ -41,6 +42,7 @@ func recursive_fall():
 				pass
 			elif cell_below.text != "":
 				cell_below.text = ""
+				cell_below.get_child(0).text = ""
 			else:
 				cell_below.text = "-"
 			textfield.text = ""
@@ -49,11 +51,26 @@ func recursive_fall():
 				pass
 			else:
 				cell_below.text = textfield.text
+				cell_below.get_child(0).text = cell_below.text
 				textfield.text = ""
+				this_label.text = ""
+				cell_below.recursive_fall()
 		
-		cell_below.recursive_fall()
 	elif textfield.text != "":
 		if textfield.text == "-":
 			textfield.text = ""
+
+func set_label_font():
+	if self.placeholder_text == "":
+		this_label.add_theme_font_override("normal_font", load("res://Fonts/Halogen.ttf"))
+	else:
+		this_label.add_theme_font_override("normal_font", load("res://Fonts/KIN668.TTF"))
+
+func reset():
+	if self.placeholder_text == "":
+		self.text = ""
+		get_child(0).text = ""
 	
-	
+	if self.is_in_group("hasError"):
+		clear_red(this_label)
+		remove_from_group("hasError")
