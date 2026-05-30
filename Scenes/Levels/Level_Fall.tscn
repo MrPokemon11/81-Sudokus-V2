@@ -5,6 +5,8 @@
 [ext_resource type="Script" uid="uid://dq7n7giv50o3a" path="res://Scripts/BrainwaveScripting/Input_Gravity.gd" id="3_metij"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_l5pmb"]
 [ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_ivu2l"]
+[ext_resource type="Texture2D" uid="uid://drfeyfvu0hxjf" path="res://Textures/CageLine.png" id="6_uq7j5"]
+[ext_resource type="Script" uid="uid://dtmsekiogwy7h" path="res://Scripts/BrainwaveScripting/check_cage.gd" id="7_l5pmb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nwtpk"]
 
@@ -2069,7 +2071,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit65" type="TextEdit" parent="Control/TextEdits" unique_id=886970047 groups=["Region7"]]
+[node name="TextEdit65" type="TextEdit" parent="Control/TextEdits" unique_id=886970047 groups=["Cage3", "Region7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2101,7 +2103,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit66" type="TextEdit" parent="Control/TextEdits" unique_id=135131784 groups=["Region7"]]
+[node name="TextEdit66" type="TextEdit" parent="Control/TextEdits" unique_id=135131784 groups=["Cage3", "Region7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2325,7 +2327,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit73" type="TextEdit" parent="Control/TextEdits" unique_id=1102571308 groups=["Region7"]]
+[node name="TextEdit73" type="TextEdit" parent="Control/TextEdits" unique_id=1102571308 groups=["Cage1", "Region7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2334,7 +2336,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
-placeholder_text = "2"
+placeholder_text = "4"
 editable = false
 emoji_menu_enabled = false
 tab_input_mode = false
@@ -2358,7 +2360,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit74" type="TextEdit" parent="Control/TextEdits" unique_id=356223383 groups=["Region7"]]
+[node name="TextEdit74" type="TextEdit" parent="Control/TextEdits" unique_id=356223383 groups=["Cage1", "Region7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2390,7 +2392,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit75" type="TextEdit" parent="Control/TextEdits" unique_id=1968985465 groups=["Region7"]]
+[node name="TextEdit75" type="TextEdit" parent="Control/TextEdits" unique_id=1968985465 groups=["Cage3", "Region7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2399,6 +2401,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+placeholder_text = "3"
 editable = false
 emoji_menu_enabled = false
 tab_input_mode = false
@@ -2431,6 +2434,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+placeholder_text = "8"
 editable = false
 emoji_menu_enabled = false
 tab_input_mode = false
@@ -2454,7 +2458,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit77" type="TextEdit" parent="Control/TextEdits" unique_id=1560804775 groups=["Region8"]]
+[node name="TextEdit77" type="TextEdit" parent="Control/TextEdits" unique_id=1560804775 groups=["Cage2", "Region8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2486,7 +2490,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit78" type="TextEdit" parent="Control/TextEdits" unique_id=189880814 groups=["Region8"]]
+[node name="TextEdit78" type="TextEdit" parent="Control/TextEdits" unique_id=189880814 groups=["Cage2", "Region8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2818,6 +2822,72 @@ theme_override_font_sizes/normal_font_size = 18
 theme_override_font_sizes/bold_font_size = 18
 theme_override_font_sizes/italics_font_size = 18
 bbcode_enabled = true
-text = "[b]Gravity[/b]: Inputs fall until they hit the bottom of the grid or another input. [b]The Minus (-) deletes the input it touches (except Givens).[/b]
+text = "[b]Gravity[/b]: Inputs fall until they hit the bottom of the grid or another input. [b]Minus (-) deletes the input it lands on (except Givens).[/b]
 [b]Cage[/b]: The numbers within each cage must add up to the given sum (in italics)"
 horizontal_alignment = 1
+
+[node name="Cage1" type="Line2D" parent="." unique_id=54253675 groups=["Cage1"]]
+texture_repeat = 2
+position = Vector2(321, 554)
+points = PackedVector2Array(9, 7, 9, 55, 115, 55, 115, 7)
+closed = true
+width = 3.0
+default_color = Color(0.67058825, 0.67058825, 0.67058825, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 4
+
+[node name="Label" type="RichTextLabel" parent="Cage1" unique_id=2062602091]
+offset_left = 10.0
+offset_top = 2.0
+offset_right = 30.0
+offset_bottom = 25.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]6"
+
+[node name="Cage2" type="Line2D" parent="." unique_id=509722079 groups=["Cage2"]]
+texture_repeat = 2
+position = Vector2(544, 554)
+points = PackedVector2Array(9, 7, 9, 55, 115, 55, 115, 7)
+closed = true
+width = 3.0
+default_color = Color(0.67058825, 0.67058825, 0.67058825, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 4
+
+[node name="Label" type="RichTextLabel" parent="Cage2" unique_id=1157767170]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]15"
+
+[node name="Cage3" type="Line2D" parent="." unique_id=308595282 groups=["Cage3"]]
+texture_repeat = 2
+position = Vector2(378, 498)
+points = PackedVector2Array(9, 7, 9, 55, 65.41042, 55.000008, 65, 111, 113, 111, 113, 7)
+closed = true
+width = 3.0
+default_color = Color(0.67058825, 0.67058825, 0.67058825, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 4
+
+[node name="Label" type="RichTextLabel" parent="Cage3" unique_id=2107436267]
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 30.0
+offset_bottom = 27.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]13"

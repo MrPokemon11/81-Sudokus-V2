@@ -30,6 +30,8 @@ func save_level():
 	var currLevelName = get_tree().root.name
 	#var packed_scene = PackedScene.new()
 	
+	# returning to level select throws an error
+	
 	if completeScreen:
 		completeScreen.free()
 	
