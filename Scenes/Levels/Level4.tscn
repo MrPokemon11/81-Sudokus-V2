@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_gpvrs"]
 [ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_rl5px"]
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_inj8u"]
+[ext_resource type="Texture2D" uid="uid://2ulhy2ap0soy" path="res://Textures/star_silhouette.png" id="4_bfawm"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_xp8yv"]
 [ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_bfawm"]
 [ext_resource type="Texture2D" uid="uid://drfeyfvu0hxjf" path="res://Textures/CageLine.png" id="6_rl5px"]
@@ -79,6 +80,13 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit1/Label1" unique_id=1572088424]
+modulate = Color(0.09411765, 0.078431375, 0.4, 1)
+show_behind_parent = true
+position = Vector2(61, 61)
+scale = Vector2(0.1875, 0.1875)
+texture = ExtResource("4_bfawm")
+
 [node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=77926927 groups=["Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -97,10 +105,8 @@ metadata/Row = [NodePath("../TextEdit1"), NodePath("."), NodePath("../TextEdit3"
 
 [node name="Label2" type="RichTextLabel" parent="Control/TextEdits/TextEdit2" unique_id=942183367]
 layout_mode = 1
-offset_left = 21.0
-offset_top = -25.0
-offset_right = 143.0
-offset_bottom = 97.0
+offset_right = 122.0
+offset_bottom = 122.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
@@ -218,6 +224,13 @@ theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit6/Label6" unique_id=1680715975]
+modulate = Color(0.05846592, 0.29398537, 0.9569896, 1)
+show_behind_parent = true
+position = Vector2(61, 61)
+scale = Vector2(0.1875, 0.1875)
+texture = ExtResource("4_bfawm")
 
 [node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=1629918718 groups=["Region2"]]
 layout_mode = 2
@@ -354,6 +367,13 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit11/Label11" unique_id=1554883259]
+modulate = Color(0.05846592, 0.29398537, 0.9569896, 1)
+show_behind_parent = true
+position = Vector2(61, 61)
+scale = Vector2(0.1875, 0.1875)
+texture = ExtResource("4_bfawm")
+
 [node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=279191973 groups=["Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -451,10 +471,9 @@ script = ExtResource("3_inj8u")
 
 [node name="Label15" type="RichTextLabel" parent="Control/TextEdits/TextEdit15" unique_id=582544592]
 layout_mode = 1
-offset_left = -22.0
-offset_top = 17.0
-offset_right = 102.0
-offset_bottom = 139.0
+offset_top = 2.0
+offset_right = 124.0
+offset_bottom = 124.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
@@ -492,6 +511,13 @@ theme_override_font_sizes/normal_font_size = 32
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit16/Label16" unique_id=1156991168]
+modulate = Color(0.05846592, 0.29398537, 0.9569896, 1)
+show_behind_parent = true
+position = Vector2(61, 61)
+scale = Vector2(0.1875, 0.1875)
+texture = ExtResource("4_bfawm")
 
 [node name="Back" type="Button" parent="Control" unique_id=46512483]
 layout_mode = 0
@@ -594,6 +620,7 @@ width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="Cage1" type="Line2D" parent="CanvasGroup" unique_id=2009695507 groups=["Cage1"]]
+visible = false
 texture_repeat = 2
 position = Vector2(283, 93)
 points = PackedVector2Array(8, 6, 8, 128, 415, 534, 537, 534, 537, 406, 133, 6)
@@ -660,17 +687,44 @@ offset_top = 85.0
 offset_right = 268.0
 offset_bottom = 295.0
 bbcode_enabled = true
-text = "[b]Cage[/b]: All cells [i]fully contained[/i] within a dashed box must add up to the itallic number in the corner. Symbols may repeat within a cage.
+text = "[b]Sectors[/b]: All cells that contain the same symbol must add up to the value on the left. Inputs may repeat within a sector.
 
 [b]Glance Twice[/b]: It's easier
 than it looks."
 horizontal_alignment = 1
 
+[node name="SectorValues" type="Label" parent="." unique_id=404683199]
+offset_left = 21.0
+offset_top = 63.0
+offset_right = 302.0
+offset_bottom = 142.0
+theme_override_font_sizes/font_size = 32
+text = "Sector Values"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Label" type="RichTextLabel" parent="SectorValues" unique_id=1217451776]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 89.0
+offset_right = 190.0
+offset_bottom = 134.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = ": 4"
+
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues" unique_id=305368771]
+modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
+show_behind_parent = true
+position = Vector2(99.5, 110)
+scale = Vector2(0.099609375, 0.099609375)
+texture = ExtResource("4_bfawm")
+
 [node name="TutorialText" type="RichTextLabel" parent="." unique_id=2058794401]
 offset_left = 28.0
-offset_top = 113.0
+offset_top = 355.0
 offset_right = 308.0
-offset_bottom = 591.0
+offset_bottom = 621.0
 mouse_filter = 2
 theme_override_font_sizes/normal_font_size = 18
 theme_override_font_sizes/bold_font_size = 18
