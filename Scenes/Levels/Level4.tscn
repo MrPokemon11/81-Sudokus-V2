@@ -530,6 +530,7 @@ Level Select"
 script = ExtResource("4_xp8yv")
 
 [node name="RetartButton" type="Button" parent="Control" unique_id=1841838141]
+unique_name_in_owner = true
 layout_mode = 0
 offset_left = 970.0
 offset_top = 23.0
@@ -619,11 +620,10 @@ points = PackedVector2Array(324, 93, 832, 93)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="Cage1" type="Line2D" parent="CanvasGroup" unique_id=2009695507 groups=["Cage1"]]
-visible = false
+[node name="Sector1" type="Line2D" parent="CanvasGroup" unique_id=2009695507 groups=["Cage1"]]
 texture_repeat = 2
-position = Vector2(283, 93)
-points = PackedVector2Array(8, 6, 8, 128, 415, 534, 537, 534, 537, 406, 133, 6)
+position = Vector2(-339, 104)
+points = PackedVector2Array(8, 6, 8, 128, 46, 157, 129, 129, 153, 71, 133, 6)
 closed = true
 default_color = Color(0.30513737, 0.39678526, 1, 1)
 texture = ExtResource("6_rl5px")
@@ -631,15 +631,16 @@ texture_mode = 1
 script = ExtResource("7_inj8u")
 metadata/CageValue = 4
 
-[node name="Label" type="RichTextLabel" parent="CanvasGroup/Cage1" unique_id=1604846957]
-offset_left = 27.0
-offset_top = 19.0
-offset_right = 68.0
-offset_bottom = 63.0
+[node name="Label" type="RichTextLabel" parent="CanvasGroup/Sector1" unique_id=1604846957]
+offset_left = 486.0
+offset_top = 50.0
+offset_right = 527.0
+offset_bottom = 94.0
 mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 28
 theme_override_font_sizes/italics_font_size = 28
 bbcode_enabled = true
-text = "[i]4"
+text = "4"
 
 [node name="Title" type="Label" parent="." unique_id=308294946]
 offset_left = 417.0
@@ -703,7 +704,12 @@ text = "Sector Values"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="Label" type="RichTextLabel" parent="SectorValues" unique_id=1217451776]
+[node name="Sector1" type="Control" parent="SectorValues" unique_id=1219700307]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="RichTextLabel" parent="SectorValues/Sector1" unique_id=1217451776]
 layout_mode = 0
 offset_left = 133.5
 offset_top = 89.0
@@ -711,9 +717,9 @@ offset_right = 190.0
 offset_bottom = 134.0
 theme_override_font_sizes/normal_font_size = 28
 bbcode_enabled = true
-text = ": 4"
+text = ":"
 
-[node name="Sprite2D" type="Sprite2D" parent="SectorValues" unique_id=305368771]
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector1" unique_id=305368771]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
 show_behind_parent = true
 position = Vector2(99.5, 110)

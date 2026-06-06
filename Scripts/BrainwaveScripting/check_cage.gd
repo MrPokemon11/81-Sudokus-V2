@@ -6,7 +6,14 @@ var color_default
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	cage_value = get_meta("CageValue")
+	var cage_value_value = get_child(0).text
+	if cage_value_value != "":
+		if cage_value_value.is_valid_int():
+			cage_value = cage_value_value.to_int()
+		else:
+			printerr("Cage " + self.name + " does not have a valid value! Cage value is: " + cage_value_value)
+	else:
+		cage_value = get_meta("CageValue")
 	color_default = self.default_color
 	
 	# the cage should be in exactly one (non-internal) group. If it isn't, throw an error
@@ -15,12 +22,12 @@ func _ready() -> void:
 		if not group.begins_with("_"):
 			cage_check.push_back(group)
 	if cage_check.size() != 1:
-		printerr("The cage " + self.name + " has a group error! It is in the following groups: " + cage_check)
+		printerr("The cage " + self.name + " has a group error! It should be in exactly 1 group, but is in the following groups: " + cage_check)
 	else:
 		cage_group_name = cage_check[0]
 	
 	connect_to_group_members()
-	print(cage_check)
+	#print(cage_check)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:

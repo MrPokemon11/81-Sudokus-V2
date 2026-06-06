@@ -1527,7 +1527,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit48" type="TextEdit" parent="Control/TextEdits" unique_id=384526495 groups=["Region4"]]
+[node name="TextEdit48" type="TextEdit" parent="Control/TextEdits" unique_id=384526495 groups=["Cage5", "Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1559,7 +1559,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit49" type="TextEdit" parent="Control/TextEdits" unique_id=74545617 groups=["Region5"]]
+[node name="TextEdit49" type="TextEdit" parent="Control/TextEdits" unique_id=74545617 groups=["Cage5", "Region5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1815,7 +1815,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit57" type="TextEdit" parent="Control/TextEdits" unique_id=1333028194 groups=["Region7"]]
+[node name="TextEdit57" type="TextEdit" parent="Control/TextEdits" unique_id=1333028194 groups=["Cage5", "Region7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1847,7 +1847,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit58" type="TextEdit" parent="Control/TextEdits" unique_id=1539504045 groups=["Region8"]]
+[node name="TextEdit58" type="TextEdit" parent="Control/TextEdits" unique_id=1539504045 groups=["Cage5", "Region8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2629,6 +2629,7 @@ Level Select"
 script = ExtResource("4_l5pmb")
 
 [node name="RetartButton" type="Button" parent="Control" unique_id=1473820839]
+unique_name_in_owner = true
 layout_mode = 0
 offset_left = 970.0
 offset_top = 23.0
@@ -2833,11 +2834,11 @@ position = Vector2(321, 554)
 points = PackedVector2Array(9, 7, 9, 55, 115, 55, 115, 7)
 closed = true
 width = 3.0
-default_color = Color(0.67058825, 0.67058825, 0.67058825, 1)
+default_color = Color(0.79624295, 0.796243, 0.7962429, 1)
 texture = ExtResource("6_uq7j5")
 texture_mode = 1
 script = ExtResource("7_l5pmb")
-metadata/CageValue = 4
+metadata/CageValue = 6
 
 [node name="Label" type="RichTextLabel" parent="Cage1" unique_id=2062602091]
 offset_left = 10.0
@@ -2855,35 +2856,13 @@ position = Vector2(544, 554)
 points = PackedVector2Array(9, 7, 9, 55, 115, 55, 115, 7)
 closed = true
 width = 3.0
-default_color = Color(0.67058825, 0.67058825, 0.67058825, 1)
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
 texture = ExtResource("6_uq7j5")
 texture_mode = 1
 script = ExtResource("7_l5pmb")
-metadata/CageValue = 4
+metadata/CageValue = 15
 
 [node name="Label" type="RichTextLabel" parent="Cage2" unique_id=1157767170]
-offset_left = 10.0
-offset_top = 5.0
-offset_right = 30.0
-offset_bottom = 28.0
-mouse_filter = 2
-theme_override_font_sizes/italics_font_size = 16
-bbcode_enabled = true
-text = "[i]15"
-
-[node name="Cage4" type="Line2D" parent="." unique_id=1873583723 groups=["Cage4"]]
-texture_repeat = 2
-position = Vector2(490, 498)
-points = PackedVector2Array(9, 7, 9, 112, 58, 112, 58, 7)
-closed = true
-width = 3.0
-default_color = Color(0.67058825, 0.67058825, 0.67058825, 1)
-texture = ExtResource("6_uq7j5")
-texture_mode = 1
-script = ExtResource("7_l5pmb")
-metadata/CageValue = 4
-
-[node name="Label" type="RichTextLabel" parent="Cage4" unique_id=932112598]
 offset_left = 10.0
 offset_top = 5.0
 offset_right = 30.0
@@ -2899,11 +2878,11 @@ position = Vector2(377, 499)
 points = PackedVector2Array(9, 7, 9, 55, 65.41042, 55.000008, 65, 111, 113, 111, 113, 7)
 closed = true
 width = 3.0
-default_color = Color(0.67058825, 0.67058825, 0.67058825, 1)
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
 texture = ExtResource("6_uq7j5")
 texture_mode = 1
 script = ExtResource("7_l5pmb")
-metadata/CageValue = 4
+metadata/CageValue = 13
 
 [node name="Label" type="RichTextLabel" parent="Cage3" unique_id=2107436267]
 offset_left = 10.0
@@ -2914,3 +2893,47 @@ mouse_filter = 2
 theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]13"
+
+[node name="Cage4" type="Line2D" parent="." unique_id=1873583723 groups=["Cage4"]]
+texture_repeat = 2
+position = Vector2(490, 498)
+points = PackedVector2Array(9, 7, 9, 112, 58, 112, 58, 7)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage4" unique_id=932112598]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]15"
+
+[node name="Cage5" type="Line2D" parent="." unique_id=783504569]
+texture_repeat = 2
+position = Vector2(434, 387)
+points = PackedVector2Array(9, 7, 9, 110, 113, 110, 113, 7)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 21
+
+[node name="Label" type="RichTextLabel" parent="Cage5" unique_id=1317215247]
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 30.0
+offset_bottom = 27.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]21"

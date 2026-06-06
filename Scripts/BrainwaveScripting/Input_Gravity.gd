@@ -25,9 +25,8 @@ func _on_text_changed(textfield: TextEdit) -> void:
 	recursive_fall()
 
 	this_label.text = textfield.text
-
-	check_groups_for_errors()
-	get_tree().call_group("hasError", "check_groups_for_errors")
+	
+	# checking for errors is called within recursive fall, since it usually fails to trigger in this function due to lack of focus
 
 func recursive_fall():
 	var textfield = self
@@ -48,6 +47,8 @@ func recursive_fall():
 			textfield.text = ""
 		else:
 			if cell_below.get_value_special() != "":
+				check_groups_for_errors()
+				get_tree().call_group("hasError", "check_groups_for_errors")
 				pass
 			else:
 				cell_below.text = textfield.text
@@ -59,18 +60,12 @@ func recursive_fall():
 	elif textfield.text != "":
 		if textfield.text == "-":
 			textfield.text = ""
+		else:
+			check_groups_for_errors()
+			get_tree().call_group("hasError", "check_groups_for_errors")
 
 func set_label_font():
 	if self.placeholder_text == "":
 		this_label.add_theme_font_override("normal_font", load("res://Fonts/Halogen.ttf"))
 	else:
 		this_label.add_theme_font_override("normal_font", load("res://Fonts/KIN668.TTF"))
-
-func reset():
-	if self.placeholder_text == "":
-		self.text = ""
-		get_child(0).text = ""
-	
-	if self.is_in_group("hasError"):
-		clear_red(this_label)
-		remove_from_group("hasError")

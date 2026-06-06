@@ -73,6 +73,7 @@ Level Select"
 script = ExtResource("4_uugyr")
 
 [node name="RetartButton" type="Button" parent="Control" unique_id=743880370]
+unique_name_in_owner = true
 layout_mode = 0
 offset_left = 970.0
 offset_top = 23.0
@@ -163,7 +164,7 @@ texture_repeat = 2
 position = Vector2(633, 116)
 points = PackedVector2Array(8, 6, 8, 128, 51, 178, 151, 179, 197, 86, 133, 6)
 closed = true
-default_color = Color(0.30513737, 0.39678526, 1, 1)
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
 texture = ExtResource("6_0xia4")
 texture_mode = 1
 script = ExtResource("7_mbfqw")

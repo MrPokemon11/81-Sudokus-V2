@@ -172,7 +172,7 @@ func clear_red(label: RichTextLabel) -> void:
 	label.remove_theme_color_override("default_color")
 
 func reset():
-	if self.editable:
+	if self.placeholder_text == "":
 		self.text = ""
 		get_child(0).text = ""
 	
