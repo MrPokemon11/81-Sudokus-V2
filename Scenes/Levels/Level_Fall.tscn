@@ -2135,7 +2135,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit67" type="TextEdit" parent="Control/TextEdits" unique_id=1095443937 groups=["Region8"]]
+[node name="TextEdit67" type="TextEdit" parent="Control/TextEdits" unique_id=1095443937 groups=["Cage4", "Region8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2425,7 +2425,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit76" type="TextEdit" parent="Control/TextEdits" unique_id=884780622 groups=["Region8"]]
+[node name="TextEdit76" type="TextEdit" parent="Control/TextEdits" unique_id=884780622 groups=["Cage4", "Region8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2818,12 +2818,13 @@ offset_left = 13.0
 offset_top = 85.0
 offset_right = 268.0
 offset_bottom = 300.0
-theme_override_font_sizes/normal_font_size = 18
-theme_override_font_sizes/bold_font_size = 18
-theme_override_font_sizes/italics_font_size = 18
+theme_override_font_sizes/normal_font_size = 16
+theme_override_font_sizes/bold_font_size = 16
+theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[b]Gravity[/b]: Inputs fall until they hit the bottom of the grid or another input. [b]Minus (-) deletes the input it lands on (except Givens).[/b]
-[b]Cage[/b]: The numbers within each cage must add up to the given sum (in italics)"
+[b]Cage[/b]: The numbers within each cage must add up to the given sum (in italics). [b]Inputs may not repeat within a cage.[/b]"
+fit_content = true
 horizontal_alignment = 1
 
 [node name="Cage1" type="Line2D" parent="." unique_id=54253675 groups=["Cage1"]]
@@ -2870,9 +2871,31 @@ theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]15"
 
+[node name="Cage4" type="Line2D" parent="." unique_id=1873583723 groups=["Cage4"]]
+texture_repeat = 2
+position = Vector2(490, 498)
+points = PackedVector2Array(9, 7, 9, 112, 58, 112, 58, 7)
+closed = true
+width = 3.0
+default_color = Color(0.67058825, 0.67058825, 0.67058825, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 4
+
+[node name="Label" type="RichTextLabel" parent="Cage4" unique_id=932112598]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]15"
+
 [node name="Cage3" type="Line2D" parent="." unique_id=308595282 groups=["Cage3"]]
 texture_repeat = 2
-position = Vector2(378, 498)
+position = Vector2(377, 499)
 points = PackedVector2Array(9, 7, 9, 55, 65.41042, 55.000008, 65, 111, 113, 111, 113, 7)
 closed = true
 width = 3.0

@@ -17,7 +17,7 @@ func _on_pressed(lvlNum: String) -> void:
 		#lvlNum = handle_next_level()	
 	
 	if (lvlNum.containsn("Back")): # return to the level select screen
-		save_level()
+		#save_level() # saves the level (doesn't work yet)
 		get_tree().change_scene_to_file("res://Scenes/MainScene.tscn")
 	else: # go to a specific level
 		if(FileAccess.file_exists("res://Scenes/Levels/" + str(lvlNum) + ".tscn")):

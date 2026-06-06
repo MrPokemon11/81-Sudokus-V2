@@ -51,9 +51,40 @@ func _ready() -> void:
 	if auto_focus:
 		apply_focusing()
 
-# handles traversing focus neighbors using arrow keys, since TextEdits don't seem able to do that by default
+# handles traversing focus neighbors using arrow keys, since TextEdits usually use them to move the carets
 func _gui_input(event: InputEvent) -> void:
-	pass
+	if event is InputEventKey and event.is_pressed():
+		match event.keycode:
+			# since there is always only one line and I don't care (much) about the caret's position,
+			# i can ignore those (for now)
+			
+			KEY_UP:
+				# if there is a top neighbor, move up
+				var top_neighbor = get_node_or_null(self.focus_neighbor_top)
+				if top_neighbor:
+					top_neighbor.grab_focus()
+					get_viewport().set_input_as_handled()
+			
+			KEY_DOWN:
+				# if there is a bottom neighbor, move down
+				var bottom_neighbor = get_node_or_null(self.focus_neighbor_bottom)
+				if bottom_neighbor:
+					bottom_neighbor.grab_focus()
+					get_viewport().set_input_as_handled()
+			
+			KEY_LEFT:
+				# if there is a left neighbor, move left
+				var left_neighbor = get_node_or_null(self.focus_neighbor_left)
+				if left_neighbor:
+					left_neighbor.grab_focus()
+					get_viewport().set_input_as_handled()
+			
+			KEY_RIGHT:
+				# if there is a right neighbor, move right
+				var right_neighbor = get_node_or_null(self.focus_neighbor_right)
+				if right_neighbor:
+					right_neighbor.grab_focus()
+					get_viewport().set_input_as_handled()
 
 func _unhandled_input(event: InputEvent) -> void:
 	pass
@@ -167,7 +198,7 @@ func apply_focusing() -> void: # apply Focus via code
 	if idNum > column_count: 
 		self.focus_neighbor_top = "../TextEdit" + str(idNum - column_count)
 	# if this node isn't in the bottom row, give it a bottom neighbor
-	# ONLY WORKS FOR SQUARE GRIDS (which is admittedly true for all of them)
+	# ONLY WORKS FOR SQUARE GRIDS (which is admittedly true for all that run this code)
 	if idNum + column_count < column_count * column_count:
 		self.focus_neighbor_bottom = "../TextEdit" + str(idNum + column_count)
 	# if this node isn't in the leftmost column, give it a left neighbor
