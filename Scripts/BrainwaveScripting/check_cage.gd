@@ -27,6 +27,7 @@ func _ready() -> void:
 		cage_group_name = cage_check[0]
 	
 	connect_to_group_members()
+	$RestartButton.pressed.connect(_on_receive_signal)
 	#print(cage_check)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

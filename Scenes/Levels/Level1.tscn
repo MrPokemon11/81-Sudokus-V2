@@ -506,7 +506,7 @@ text = "Return to
 Level Select"
 script = ExtResource("4_8h4de")
 
-[node name="RetartButton" type="Button" parent="Control" unique_id=775713051]
+[node name="RestartButton" type="Button" parent="Control" unique_id=775713051]
 layout_mode = 0
 offset_left = 970.0
 offset_top = 23.0
