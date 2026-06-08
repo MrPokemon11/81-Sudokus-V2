@@ -136,6 +136,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level11" type="Button" parent="Control/GridContainer" unique_id=1232700025]
 layout_mode = 2
 size_flags_vertical = 3
+tooltip_text = "Level 11: 1x1"
 theme = ExtResource("1_nhkr4")
 text = "11"
 flat = true
