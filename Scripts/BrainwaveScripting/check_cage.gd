@@ -8,6 +8,8 @@ var color_default
 func _ready() -> void:
 	var cage_value_value = get_child(0).text
 	if cage_value_value != "":
+		if cage_value_value.begins_with("[i]"):
+			cage_value_value = cage_value_value.right(-3)
 		if cage_value_value.is_valid_int():
 			cage_value = cage_value_value.to_int()
 		else:
@@ -22,12 +24,16 @@ func _ready() -> void:
 		if not group.begins_with("_"):
 			cage_check.push_back(group)
 	if cage_check.size() != 1:
-		printerr("The cage " + self.name + " has a group error! It should be in exactly 1 group, but is in the following groups: " + cage_check)
+		printerr("The cage " + self.name + " has a group error! It should be in exactly 1 group, but is in the following groups: " + str(cage_check))
 	else:
 		cage_group_name = cage_check[0]
 	
+	# if the cage is the only member of its group, throw an error
+	if get_tree().get_nodes_in_group(cage_group_name).size() <= 1:
+		printerr("The cage group " + cage_group_name + " has no cells in it!")
+	
 	connect_to_group_members()
-	$RestartButton.pressed.connect(_on_receive_signal)
+	%RestartButton.pressed.connect(_on_receive_signal)
 	#print(cage_check)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

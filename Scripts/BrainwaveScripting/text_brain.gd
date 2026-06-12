@@ -86,9 +86,6 @@ func _gui_input(event: InputEvent) -> void:
 					right_neighbor.grab_focus()
 					get_viewport().set_input_as_handled()
 
-func _unhandled_input(event: InputEvent) -> void:
-	pass
-
 func _on_text_changed(textfield: TextEdit) -> void:
 	# ensure no more than 1 line
 	if (textfield.get_line_count() > 1):
@@ -121,7 +118,7 @@ func check_groups_for_errors():
 	var regular_cell_groups = []
 	for group in get_groups():
 		if str(group).begins_with("Region") or str(group).begins_with("Row") or str(group).begins_with("Column"):
-			regular_cell_groups.push_back(group)	
+			regular_cell_groups.push_back(group)
 	
 	# get the nodes in the same row, column, and region as this node (there will be duplicates but w/e)
 	var nodes = []

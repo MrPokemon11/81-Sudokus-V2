@@ -1591,7 +1591,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit50" type="TextEdit" parent="Control/TextEdits" unique_id=1445826229 groups=["Region5"]]
+[node name="TextEdit50" type="TextEdit" parent="Control/TextEdits" unique_id=1445826229 groups=["Cage8", "Region5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1623,7 +1623,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit51" type="TextEdit" parent="Control/TextEdits" unique_id=22973288 groups=["Region5"]]
+[node name="TextEdit51" type="TextEdit" parent="Control/TextEdits" unique_id=22973288 groups=["Cage9", "Region5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1655,7 +1655,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit52" type="TextEdit" parent="Control/TextEdits" unique_id=1453790802 groups=["Region6"]]
+[node name="TextEdit52" type="TextEdit" parent="Control/TextEdits" unique_id=1453790802 groups=["Cage9", "Region6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1879,7 +1879,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit59" type="TextEdit" parent="Control/TextEdits" unique_id=128379972 groups=["Region8"]]
+[node name="TextEdit59" type="TextEdit" parent="Control/TextEdits" unique_id=128379972 groups=["Cage8", "Region8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1911,7 +1911,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit60" type="TextEdit" parent="Control/TextEdits" unique_id=1991217891 groups=["Region8"]]
+[node name="TextEdit60" type="TextEdit" parent="Control/TextEdits" unique_id=1991217891 groups=["Cage9", "Region8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2167,7 +2167,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit68" type="TextEdit" parent="Control/TextEdits" unique_id=880628949 groups=["Region8"]]
+[node name="TextEdit68" type="TextEdit" parent="Control/TextEdits" unique_id=880628949 groups=["Cage8", "Region8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2199,7 +2199,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit69" type="TextEdit" parent="Control/TextEdits" unique_id=2121722788 groups=["Region8"]]
+[node name="TextEdit69" type="TextEdit" parent="Control/TextEdits" unique_id=2121722788 groups=["Cage9", "Region8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2231,7 +2231,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit70" type="TextEdit" parent="Control/TextEdits" unique_id=2050703400 groups=["Region9"]]
+[node name="TextEdit70" type="TextEdit" parent="Control/TextEdits" unique_id=2050703400 groups=["Cage6", "Region9"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2263,7 +2263,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit71" type="TextEdit" parent="Control/TextEdits" unique_id=1357103683 groups=["Region9"]]
+[node name="TextEdit71" type="TextEdit" parent="Control/TextEdits" unique_id=1357103683 groups=["Cage6", "Region9"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2272,6 +2272,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+placeholder_text = "8"
 editable = false
 emoji_menu_enabled = false
 tab_input_mode = false
@@ -2295,7 +2296,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit72" type="TextEdit" parent="Control/TextEdits" unique_id=1663649512 groups=["Region9"]]
+[node name="TextEdit72" type="TextEdit" parent="Control/TextEdits" unique_id=1663649512 groups=["Cage7", "Region9"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2522,7 +2523,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit79" type="TextEdit" parent="Control/TextEdits" unique_id=687756749 groups=["Region9"]]
+[node name="TextEdit79" type="TextEdit" parent="Control/TextEdits" unique_id=687756749 groups=["Cage6", "Region9"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2531,6 +2532,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+placeholder_text = "5"
 editable = false
 emoji_menu_enabled = false
 tab_input_mode = false
@@ -2554,7 +2556,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit80" type="TextEdit" parent="Control/TextEdits" unique_id=1886347069 groups=["Region9"]]
+[node name="TextEdit80" type="TextEdit" parent="Control/TextEdits" unique_id=1886347069 groups=["Cage7", "Region9"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2563,6 +2565,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+placeholder_text = "7"
 editable = false
 emoji_menu_enabled = false
 tab_input_mode = false
@@ -2573,6 +2576,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 6.0
+offset_right = 6.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
@@ -2586,7 +2591,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit81" type="TextEdit" parent="Control/TextEdits" unique_id=1029712908 groups=["Region9"]]
+[node name="TextEdit81" type="TextEdit" parent="Control/TextEdits" unique_id=1029712908 groups=["Cage7", "Region9"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2853,7 +2858,7 @@ text = "[i]6"
 [node name="Cage2" type="Line2D" parent="." unique_id=509722079 groups=["Cage2"]]
 texture_repeat = 2
 position = Vector2(544, 554)
-points = PackedVector2Array(9, 7, 9, 55, 115, 55, 115, 7)
+points = PackedVector2Array(11, 7, 11, 55, 114, 55, 114, 7)
 closed = true
 width = 3.0
 default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
@@ -2872,10 +2877,32 @@ theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]15"
 
+[node name="Cage7" type="Line2D" parent="." unique_id=2014141348 groups=["Cage7"]]
+texture_repeat = 2
+position = Vector2(712, 554)
+points = PackedVector2Array(10, 6, 10, 55, 114, 55, 114, -49, 66, -49, 66, 6)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage7" unique_id=1084197493]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]10"
+
 [node name="Cage3" type="Line2D" parent="." unique_id=308595282 groups=["Cage3"]]
 texture_repeat = 2
 position = Vector2(377, 499)
-points = PackedVector2Array(9, 7, 9, 55, 65.41042, 55.000008, 65, 111, 113, 111, 113, 7)
+points = PackedVector2Array(9, 7, 9, 55, 65.41042, 55.000008, 65, 110, 113, 110, 113, 7)
 closed = true
 width = 3.0
 default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
@@ -2894,10 +2921,32 @@ theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]13"
 
+[node name="Cage6" type="Line2D" parent="." unique_id=1835428625 groups=["Cage6"]]
+texture_repeat = 2
+position = Vector2(659, 499)
+points = PackedVector2Array(9, 7, 9, 110, 57, 110, 57, 54, 112, 54, 112, 7)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 13
+
+[node name="Label" type="RichTextLabel" parent="Cage6" unique_id=1416733608]
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 30.0
+offset_bottom = 27.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]16"
+
 [node name="Cage4" type="Line2D" parent="." unique_id=1873583723 groups=["Cage4"]]
 texture_repeat = 2
 position = Vector2(490, 498)
-points = PackedVector2Array(9, 7, 9, 112, 58, 112, 58, 7)
+points = PackedVector2Array(9, 8, 9, 111, 58, 111, 58, 8)
 closed = true
 width = 3.0
 default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
@@ -2916,10 +2965,54 @@ theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]15"
 
-[node name="Cage5" type="Line2D" parent="." unique_id=783504569]
+[node name="Cage8" type="Line2D" parent="." unique_id=1958339043 groups=["Cage8"]]
+texture_repeat = 2
+position = Vector2(546, 386)
+points = PackedVector2Array(9, 8, 9, 167, 58, 167, 58, 8)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage8" unique_id=1101464]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]14"
+
+[node name="Cage9" type="Line2D" parent="." unique_id=1962384589 groups=["Cage9"]]
+texture_repeat = 2
+position = Vector2(601, 386)
+points = PackedVector2Array(9, 7, 9, 167, 58, 167, 58, 54, 115, 54, 115, 7)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage9" unique_id=1480862236]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]13"
+
+[node name="Cage5" type="Line2D" parent="." unique_id=783504569 groups=["Cage5"]]
 texture_repeat = 2
 position = Vector2(434, 387)
-points = PackedVector2Array(9, 7, 9, 110, 113, 110, 113, 7)
+points = PackedVector2Array(9, 7, 9, 110, 114, 110, 114, 7)
 closed = true
 width = 3.0
 default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
@@ -2931,8 +3024,8 @@ metadata/CageValue = 21
 [node name="Label" type="RichTextLabel" parent="Cage5" unique_id=1317215247]
 offset_left = 10.0
 offset_top = 4.0
-offset_right = 30.0
-offset_bottom = 27.0
+offset_right = 45.0
+offset_bottom = 29.0
 mouse_filter = 2
 theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
