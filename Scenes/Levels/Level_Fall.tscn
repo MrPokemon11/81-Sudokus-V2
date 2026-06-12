@@ -650,6 +650,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -2.0
+offset_right = -2.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
@@ -1143,7 +1145,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit36" type="TextEdit" parent="Control/TextEdits" unique_id=1443256176 groups=["Region6"]]
+[node name="TextEdit36" type="TextEdit" parent="Control/TextEdits" unique_id=1443256176 groups=["Cage11", "Region6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1335,7 +1337,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit42" type="TextEdit" parent="Control/TextEdits" unique_id=1481879575 groups=["Region5"]]
+[node name="TextEdit42" type="TextEdit" parent="Control/TextEdits" unique_id=1481879575 groups=["Cage12", "Region5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1367,7 +1369,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit43" type="TextEdit" parent="Control/TextEdits" unique_id=1290123764 groups=["Region6"]]
+[node name="TextEdit43" type="TextEdit" parent="Control/TextEdits" unique_id=1290123764 groups=["Cage12", "Region6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1399,7 +1401,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit44" type="TextEdit" parent="Control/TextEdits" unique_id=1456678806 groups=["Region6"]]
+[node name="TextEdit44" type="TextEdit" parent="Control/TextEdits" unique_id=1456678806 groups=["Cage11", "Region6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1431,7 +1433,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit45" type="TextEdit" parent="Control/TextEdits" unique_id=1084993693 groups=["Region6"]]
+[node name="TextEdit45" type="TextEdit" parent="Control/TextEdits" unique_id=1084993693 groups=["Cage11", "Region6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1687,7 +1689,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit53" type="TextEdit" parent="Control/TextEdits" unique_id=1232731858 groups=["Region6"]]
+[node name="TextEdit53" type="TextEdit" parent="Control/TextEdits" unique_id=1232731858 groups=["Cage10", "Region6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1719,7 +1721,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit54" type="TextEdit" parent="Control/TextEdits" unique_id=1861004243 groups=["Region6"]]
+[node name="TextEdit54" type="TextEdit" parent="Control/TextEdits" unique_id=1861004243 groups=["Cage11", "Region6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1943,7 +1945,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit61" type="TextEdit" parent="Control/TextEdits" unique_id=567580277 groups=["Region9"]]
+[node name="TextEdit61" type="TextEdit" parent="Control/TextEdits" unique_id=567580277 groups=["Cage10", "Region9"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1975,7 +1977,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit62" type="TextEdit" parent="Control/TextEdits" unique_id=1307548320 groups=["Region9"]]
+[node name="TextEdit62" type="TextEdit" parent="Control/TextEdits" unique_id=1307548320 groups=["Cage10", "Region9"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2007,7 +2009,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit63" type="TextEdit" parent="Control/TextEdits" unique_id=1093454116 groups=["Region9"]]
+[node name="TextEdit63" type="TextEdit" parent="Control/TextEdits" unique_id=1093454116 groups=["Cage10", "Region9"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -2112,6 +2114,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_nwtpk")
+placeholder_text = "1"
 editable = false
 emoji_menu_enabled = false
 tab_input_mode = false
@@ -2877,6 +2880,98 @@ theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]15"
 
+[node name="Cage12" type="Line2D" parent="." unique_id=1396844594 groups=["Cage12"]]
+texture_repeat = 2
+position = Vector2(600, 331)
+points = PackedVector2Array(10, 6, 10, 56, 116, 56, 116, 6)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage12" unique_id=859597193]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]10"
+metadata/_edit_use_anchors_ = true
+
+[node name="Cage20" type="Line2D" parent="." unique_id=951710738 groups=["Cage20"]]
+texture_repeat = 2
+position = Vector2(375, 163)
+points = PackedVector2Array(10, 6, 10, 56, 116, 56, 116, 6)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage20" unique_id=246932711]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]10"
+metadata/_edit_use_anchors_ = true
+
+[node name="Cage21" type="Line2D" parent="." unique_id=1882709007 groups=["Cage21"]]
+texture_repeat = 2
+position = Vector2(376, 107)
+points = PackedVector2Array(10, 6, 10, 56, 172, 56, 172, 6)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage21" unique_id=1327853521]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]10"
+metadata/_edit_use_anchors_ = true
+
+[node name="Cage16" type="Line2D" parent="." unique_id=1902376487 groups=["Cage16"]]
+texture_repeat = 2
+position = Vector2(320, 331)
+points = PackedVector2Array(10, -50, 10, 56, 116, 56, 116, 6, 60, 6, 60, -50)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage16" unique_id=1931184145]
+offset_left = 10.0
+offset_top = -54.0
+offset_right = 30.0
+offset_bottom = -31.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]10"
+metadata/_edit_use_anchors_ = true
+
 [node name="Cage7" type="Line2D" parent="." unique_id=2014141348 groups=["Cage7"]]
 texture_repeat = 2
 position = Vector2(712, 554)
@@ -2898,6 +2993,74 @@ mouse_filter = 2
 theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]10"
+
+[node name="Cage18" type="Line2D" parent="." unique_id=659053267 groups=["Cage18"]]
+texture_repeat = 2
+position = Vector2(657, 276)
+points = PackedVector2Array(10, 6, 10, 55, 114, 55, 114, -49, 66, -49, 66, 6)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage18" unique_id=47911393]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]15"
+
+[node name="Cage10" type="Line2D" parent="." unique_id=378864094 groups=["Cage10"]]
+texture_repeat = 2
+position = Vector2(657, 443)
+points = PackedVector2Array(10, 7, 10, 55, 171, 55, 171, 7, 115, 7, 115, -50, 65, -50, 65, 7)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage10" unique_id=2005673132]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]21"
+
+[node name="Cage11" type="Line2D" parent="." unique_id=1364463910 groups=["Cage11"]]
+texture_repeat = 2
+position = Vector2(772, 452)
+rotation = -1.5707964
+points = PackedVector2Array(11, 7, 11, 55, 171, 55, 171, 7, 115, 7, 115, -50, 65, -50, 65, 7)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage11" unique_id=551336908]
+offset_left = 116.0
+offset_top = -48.999996
+offset_right = 136.0
+offset_bottom = -25.999996
+rotation = 1.5707964
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]22"
 
 [node name="Cage3" type="Line2D" parent="." unique_id=308595282 groups=["Cage3"]]
 texture_repeat = 2
@@ -2965,10 +3128,32 @@ theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]15"
 
+[node name="Cage19" type="Line2D" parent="." unique_id=320628124 groups=["Cage19"]]
+texture_repeat = 2
+position = Vector2(322, 106)
+points = PackedVector2Array(9, 8, 9, 166, 58, 166, 58, 8)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage19" unique_id=639281309]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]15"
+
 [node name="Cage8" type="Line2D" parent="." unique_id=1958339043 groups=["Cage8"]]
 texture_repeat = 2
 position = Vector2(546, 386)
-points = PackedVector2Array(9, 8, 9, 167, 58, 167, 58, 8)
+points = PackedVector2Array(8, 7, 8, 167, 58, 167, 58, 7)
 closed = true
 width = 3.0
 default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
@@ -2986,6 +3171,50 @@ mouse_filter = 2
 theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]14"
+
+[node name="Cage15" type="Line2D" parent="." unique_id=341877892 groups=["Cage15"]]
+texture_repeat = 2
+position = Vector2(378, 389)
+points = PackedVector2Array(8, 4, 8, 109, 58, 109, 58, 4)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage15" unique_id=1122595673]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]13"
+
+[node name="Cage14" type="Line2D" parent="." unique_id=465851397 groups=["Cage14"]]
+texture_repeat = 2
+position = Vector2(322, 386)
+points = PackedVector2Array(8, 7, 8, 167, 58, 167, 58, 7)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 15
+
+[node name="Label" type="RichTextLabel" parent="Cage14" unique_id=320036803]
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 30.0
+offset_bottom = 28.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]17"
 
 [node name="Cage9" type="Line2D" parent="." unique_id=1962384589 groups=["Cage9"]]
 texture_repeat = 2
@@ -3012,7 +3241,7 @@ text = "[i]13"
 [node name="Cage5" type="Line2D" parent="." unique_id=783504569 groups=["Cage5"]]
 texture_repeat = 2
 position = Vector2(434, 387)
-points = PackedVector2Array(9, 7, 9, 110, 114, 110, 114, 7)
+points = PackedVector2Array(8, 6, 8, 110, 114, 110, 114, 6)
 closed = true
 width = 3.0
 default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
@@ -3030,3 +3259,49 @@ mouse_filter = 2
 theme_override_font_sizes/italics_font_size = 16
 bbcode_enabled = true
 text = "[i]21"
+
+[node name="Cage13" type="Line2D" parent="." unique_id=361590056 groups=["Cage13"]]
+texture_repeat = 2
+position = Vector2(491, 276)
+points = PackedVector2Array(8, 6, 8, 110, 113, 110, 113, 55, 168, 55, 168, 6)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 21
+
+[node name="Label" type="RichTextLabel" parent="Cage13" unique_id=1169948852]
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 45.0
+offset_bottom = 29.0
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]27"
+
+[node name="Cage17" type="Line2D" parent="." unique_id=179425380 groups=["Cage17"]]
+texture_repeat = 2
+position = Vector2(497, 218)
+rotation = 1.5707964
+points = PackedVector2Array(8, 6, 8, 111, 113, 111, 113, 55, 168, 55, 168, 6)
+closed = true
+width = 3.0
+default_color = Color(0.79607844, 0.79607844, 0.79607844, 1)
+texture = ExtResource("6_uq7j5")
+texture_mode = 1
+script = ExtResource("7_l5pmb")
+metadata/CageValue = 21
+
+[node name="Label" type="RichTextLabel" parent="Cage17" unique_id=1712634306]
+offset_left = 5.000005
+offset_top = 110.0
+offset_right = 40.000004
+offset_bottom = 135.0
+rotation = -1.5707964
+mouse_filter = 2
+theme_override_font_sizes/italics_font_size = 16
+bbcode_enabled = true
+text = "[i]30"
