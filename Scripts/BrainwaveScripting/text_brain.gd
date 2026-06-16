@@ -8,6 +8,7 @@ var hasError = false
 var error_checked = false
 var this_label
 var column_count
+@export var allow_multiple_regions = false
 @export var auto_focus = true
 
 func _ready() -> void:
@@ -23,7 +24,7 @@ func _ready() -> void:
 	for groups in get_groups():
 		if groups.begins_with("Region"):
 			region_check += 1
-	if region_check != 1:
+	if region_check != 1 and !allow_multiple_regions:
 		printerr("The cell " + self.name + " has a region error! It is in this many regions: " + str(region_check))
 	
 	# the below code block may look silly, but it handles the various ways i've set up the cells

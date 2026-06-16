@@ -1,57 +1,48 @@
-[gd_scene format=3 uid="uid://boky266x0ui4p"]
+[gd_scene format=3 uid="uid://b3odfvut73u70"]
 
-[ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_axpb2"]
-[ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_dmr6c"]
-[ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_sjdby"]
-[ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_drtos"]
-[ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_k1hmj"]
-[ext_resource type="Shader" uid="uid://dfn2calb8xnvk" path="res://Shaders/flashlight_shader_2.gdshader" id="6_dmr6c"]
-[ext_resource type="Script" uid="uid://bq7rogq0t1r4t" path="res://Scripts/move_flashlight.gd" id="7_sjdby"]
+[ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_cpnrc"]
+[ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_echef"]
+[ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_t75vb"]
+[ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_1vxep"]
+[ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_7sl2c"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mannw"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iuejl"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_sjdby"]
-resource_local_to_scene = true
-shader = ExtResource("6_dmr6c")
-shader_parameter/center = Vector2(0.5, 0.5)
-shader_parameter/radius = 0.1750000083125
+[node name="LevelLegalII" type="Node2D" unique_id=1928273271]
 
-[node name="Level_LightsOut" type="Node2D" unique_id=1548620592]
-
-[node name="Background" type="Polygon2D" parent="." unique_id=1387804128]
+[node name="Background" type="Polygon2D" parent="." unique_id=1856067116]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)
 polygon = PackedVector2Array(-13, -11, 1165, -9, 1159, 664, -12, 664)
 
-[node name="Control" type="Control" parent="." unique_id=23086545]
+[node name="Control" type="Control" parent="." unique_id=463481006]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="TextEdits" type="GridContainer" parent="Control" unique_id=1924593583]
+[node name="TextEdits" type="GridContainer" parent="Control" unique_id=1452942850]
 layout_mode = 0
 offset_left = 329.0
 offset_top = 112.0
 offset_right = 829.0
 offset_bottom = 612.0
 columns = 9
-script = ExtResource("1_axpb2")
+script = ExtResource("1_cpnrc")
 metadata/validInputs = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=49249150 groups=["Region1"]]
+[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=163092615]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "9"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit1" unique_id=994153403]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit1" unique_id=234185046]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -62,27 +53,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=496460290 groups=["Region1"]]
+[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=726668824]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "7"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit2" unique_id=512021290]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit2" unique_id=814355198]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -93,26 +83,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=2121024530 groups=["Region1"]]
+[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=1236320418]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit3" unique_id=2101211877]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit3" unique_id=266594209]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -123,26 +113,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=1919689128 groups=["Region2"]]
+[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=80170153]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit4" unique_id=812009676]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit4" unique_id=291993311]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -153,27 +143,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=624313120 groups=["Region2"]]
+[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=1602453952]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "3"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit5" unique_id=67759505]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit5" unique_id=1594637813]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -184,26 +173,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=693480408 groups=["Region2"]]
+[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=1502482792]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit6" unique_id=604255629]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit6" unique_id=1300696069]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -214,26 +203,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=336236581 groups=["Region3"]]
+[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=1187195139]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit7" unique_id=68049184]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit7" unique_id=6251517]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -244,26 +233,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=756172914 groups=["Region3"]]
+[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=391776168]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit8" unique_id=406263040]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit8" unique_id=1073340312]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -274,27 +263,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=2053624333 groups=["Region3"]]
+[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=337626341]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "4"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit9" unique_id=925737560]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit9" unique_id=1046999549]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -305,27 +293,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=310897166 groups=["Region1"]]
+[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=1324753249]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "3"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit10" unique_id=1173482755]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit10" unique_id=1718676222]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -336,27 +323,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=2048300405 groups=["Region1"]]
+[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=1852029852]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "4"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit11" unique_id=793239604]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit11" unique_id=798006606]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -367,26 +353,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=50251015 groups=["Region1"]]
+[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=1466733724]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit12" unique_id=322192877]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit12" unique_id=80502996]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -397,27 +383,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=1376193728 groups=["Region2"]]
+[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=1939441352]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "6"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit13" unique_id=2096385928]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit13" unique_id=2088029691]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -428,26 +413,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=336267192 groups=["Region2"]]
+[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=321263061]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit14" unique_id=348011071]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit14" unique_id=1311010654]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -458,27 +443,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=654583440 groups=["Region2"]]
+[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=649684568]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "2"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit15" unique_id=1184565435]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit15" unique_id=1438899793]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -489,26 +473,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit16" type="TextEdit" parent="Control/TextEdits" unique_id=300813398 groups=["Region3"]]
+[node name="TextEdit16" type="TextEdit" parent="Control/TextEdits" unique_id=1418095662]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit16" unique_id=720116467]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit16" unique_id=1422144836]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -519,27 +503,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit17" type="TextEdit" parent="Control/TextEdits" unique_id=448481439 groups=["Region3"]]
+[node name="TextEdit17" type="TextEdit" parent="Control/TextEdits" unique_id=1848025746]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "5"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit17" unique_id=1913049393]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit17" unique_id=1405443471]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -550,26 +533,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit18" type="TextEdit" parent="Control/TextEdits" unique_id=1134312306 groups=["Region3"]]
+[node name="TextEdit18" type="TextEdit" parent="Control/TextEdits" unique_id=64378783]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit18" unique_id=1063716561]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit18" unique_id=1716224047]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -580,27 +563,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit19" type="TextEdit" parent="Control/TextEdits" unique_id=906447444 groups=["Region1"]]
+[node name="TextEdit19" type="TextEdit" parent="Control/TextEdits" unique_id=2055157217]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "6"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit19" unique_id=1041848030]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit19" unique_id=1926558160]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -611,27 +593,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit20" type="TextEdit" parent="Control/TextEdits" unique_id=1661645481 groups=["Region1"]]
+[node name="TextEdit20" type="TextEdit" parent="Control/TextEdits" unique_id=2146131499]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "8"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit20" unique_id=462502030]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit20" unique_id=464607888]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -642,27 +623,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit21" type="TextEdit" parent="Control/TextEdits" unique_id=1995345201 groups=["Region1"]]
+[node name="TextEdit21" type="TextEdit" parent="Control/TextEdits" unique_id=1704379327]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "2"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit21" unique_id=1205468476]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit21" unique_id=545134811]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -673,26 +653,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit22" type="TextEdit" parent="Control/TextEdits" unique_id=848544144 groups=["Region2"]]
+[node name="TextEdit22" type="TextEdit" parent="Control/TextEdits" unique_id=1727193211]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit22" unique_id=1925250313]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit22" unique_id=956362335]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -703,26 +683,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit23" type="TextEdit" parent="Control/TextEdits" unique_id=1352417078 groups=["Region2"]]
+[node name="TextEdit23" type="TextEdit" parent="Control/TextEdits" unique_id=1740159057]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit23" unique_id=2139289497]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit23" unique_id=142905051]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -733,27 +713,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit24" type="TextEdit" parent="Control/TextEdits" unique_id=1418928680 groups=["Region2"]]
+[node name="TextEdit24" type="TextEdit" parent="Control/TextEdits" unique_id=1774997378]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "4"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit24" unique_id=865648817]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit24" unique_id=819293483]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -764,26 +743,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit25" type="TextEdit" parent="Control/TextEdits" unique_id=1468662273 groups=["Region3"]]
+[node name="TextEdit25" type="TextEdit" parent="Control/TextEdits" unique_id=151692066]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit25" unique_id=567686078]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit25" unique_id=1446945554]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -794,26 +773,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit26" type="TextEdit" parent="Control/TextEdits" unique_id=2053818839 groups=["Region3"]]
+[node name="TextEdit26" type="TextEdit" parent="Control/TextEdits" unique_id=687840010]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit26" unique_id=1459174615]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit26" unique_id=1313678814]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -824,26 +803,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit27" type="TextEdit" parent="Control/TextEdits" unique_id=40181672 groups=["Region3"]]
+[node name="TextEdit27" type="TextEdit" parent="Control/TextEdits" unique_id=1643313744]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit27" unique_id=836571870]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit27" unique_id=709820680]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -854,27 +833,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit28" type="TextEdit" parent="Control/TextEdits" unique_id=148467898 groups=["Region4"]]
+[node name="TextEdit28" type="TextEdit" parent="Control/TextEdits" unique_id=1406976910]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "2"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit28" unique_id=976955229]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit28" unique_id=1018346704]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -885,26 +863,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit29" type="TextEdit" parent="Control/TextEdits" unique_id=1487460845 groups=["Region4"]]
+[node name="TextEdit29" type="TextEdit" parent="Control/TextEdits" unique_id=1476447014]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit29" unique_id=1057880450]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit29" unique_id=339626302]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -915,26 +893,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit30" type="TextEdit" parent="Control/TextEdits" unique_id=12645398 groups=["Region4"]]
+[node name="TextEdit30" type="TextEdit" parent="Control/TextEdits" unique_id=1988867006]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit30" unique_id=331274857]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit30" unique_id=726112676]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -945,27 +923,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit31" type="TextEdit" parent="Control/TextEdits" unique_id=986095619 groups=["Region5"]]
+[node name="TextEdit31" type="TextEdit" parent="Control/TextEdits" unique_id=874787650]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "9"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit31" unique_id=530694027]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit31" unique_id=168202158]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -976,26 +953,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit32" type="TextEdit" parent="Control/TextEdits" unique_id=624675977 groups=["Region5"]]
+[node name="TextEdit32" type="TextEdit" parent="Control/TextEdits" unique_id=1739134085]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit32" unique_id=1561753542]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit32" unique_id=1354645218]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1006,26 +983,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit33" type="TextEdit" parent="Control/TextEdits" unique_id=1023338955 groups=["Region5"]]
+[node name="TextEdit33" type="TextEdit" parent="Control/TextEdits" unique_id=1858122993]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit33" unique_id=658365906]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit33" unique_id=1627922399]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1036,26 +1013,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit34" type="TextEdit" parent="Control/TextEdits" unique_id=264132577 groups=["Region6"]]
+[node name="TextEdit34" type="TextEdit" parent="Control/TextEdits" unique_id=1994602770]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit34" unique_id=2071549463]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit34" unique_id=161653541]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1066,27 +1043,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit35" type="TextEdit" parent="Control/TextEdits" unique_id=757650410 groups=["Region6"]]
+[node name="TextEdit35" type="TextEdit" parent="Control/TextEdits" unique_id=1657003544]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "6"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit35" unique_id=1494491853]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit35" unique_id=1890793231]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1097,26 +1073,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit36" type="TextEdit" parent="Control/TextEdits" unique_id=1501261816 groups=["Region6"]]
+[node name="TextEdit36" type="TextEdit" parent="Control/TextEdits" unique_id=484675068]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit36" unique_id=742831308]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit36" unique_id=972758686]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1127,27 +1103,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit37" type="TextEdit" parent="Control/TextEdits" unique_id=1536872978 groups=["Region4"]]
+[node name="TextEdit37" type="TextEdit" parent="Control/TextEdits" unique_id=1633017212]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "4"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit37" unique_id=1836497133]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit37" unique_id=2138648827]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1158,26 +1133,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit38" type="TextEdit" parent="Control/TextEdits" unique_id=1656119957 groups=["Region4"]]
+[node name="TextEdit38" type="TextEdit" parent="Control/TextEdits" unique_id=2011746644]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit38" unique_id=218323760]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit38" unique_id=1759711850]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1188,27 +1163,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit39" type="TextEdit" parent="Control/TextEdits" unique_id=1917213645 groups=["Region4"]]
+[node name="TextEdit39" type="TextEdit" parent="Control/TextEdits" unique_id=875673159]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "6"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit39" unique_id=1958686626]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit39" unique_id=2107636350]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1219,27 +1193,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit40" type="TextEdit" parent="Control/TextEdits" unique_id=593615474 groups=["Region5"]]
+[node name="TextEdit40" type="TextEdit" parent="Control/TextEdits" unique_id=1222480786]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "1"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit40" unique_id=1140402979]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit40" unique_id=836389694]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1250,26 +1223,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit41" type="TextEdit" parent="Control/TextEdits" unique_id=544222960 groups=["Region5"]]
+[node name="TextEdit41" type="TextEdit" parent="Control/TextEdits" unique_id=147327010]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit41" unique_id=40726353]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit41" unique_id=1862308164]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1280,27 +1253,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit42" type="TextEdit" parent="Control/TextEdits" unique_id=908510032 groups=["Region5"]]
+[node name="TextEdit42" type="TextEdit" parent="Control/TextEdits" unique_id=1885768931]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "8"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit42" unique_id=778531583]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit42" unique_id=1257485164]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1311,26 +1283,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit43" type="TextEdit" parent="Control/TextEdits" unique_id=646917187 groups=["Region6"]]
+[node name="TextEdit43" type="TextEdit" parent="Control/TextEdits" unique_id=718157136]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit43" unique_id=422711550]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit43" unique_id=1080742093]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1341,27 +1313,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit44" type="TextEdit" parent="Control/TextEdits" unique_id=1873505979 groups=["Region6"]]
+[node name="TextEdit44" type="TextEdit" parent="Control/TextEdits" unique_id=259072896]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "7"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit44" unique_id=359884147]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit44" unique_id=553149723]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1372,27 +1343,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit45" type="TextEdit" parent="Control/TextEdits" unique_id=1334071293 groups=["Region6"]]
+[node name="TextEdit45" type="TextEdit" parent="Control/TextEdits" unique_id=735248728]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "9"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit45" unique_id=1032458593]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit45" unique_id=1924887053]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1403,26 +1373,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit46" type="TextEdit" parent="Control/TextEdits" unique_id=97190606 groups=["Region4"]]
+[node name="TextEdit46" type="TextEdit" parent="Control/TextEdits" unique_id=1003042076]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit46" unique_id=498276109]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit46" unique_id=452054861]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1433,27 +1403,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit47" type="TextEdit" parent="Control/TextEdits" unique_id=1613705507 groups=["Region4"]]
+[node name="TextEdit47" type="TextEdit" parent="Control/TextEdits" unique_id=284878700]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "9"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit47" unique_id=1122549672]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit47" unique_id=216240478]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1464,26 +1433,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit48" type="TextEdit" parent="Control/TextEdits" unique_id=152026595 groups=["Region4"]]
+[node name="TextEdit48" type="TextEdit" parent="Control/TextEdits" unique_id=254175529]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit48" unique_id=1112458146]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit48" unique_id=1002099000]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1494,27 +1463,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit49" type="TextEdit" parent="Control/TextEdits" unique_id=1033883963 groups=["Region5"]]
+[node name="TextEdit49" type="TextEdit" parent="Control/TextEdits" unique_id=1698203347]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "3"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit49" unique_id=905851155]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit49" unique_id=64241909]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1525,27 +1493,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit50" type="TextEdit" parent="Control/TextEdits" unique_id=2132289244 groups=["Region5"]]
+[node name="TextEdit50" type="TextEdit" parent="Control/TextEdits" unique_id=1162639917]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "6"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit50" unique_id=1313362667]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit50" unique_id=1670496469]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1556,26 +1523,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit51" type="TextEdit" parent="Control/TextEdits" unique_id=1545183678 groups=["Region5"]]
+[node name="TextEdit51" type="TextEdit" parent="Control/TextEdits" unique_id=274684773]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit51" unique_id=757861437]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit51" unique_id=1806943194]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1586,27 +1553,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit52" type="TextEdit" parent="Control/TextEdits" unique_id=1999839090 groups=["Region6"]]
+[node name="TextEdit52" type="TextEdit" parent="Control/TextEdits" unique_id=1318424349]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "2"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit52" unique_id=1795765969]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit52" unique_id=138916197]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1617,26 +1583,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit53" type="TextEdit" parent="Control/TextEdits" unique_id=123340541 groups=["Region6"]]
+[node name="TextEdit53" type="TextEdit" parent="Control/TextEdits" unique_id=697402779]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit53" unique_id=1553162210]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit53" unique_id=1654577155]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1647,27 +1613,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit54" type="TextEdit" parent="Control/TextEdits" unique_id=1348700165 groups=["Region6"]]
+[node name="TextEdit54" type="TextEdit" parent="Control/TextEdits" unique_id=1558211581]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "5"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit54" unique_id=148572893]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit54" unique_id=521775573]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1678,26 +1643,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit55" type="TextEdit" parent="Control/TextEdits" unique_id=704167237 groups=["Region7"]]
+[node name="TextEdit55" type="TextEdit" parent="Control/TextEdits" unique_id=537367793]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit55" unique_id=452869932]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit55" unique_id=567552487]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1708,26 +1673,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit56" type="TextEdit" parent="Control/TextEdits" unique_id=1279197945 groups=["Region7"]]
+[node name="TextEdit56" type="TextEdit" parent="Control/TextEdits" unique_id=312313905]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit56" unique_id=1072323081]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit56" unique_id=1706842639]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1738,27 +1703,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit57" type="TextEdit" parent="Control/TextEdits" unique_id=1053749513 groups=["Region7"]]
+[node name="TextEdit57" type="TextEdit" parent="Control/TextEdits" unique_id=313067668]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "3"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit57" unique_id=1312807405]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit57" unique_id=658238541]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1769,26 +1733,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit58" type="TextEdit" parent="Control/TextEdits" unique_id=1911630061 groups=["Region8"]]
+[node name="TextEdit58" type="TextEdit" parent="Control/TextEdits" unique_id=1763405792]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit58" unique_id=897651661]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit58" unique_id=1084112587]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1799,26 +1763,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit59" type="TextEdit" parent="Control/TextEdits" unique_id=1505736039 groups=["Region8"]]
+[node name="TextEdit59" type="TextEdit" parent="Control/TextEdits" unique_id=1473031989]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit59" unique_id=1353845257]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit59" unique_id=1108805692]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1829,26 +1793,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit60" type="TextEdit" parent="Control/TextEdits" unique_id=1351071160 groups=["Region8"]]
+[node name="TextEdit60" type="TextEdit" parent="Control/TextEdits" unique_id=1819239567]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit60" unique_id=745595521]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit60" unique_id=512795208]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1859,27 +1823,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit61" type="TextEdit" parent="Control/TextEdits" unique_id=2008265862 groups=["Region9"]]
+[node name="TextEdit61" type="TextEdit" parent="Control/TextEdits" unique_id=2025112301]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "4"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit61" unique_id=1201585852]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit61" unique_id=1245667992]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1890,27 +1853,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit62" type="TextEdit" parent="Control/TextEdits" unique_id=314048822 groups=["Region9"]]
+[node name="TextEdit62" type="TextEdit" parent="Control/TextEdits" unique_id=825813508]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "8"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit62" unique_id=1915971769]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit62" unique_id=327472613]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1921,27 +1883,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit63" type="TextEdit" parent="Control/TextEdits" unique_id=1476450683 groups=["Region9"]]
+[node name="TextEdit63" type="TextEdit" parent="Control/TextEdits" unique_id=58712078]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "2"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit63" unique_id=1561199868]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit63" unique_id=1367274288]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1952,26 +1913,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit64" type="TextEdit" parent="Control/TextEdits" unique_id=199507910 groups=["Region7"]]
+[node name="TextEdit64" type="TextEdit" parent="Control/TextEdits" unique_id=1374097177]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit64" unique_id=465905866]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit64" unique_id=1136193605]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1982,27 +1943,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit65" type="TextEdit" parent="Control/TextEdits" unique_id=246632549 groups=["Region7"]]
+[node name="TextEdit65" type="TextEdit" parent="Control/TextEdits" unique_id=1226198034]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "2"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit65" unique_id=230571745]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit65" unique_id=1917389780]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2013,26 +1973,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit66" type="TextEdit" parent="Control/TextEdits" unique_id=1845943830 groups=["Region7"]]
+[node name="TextEdit66" type="TextEdit" parent="Control/TextEdits" unique_id=435940539]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit66" unique_id=606396211]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit66" unique_id=1157682120]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2043,26 +2003,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit67" type="TextEdit" parent="Control/TextEdits" unique_id=1665873595 groups=["Region8"]]
+[node name="TextEdit67" type="TextEdit" parent="Control/TextEdits" unique_id=1372136620]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit67" unique_id=1338413769]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit67" unique_id=755086292]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2073,27 +2033,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit68" type="TextEdit" parent="Control/TextEdits" unique_id=1268408710 groups=["Region8"]]
+[node name="TextEdit68" type="TextEdit" parent="Control/TextEdits" unique_id=2113899686]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "8"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit68" unique_id=1163906463]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit68" unique_id=1049456924]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2104,27 +2063,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit69" type="TextEdit" parent="Control/TextEdits" unique_id=858356611 groups=["Region8"]]
+[node name="TextEdit69" type="TextEdit" parent="Control/TextEdits" unique_id=307790608]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "6"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit69" unique_id=1892934128]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit69" unique_id=635867887]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2135,27 +2093,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit70" type="TextEdit" parent="Control/TextEdits" unique_id=4836383 groups=["Region9"]]
+[node name="TextEdit70" type="TextEdit" parent="Control/TextEdits" unique_id=272126462]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "5"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit70" unique_id=116556088]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit70" unique_id=654886515]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2166,27 +2123,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit71" type="TextEdit" parent="Control/TextEdits" unique_id=993230350 groups=["Region9"]]
+[node name="TextEdit71" type="TextEdit" parent="Control/TextEdits" unique_id=376811677]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
-placeholder_text = "3"
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit71" unique_id=1101828163]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit71" unique_id=2033467262]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2197,26 +2153,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit72" type="TextEdit" parent="Control/TextEdits" unique_id=1528970319 groups=["Region9"]]
+[node name="TextEdit72" type="TextEdit" parent="Control/TextEdits" unique_id=1633187759]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit72" unique_id=706356676]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit72" unique_id=1594183811]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2227,26 +2183,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit73" type="TextEdit" parent="Control/TextEdits" unique_id=1532893605 groups=["Region7"]]
+[node name="TextEdit73" type="TextEdit" parent="Control/TextEdits" unique_id=296487471]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit73" unique_id=1599699337]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit73" unique_id=13395691]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2257,26 +2213,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit74" type="TextEdit" parent="Control/TextEdits" unique_id=287581344 groups=["Region7"]]
+[node name="TextEdit74" type="TextEdit" parent="Control/TextEdits" unique_id=432944305]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit74" unique_id=1719325422]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit74" unique_id=1170128721]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2287,26 +2243,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit75" type="TextEdit" parent="Control/TextEdits" unique_id=775592459 groups=["Region7"]]
+[node name="TextEdit75" type="TextEdit" parent="Control/TextEdits" unique_id=931443884]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit75" unique_id=806455442]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit75" unique_id=1593427157]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2317,26 +2273,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit76" type="TextEdit" parent="Control/TextEdits" unique_id=1560059804 groups=["Region8"]]
+[node name="TextEdit76" type="TextEdit" parent="Control/TextEdits" unique_id=205141280]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit76" unique_id=1834672770]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit76" unique_id=1274361739]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2347,26 +2303,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit77" type="TextEdit" parent="Control/TextEdits" unique_id=2112083777 groups=["Region8"]]
+[node name="TextEdit77" type="TextEdit" parent="Control/TextEdits" unique_id=1712297876]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit77" unique_id=2085404757]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit77" unique_id=1941811869]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2377,26 +2333,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit78" type="TextEdit" parent="Control/TextEdits" unique_id=1184953983 groups=["Region8"]]
+[node name="TextEdit78" type="TextEdit" parent="Control/TextEdits" unique_id=2039659885]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit78" unique_id=1958084486]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit78" unique_id=657813161]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2407,26 +2363,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit79" type="TextEdit" parent="Control/TextEdits" unique_id=681854443 groups=["Region9"]]
+[node name="TextEdit79" type="TextEdit" parent="Control/TextEdits" unique_id=2073960583]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit79" unique_id=1182797370]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit79" unique_id=97478800]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2437,26 +2393,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit80" type="TextEdit" parent="Control/TextEdits" unique_id=1153364597 groups=["Region9"]]
+[node name="TextEdit80" type="TextEdit" parent="Control/TextEdits" unique_id=1723608511]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit80" unique_id=995569304]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit80" unique_id=2079021317]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2467,26 +2423,26 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit81" type="TextEdit" parent="Control/TextEdits" unique_id=458248635 groups=["Region9"]]
+[node name="TextEdit81" type="TextEdit" parent="Control/TextEdits" unique_id=1720033484]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_mannw")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
 emoji_menu_enabled = false
-script = ExtResource("3_sjdby")
+script = ExtResource("3_t75vb")
 
-[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit81" unique_id=525736376]
+[node name="Label1" type="RichTextLabel" parent="Control/TextEdits/TextEdit81" unique_id=524533579]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -2497,14 +2453,14 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
 mouse_default_cursor_shape = 2
-theme = ExtResource("2_dmr6c")
+theme = ExtResource("2_echef")
 theme_override_font_sizes/normal_font_size = 32
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Back" type="Button" parent="Control" unique_id=923915765]
+[node name="Back" type="Button" parent="Control" unique_id=282303490]
 layout_mode = 0
 offset_left = 25.0
 offset_top = 18.0
@@ -2512,161 +2468,162 @@ offset_right = 124.0
 offset_bottom = 85.0
 text = "Return to
 Level Select"
-script = ExtResource("4_drtos")
+script = ExtResource("4_1vxep")
 
-[node name="RestartButton" type="Button" parent="Control" unique_id=1038003430]
+[node name="RestartButton" type="Button" parent="Control" unique_id=1241791621]
+unique_name_in_owner = true
 layout_mode = 0
 offset_left = 970.0
 offset_top = 23.0
 offset_right = 1128.0
 offset_bottom = 86.0
 text = "Restart Level"
-script = ExtResource("5_k1hmj")
+script = ExtResource("5_7sl2c")
 
-[node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=987292505]
+[node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=1946208431]
 position = Vector2(24, 0)
 
-[node name="ThinLine" type="Line2D" parent="CanvasGroup" unique_id=28422530]
-position = Vector2(-22, 12)
+[node name="ThinLine" type="Line2D" parent="CanvasGroup" unique_id=362456209]
+position = Vector2(-23, 12)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine2" type="Line2D" parent="CanvasGroup" unique_id=975188158]
-position = Vector2(-22, 68)
+[node name="ThinLine13" type="Line2D" parent="CanvasGroup" unique_id=551626283]
+position = Vector2(-23, 123)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine3" type="Line2D" parent="CanvasGroup" unique_id=1230640170]
-position = Vector2(-22, 180)
+[node name="ThinLine14" type="Line2D" parent="CanvasGroup" unique_id=1612754496]
+position = Vector2(-23, 292)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine4" type="Line2D" parent="CanvasGroup" unique_id=1691412323]
-position = Vector2(-22, 236)
+[node name="ThinLine2" type="Line2D" parent="CanvasGroup" unique_id=1981495897]
+position = Vector2(-23, 68)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine5" type="Line2D" parent="CanvasGroup" unique_id=233681463]
-position = Vector2(-22, 348)
+[node name="ThinLine3" type="Line2D" parent="CanvasGroup" unique_id=1170964273]
+position = Vector2(-23, 180)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine6" type="Line2D" parent="CanvasGroup" unique_id=449336621]
-position = Vector2(-22, 403)
+[node name="ThinLine4" type="Line2D" parent="CanvasGroup" unique_id=1011980599]
+position = Vector2(-23, 236)
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine7" type="Line2D" parent="CanvasGroup" unique_id=671560243]
-position = Vector2(514, -218)
+[node name="ThinLine5" type="Line2D" parent="CanvasGroup" unique_id=979889278]
+position = Vector2(-23, 348)
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThinLine6" type="Line2D" parent="CanvasGroup" unique_id=1452892370]
+position = Vector2(-23, 403)
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThinLine7" type="Line2D" parent="CanvasGroup" unique_id=313763847]
+position = Vector2(513, -218)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine8" type="Line2D" parent="CanvasGroup" unique_id=372346285]
-position = Vector2(570, -218)
+[node name="ThinLine8" type="Line2D" parent="CanvasGroup" unique_id=1640912254]
+position = Vector2(569, -218)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine9" type="Line2D" parent="CanvasGroup" unique_id=480895647]
-position = Vector2(682, -218)
+[node name="ThinLine15" type="Line2D" parent="CanvasGroup" unique_id=240075827]
+position = Vector2(625, -218)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine10" type="Line2D" parent="CanvasGroup" unique_id=2098202069]
-position = Vector2(738, -218)
+[node name="ThinLine16" type="Line2D" parent="CanvasGroup" unique_id=1698062952]
+position = Vector2(793, -218)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine11" type="Line2D" parent="CanvasGroup" unique_id=1977725659]
-position = Vector2(850, -218)
+[node name="ThinLine9" type="Line2D" parent="CanvasGroup" unique_id=988258952]
+position = Vector2(681, -218)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThinLine12" type="Line2D" parent="CanvasGroup" unique_id=1967277462]
-position = Vector2(906, -218)
+[node name="ThinLine10" type="Line2D" parent="CanvasGroup" unique_id=390178301]
+position = Vector2(737, -218)
 rotation = 1.5707964
 points = PackedVector2Array(326, 154, 830, 154)
 width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
-[node name="ThickLine" type="Line2D" parent="CanvasGroup" unique_id=511267395]
+[node name="ThinLine11" type="Line2D" parent="CanvasGroup" unique_id=1848917849]
+position = Vector2(849, -218)
+rotation = 1.5707964
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThinLine12" type="Line2D" parent="CanvasGroup" unique_id=1243921418]
+position = Vector2(905, -218)
+rotation = 1.5707964
+points = PackedVector2Array(326, 154, 830, 154)
+width = 2.0
+default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
+
+[node name="ThickLine2" type="Line2D" parent="CanvasGroup" unique_id=240530305]
 position = Vector2(-24, 16)
 points = PackedVector2Array(324, 93, 834, 93)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="ThickLine2" type="Line2D" parent="CanvasGroup" unique_id=1119956664]
-position = Vector2(-24, 184)
-points = PackedVector2Array(324, 93, 832, 93)
-width = 5.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
-
-[node name="ThickLine3" type="Line2D" parent="CanvasGroup" unique_id=2128343676]
-position = Vector2(-24, 352)
-points = PackedVector2Array(324, 93, 832, 93)
-width = 5.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
-
-[node name="ThickLine4" type="Line2D" parent="CanvasGroup" unique_id=96625483]
+[node name="ThickLine4" type="Line2D" parent="CanvasGroup" unique_id=2086217314]
 position = Vector2(-24, 521)
 points = PackedVector2Array(324, 93, 834, 93)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="ThickLine5" type="Line2D" parent="CanvasGroup" unique_id=2073404151]
+[node name="ThickLine5" type="Line2D" parent="CanvasGroup" unique_id=373999312]
 position = Vector2(395, -218)
 rotation = 1.5707964
 points = PackedVector2Array(325, 93, 834, 92.99997)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="ThickLine6" type="Line2D" parent="CanvasGroup" unique_id=1856964024]
-position = Vector2(564, -218)
-rotation = 1.5707964
-points = PackedVector2Array(326, 93, 834, 92.99997)
-width = 5.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
-
-[node name="ThickLine7" type="Line2D" parent="CanvasGroup" unique_id=1954299873]
-position = Vector2(732, -218)
-rotation = 1.5707964
-points = PackedVector2Array(326, 93, 834, 92.99997)
-width = 5.0
-default_color = Color(0.973535, 0.9735351, 0.973535, 1)
-
-[node name="ThickLine8" type="Line2D" parent="CanvasGroup" unique_id=1530122116]
+[node name="ThickLine8" type="Line2D" parent="CanvasGroup" unique_id=952777302]
 position = Vector2(901, -218)
 rotation = 1.5707964
 points = PackedVector2Array(325, 93, 834, 92.99997)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
-[node name="Title" type="Label" parent="." unique_id=1558999117]
-offset_left = 417.0
+[node name="Title" type="Label" parent="." unique_id=1779054476]
+offset_left = 386.0
 offset_top = 17.0
-offset_right = 741.0
+offset_right = 774.0
 offset_bottom = 96.0
 theme_override_font_sizes/font_size = 32
-text = "Level ?: Lights Out"
+text = "Level #: Legally Distinct II"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="AvailableInputs" type="Label" parent="." unique_id=51573334]
+[node name="AvailableInputs" type="Label" parent="." unique_id=821263518]
 offset_left = 869.0
 offset_top = 110.0
 offset_right = 1126.0
@@ -2676,18 +2633,16 @@ text = "Valid Inputs:"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="Label" type="Label" parent="AvailableInputs" unique_id=1544052746]
+[node name="Label" type="Label" parent="AvailableInputs" unique_id=2015587773]
 layout_mode = 0
 offset_top = 61.0
 offset_right = 251.0
 offset_bottom = 141.0
 theme_override_font_sizes/font_size = 32
-text = "1, 2, 3,
-4, 5, 6,
-7, 8, 9"
+text = "1, 2, 3, 4"
 horizontal_alignment = 1
 
-[node name="ExtraRules" type="Label" parent="." unique_id=1198927882]
+[node name="ExtraRules" type="Label" parent="." unique_id=2011654506]
 offset_left = 852.0
 offset_top = 328.0
 offset_right = 1133.0
@@ -2697,31 +2652,16 @@ text = "Extra Rules:"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="Label" type="RichTextLabel" parent="ExtraRules" unique_id=199799755]
+[node name="Label" type="RichTextLabel" parent="ExtraRules" unique_id=1867003180]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 85.0
 offset_right = 268.0
 offset_bottom = 295.0
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 18
+theme_override_font_sizes/bold_font_size = 18
 bbcode_enabled = true
-text = "None"
+text = "[b]Small Regions[/b]: Regions do not contain every input. Inputs are still unique within their region.
+
+[b]Decor[/b]: Cell colours do not affect the solution."
 horizontal_alignment = 1
-
-[node name="Jumpscare" type="Label" parent="." unique_id=1186760749]
-offset_left = 18.0
-offset_top = 610.0
-offset_right = 121.0
-offset_bottom = 644.0
-text = "Boo"
-
-[node name="Darkness" type="ColorRect" parent="." unique_id=201772845]
-process_priority = 1
-material = SubResource("ShaderMaterial_sjdby")
-offset_left = -15.0
-offset_top = -11.0
-offset_right = 1169.0
-offset_bottom = 664.0
-mouse_filter = 1
-color = Color(0.039215688, 0.039215688, 0.039215688, 1)
-script = ExtResource("7_sjdby")
