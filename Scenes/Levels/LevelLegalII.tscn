@@ -5,9 +5,18 @@
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_t75vb"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_1vxep"]
 [ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_7sl2c"]
-[ext_resource type="Texture2D" uid="uid://2ulhy2ap0soy" path="res://Textures/star_silhouette.png" id="6_echef"]
+[ext_resource type="Texture2D" uid="uid://djybvb737gbf3" path="res://Textures/81SudokusSectorSymbols.png" id="6_echef"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iuejl"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_echef"]
+bg_color = Color(0.76310176, 0.3252421, 0.85814106, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t75vb"]
+bg_color = Color(0.91821617, 0.55686307, 0.99280304, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1vxep"]
+bg_color = Color(0.9098039, 0.6627451, 0.99215686, 1)
 
 [node name="LevelLegalII" type="Node2D" unique_id=1928273271]
 
@@ -961,7 +970,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit32" type="TextEdit" parent="Control/TextEdits" unique_id=1739134085]
+[node name="TextEdit32" type="TextEdit" parent="Control/TextEdits" unique_id=1739134085 groups=["Sector8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -969,7 +978,9 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
+theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
+theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
 script = ExtResource("3_t75vb")
 
@@ -1201,7 +1212,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit40" type="TextEdit" parent="Control/TextEdits" unique_id=1222480786]
+[node name="TextEdit40" type="TextEdit" parent="Control/TextEdits" unique_id=1222480786 groups=["Sector8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1209,7 +1220,9 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
+theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
+theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
 script = ExtResource("3_t75vb")
 
@@ -1231,7 +1244,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit41" type="TextEdit" parent="Control/TextEdits" unique_id=147327010]
+[node name="TextEdit41" type="TextEdit" parent="Control/TextEdits" unique_id=147327010 groups=["Sector8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1239,7 +1252,9 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
+theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
+theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
 script = ExtResource("3_t75vb")
 
@@ -1261,7 +1276,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit42" type="TextEdit" parent="Control/TextEdits" unique_id=1885768931]
+[node name="TextEdit42" type="TextEdit" parent="Control/TextEdits" unique_id=1885768931 groups=["Sector8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1269,7 +1284,9 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
+theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
+theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
 script = ExtResource("3_t75vb")
 
@@ -1501,7 +1518,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit50" type="TextEdit" parent="Control/TextEdits" unique_id=1162639917]
+[node name="TextEdit50" type="TextEdit" parent="Control/TextEdits" unique_id=1162639917 groups=["Sector8"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1509,7 +1526,9 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/focus = SubResource("StyleBoxFlat_iuejl")
+theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
+theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
 script = ExtResource("3_t75vb")
 
@@ -2614,6 +2633,32 @@ points = PackedVector2Array(325, 93, 834, 92.99997)
 width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
+[node name="ThickLine3" type="Line2D" parent="CanvasGroup" unique_id=723701505]
+position = Vector2(-24, 184)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine6" type="Line2D" parent="CanvasGroup" unique_id=484384764]
+position = Vector2(-24, 352)
+points = PackedVector2Array(324, 93, 832, 93)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine7" type="Line2D" parent="CanvasGroup" unique_id=439969841]
+position = Vector2(564, -218)
+rotation = 1.5707964
+points = PackedVector2Array(326, 93, 834, 92.99997)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
+[node name="ThickLine9" type="Line2D" parent="CanvasGroup" unique_id=623022509]
+position = Vector2(732, -218)
+rotation = 1.5707964
+points = PackedVector2Array(326, 93, 834, 92.99997)
+width = 5.0
+default_color = Color(0.973535, 0.9735351, 0.973535, 1)
+
 [node name="Title" type="Label" parent="." unique_id=1779054476]
 offset_left = 386.0
 offset_top = 17.0
@@ -2677,10 +2722,12 @@ text = "Sector Values"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="Sector1" type="Control" parent="SectorValues" unique_id=1607195349]
+[node name="Sector1" type="Control" parent="SectorValues" unique_id=1607195349 groups=["Sector1"]]
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = -52.0
+offset_top = 10.0
+offset_right = -12.0
+offset_bottom = 50.0
 
 [node name="Label" type="RichTextLabel" parent="SectorValues/Sector1" unique_id=1048807586]
 layout_mode = 0
@@ -2690,11 +2737,195 @@ offset_right = 190.0
 offset_bottom = 134.0
 theme_override_font_sizes/normal_font_size = 28
 bbcode_enabled = true
-text = ":"
+text = ":[i] "
 
 [node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector1" unique_id=368601607]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
 show_behind_parent = true
 position = Vector2(99.5, 110)
-scale = Vector2(0.099609375, 0.099609375)
+scale = Vector2(0.25, 0.25)
 texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 256)
+
+[node name="Sector2" type="Control" parent="SectorValues" unique_id=1771480914 groups=["Sector2"]]
+anchors_preset = 0
+offset_left = -52.0
+offset_top = 88.0
+offset_right = -12.0
+offset_bottom = 128.0
+
+[node name="Label" type="RichTextLabel" parent="SectorValues/Sector2" unique_id=92028289]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 89.0
+offset_right = 190.0
+offset_bottom = 134.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = ":[i] "
+
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector2" unique_id=411442584]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(99.5, 110)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
+[node name="Sector3" type="Control" parent="SectorValues" unique_id=612715688 groups=["Sector3"]]
+anchors_preset = 0
+offset_left = -52.0
+offset_top = 171.0
+offset_right = -12.0
+offset_bottom = 211.0
+
+[node name="Label" type="RichTextLabel" parent="SectorValues/Sector3" unique_id=14385166]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 89.0
+offset_right = 190.0
+offset_bottom = 134.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = ":[i] "
+
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector3" unique_id=1368892122]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(99.5, 110)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
+[node name="Sector4" type="Control" parent="SectorValues" unique_id=1129563461 groups=["Sector4"]]
+anchors_preset = 0
+offset_left = -52.0
+offset_top = 262.0
+offset_right = -12.0
+offset_bottom = 302.0
+
+[node name="Label" type="RichTextLabel" parent="SectorValues/Sector4" unique_id=1170101057]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 89.0
+offset_right = 190.0
+offset_bottom = 134.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = ":[i] "
+
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector4" unique_id=1587952354]
+modulate = Color(0.53333336, 0.17254902, 0.92941177, 1)
+show_behind_parent = true
+position = Vector2(99.5, 110)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
+[node name="Sector5" type="Control" parent="SectorValues" unique_id=695196081 groups=["Sector5"]]
+anchors_preset = 0
+offset_left = 67.0
+offset_top = 8.0
+offset_right = 107.0
+offset_bottom = 48.0
+
+[node name="Label" type="RichTextLabel" parent="SectorValues/Sector5" unique_id=327787950]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 89.0
+offset_right = 190.0
+offset_bottom = 134.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = ":[i] "
+
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector5" unique_id=269894581]
+modulate = Color(0.9361072, 0.47406566, 0.21084213, 1)
+show_behind_parent = true
+position = Vector2(99.5, 110)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
+[node name="Sector6" type="Control" parent="SectorValues" unique_id=377938888 groups=["Sector6"]]
+anchors_preset = 0
+offset_left = 67.0
+offset_top = 88.0
+offset_right = 107.0
+offset_bottom = 128.0
+
+[node name="Label" type="RichTextLabel" parent="SectorValues/Sector6" unique_id=791204752]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 89.0
+offset_right = 190.0
+offset_bottom = 134.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = ":[i] "
+
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector6" unique_id=1318896676]
+modulate = Color(0.80394447, 0.17427692, 0.18153304, 1)
+show_behind_parent = true
+position = Vector2(99.5, 110)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
+[node name="Sector7" type="Control" parent="SectorValues" unique_id=1441639178 groups=["Sector7"]]
+anchors_preset = 0
+offset_left = 67.0
+offset_top = 169.0
+offset_right = 107.0
+offset_bottom = 209.0
+
+[node name="Label" type="RichTextLabel" parent="SectorValues/Sector7" unique_id=18858055]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 89.0
+offset_right = 190.0
+offset_bottom = 134.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = ":[i] "
+
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector7" unique_id=653445358]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(99.5, 110)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
+[node name="Sector8" type="Control" parent="SectorValues" unique_id=1188576745 groups=["Sector8"]]
+anchors_preset = 0
+offset_left = 67.0
+offset_top = 257.0
+offset_right = 107.0
+offset_bottom = 297.0
+
+[node name="Label" type="RichTextLabel" parent="SectorValues/Sector8" unique_id=326692912]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 89.0
+offset_right = 190.0
+offset_bottom = 134.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = ":[i] "
+
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector8" unique_id=843395586]
+modulate = Color(0.9098039, 0.50980395, 0.99215686, 1)
+show_behind_parent = true
+position = Vector2(99.5, 110)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 256, 256, 256)

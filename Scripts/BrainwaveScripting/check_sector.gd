@@ -5,6 +5,9 @@ func _ready() -> void:
 	if cage_value_value != "":
 		if cage_value_value.begins_with("[i]"):
 			cage_value_value = cage_value_value.right(-3)
+		elif cage_value_value.begins_with(":[i] "):
+			cage_value_value = cage_value_value.right(-5)
+			
 		if cage_value_value.is_valid_int():
 			cage_value = cage_value_value.to_int()
 		else:
