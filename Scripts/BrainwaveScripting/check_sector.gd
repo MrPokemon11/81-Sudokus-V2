@@ -1,10 +1,5 @@
-extends "res://Scripts/BrainwaveScripting/extra_rule_base.gd"
+extends "res://Scripts/BrainwaveScripting/check_cage.gd"
 
-var cage_value: int
-var cage_group_name: String
-var color_default
-
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	var cage_value_value = get_child(0).text
 	if cage_value_value != "":
@@ -13,10 +8,10 @@ func _ready() -> void:
 		if cage_value_value.is_valid_int():
 			cage_value = cage_value_value.to_int()
 		else:
-			printerr("Cage " + self.name + " does not have a valid value! Cage value is: " + cage_value_value)
+			printerr("Sector " + self.name + " does not have a valid value! Sector value is: " + cage_value_value)
 	else:
 		cage_value = get_meta("CageValue")
-	color_default = self.default_color
+	color_default = Color("white")
 	
 	# the cage should be in exactly one (non-internal) group. If it isn't, throw an error
 	var cage_check = []
@@ -24,27 +19,17 @@ func _ready() -> void:
 		if not group.begins_with("_"):
 			cage_check.push_back(group)
 	if cage_check.size() != 1:
-		printerr("The cage " + self.name + " has a group error! It should be in exactly 1 group, but is in the following groups: " + str(cage_check))
+		printerr("The sector " + self.name + " has a group error! It should be in exactly 1 group, but is in the following groups: " + str(cage_check))
 	else:
 		cage_group_name = cage_check[0]
 	
-	# if the cage is the only member of its group, throw an error
+	# if the sector is the only member of its group, throw an error
 	if get_tree().get_nodes_in_group(cage_group_name).size() <= 1:
-		printerr("The cage group " + cage_group_name + " has no cells in it!")
+		printerr("The sector group " + cage_group_name + " has no cells in it!")
 	
 	connect_to_group_members()
 	%RestartButton.pressed.connect(_on_receive_signal)
 	#print(cage_check)
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta: float) -> void:
-	pass
-
-func _on_receive_signal() -> void:
-	check_cage()
-
-func check_groups_for_errors():
-	check_cage()
 
 func check_cage():
 	# make variables
@@ -70,14 +55,7 @@ func check_cage():
 	# when the error is cleared, reset the color and remove from hasError
 	if (sum > cage_value) or (hasEmptyCell == false and sum != cage_value):
 		self.add_to_group("hasError", true)
-		self.default_color = Color(1.0, 0.247, 0.184, 1.0)
 		get_child(0).add_theme_color_override("default_color",Color(1.0, 0.247, 0.184, 1.0))
 	else:
 		self.remove_from_group("hasError")
-		self.default_color = color_default
 		get_child(0).remove_theme_color_override("default_color")
-	pass
-	
-	# things this script must do:
-	# - throw an error if the sum of the values within the cage exceeds the cage's value (done)
-	# - throw an error if all cells within the cage are full, but are lower than the cage's value (done)

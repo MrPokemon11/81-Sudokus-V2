@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_t75vb"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_1vxep"]
 [ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_7sl2c"]
+[ext_resource type="Texture2D" uid="uid://2ulhy2ap0soy" path="res://Textures/star_silhouette.png" id="6_echef"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iuejl"]
 
@@ -2639,7 +2640,9 @@ offset_top = 61.0
 offset_right = 251.0
 offset_bottom = 141.0
 theme_override_font_sizes/font_size = 32
-text = "1, 2, 3, 4"
+text = "1, 2, 3,
+4, 5, 6,
+7, 8, 9"
 horizontal_alignment = 1
 
 [node name="ExtraRules" type="Label" parent="." unique_id=2011654506]
@@ -2661,7 +2664,37 @@ offset_bottom = 295.0
 theme_override_font_sizes/normal_font_size = 18
 theme_override_font_sizes/bold_font_size = 18
 bbcode_enabled = true
-text = "[b]Small Regions[/b]: Regions do not contain every input. Inputs are still unique within their region.
-
-[b]Decor[/b]: Cell colours do not affect the solution."
+text = "[b]Sectors[/b]: All cells that contain the same symbol must add up to the value on the left. Inputs may repeat within a sector."
 horizontal_alignment = 1
+
+[node name="SectorValues" type="Label" parent="." unique_id=1280646514]
+offset_left = 21.0
+offset_top = 63.0
+offset_right = 302.0
+offset_bottom = 142.0
+theme_override_font_sizes/font_size = 32
+text = "Sector Values"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Sector1" type="Control" parent="SectorValues" unique_id=1607195349]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="RichTextLabel" parent="SectorValues/Sector1" unique_id=1048807586]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 89.0
+offset_right = 190.0
+offset_bottom = 134.0
+theme_override_font_sizes/normal_font_size = 28
+bbcode_enabled = true
+text = ":"
+
+[node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector1" unique_id=368601607]
+modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
+show_behind_parent = true
+position = Vector2(99.5, 110)
+scale = Vector2(0.099609375, 0.099609375)
+texture = ExtResource("6_echef")
