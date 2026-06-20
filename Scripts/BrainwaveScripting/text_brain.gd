@@ -18,7 +18,7 @@ func _ready() -> void:
 	this_label = get_child(0)
 	self.tab_input_mode = false
 	
-	# ensure that each cell is part of exactly 1 region.
+	# ensure that each cell is part of exactly 1 region, unless multiple regions are explicitly allowed.
 	# regions are done manually, but that can lead to human error so better safe than sorry
 	var region_check = 0
 	for groups in get_groups():
@@ -29,7 +29,7 @@ func _ready() -> void:
 	
 	# the below code block may look silly, but it handles the various ways i've set up the cells
 	# why not go back and change things? I'm lazy and this works.
-	# Update: The code no longer looks silly, because things no longer worked and went back and changed things.
+	# Update: The code no longer looks silly, because things no longer worked and so I went back and changed things.
 	if(self.placeholder_text != ""):
 		self.editable = false
 		this_label.text = self.placeholder_text

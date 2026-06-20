@@ -27,7 +27,7 @@ offset_top = 112.0
 offset_right = 829.0
 offset_bottom = 612.0
 script = ExtResource("1_sc5nn")
-metadata/validInputs = [1, 2, 3, 4]
+metadata/validInputs = [1]
 
 [node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=769701220 groups=["Region1"]]
 layout_mode = 2

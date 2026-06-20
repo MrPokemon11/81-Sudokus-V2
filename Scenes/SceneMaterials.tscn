@@ -30,7 +30,7 @@ offset_right = 829.0
 offset_bottom = 612.0
 columns = 4
 script = ExtResource("1_ipt7o")
-metadata/validInputs = [1, 2, 3, 4]
+metadata/validInputs = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 [node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=959812401]
 layout_mode = 2

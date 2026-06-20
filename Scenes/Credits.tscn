@@ -9,13 +9,13 @@ color = Color(0.19434929, 0.19434926, 0.19434926, 1)
 polygon = PackedVector2Array(-13, -11, 1165, -11, 1165, 664, -13, 664)
 
 [node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=271045219]
-offset_left = 76.0
+offset_left = 57.0
 offset_top = 49.0
 offset_right = 1087.0
 offset_bottom = 361.0
 theme_override_font_sizes/normal_font_size = 40
 text = "Game creator: Devon Rogers
-Most puzzles sourced from: Sudoku-Puzzles.net"
+Some puzzles were created using Sudoku-Puzzles.net"
 
 [node name="Return" type="Button" parent="." unique_id=1555921915]
 offset_left = 906.0

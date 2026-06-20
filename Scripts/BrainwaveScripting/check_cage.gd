@@ -3,6 +3,7 @@ extends "res://Scripts/BrainwaveScripting/extra_rule_base.gd"
 var cage_value: int
 var cage_group_name: String
 var color_default
+@export var isHex = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -56,10 +57,24 @@ func check_cage():
 	for values in get_tree().get_nodes_in_group(cage_group_name):
 		if values == self:
 			continue
-		var cellText = values.get_value_special()
+		var cellText = values.get_value_special().to_upper()
 		if cellText == "":
 			hasEmptyCell = true
 			continue
+		elif isHex and cellText.is_valid_int() == false:
+				match cellText:
+					"A":
+						sum += 10
+					"B":
+						sum += 11
+					"C":
+						sum += 12
+					"D":
+						sum += 13
+					"E":
+						sum += 14
+					"F":
+						sum += 15
 		elif cellText.is_valid_int() == false:
 			continue
 		else:

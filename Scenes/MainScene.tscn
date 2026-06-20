@@ -403,6 +403,7 @@ script = ExtResource("2_tr2i4")
 [node name="Level44" type="Button" parent="Control/GridContainer" unique_id=22104728]
 layout_mode = 2
 size_flags_vertical = 3
+tooltip_text = "Level 44: 4x4"
 theme = ExtResource("1_nhkr4")
 text = "44"
 flat = true

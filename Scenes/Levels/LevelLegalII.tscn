@@ -9,9 +9,6 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iuejl"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_echef"]
-bg_color = Color(0.76310176, 0.3252421, 0.85814106, 1)
-
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t75vb"]
 bg_color = Color(0.91821617, 0.55686307, 0.99280304, 1)
 
@@ -970,7 +967,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit32" type="TextEdit" parent="Control/TextEdits" unique_id=1739134085 groups=["Sector8"]]
+[node name="TextEdit32" type="TextEdit" parent="Control/TextEdits" unique_id=1739134085]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -978,7 +975,6 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
 theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
 theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
@@ -1212,7 +1208,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit40" type="TextEdit" parent="Control/TextEdits" unique_id=1222480786 groups=["Sector8"]]
+[node name="TextEdit40" type="TextEdit" parent="Control/TextEdits" unique_id=1222480786]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1220,7 +1216,6 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
 theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
 theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
@@ -1244,7 +1239,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit41" type="TextEdit" parent="Control/TextEdits" unique_id=147327010 groups=["Sector8"]]
+[node name="TextEdit41" type="TextEdit" parent="Control/TextEdits" unique_id=147327010]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1252,7 +1247,6 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
 theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
 theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
@@ -1276,7 +1270,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit42" type="TextEdit" parent="Control/TextEdits" unique_id=1885768931 groups=["Sector8"]]
+[node name="TextEdit42" type="TextEdit" parent="Control/TextEdits" unique_id=1885768931]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1284,7 +1278,6 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
 theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
 theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
@@ -1518,7 +1511,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit50" type="TextEdit" parent="Control/TextEdits" unique_id=1162639917 groups=["Sector8"]]
+[node name="TextEdit50" type="TextEdit" parent="Control/TextEdits" unique_id=1162639917]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -1526,7 +1519,6 @@ theme = ExtResource("2_echef")
 theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
-theme_override_styles/normal = SubResource("StyleBoxFlat_echef")
 theme_override_styles/focus = SubResource("StyleBoxFlat_t75vb")
 theme_override_styles/read_only = SubResource("StyleBoxFlat_1vxep")
 emoji_menu_enabled = false
