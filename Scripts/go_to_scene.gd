@@ -13,11 +13,12 @@ func _process(_delta: float) -> void:
 
 # loads the relevant scene/level
 func _on_pressed(lvlNum: String) -> void:
+	save_level()
+	
 	#if (lvlNum.containsn("Next")): # proceed to the next uncompleted level
 		#lvlNum = handle_next_level()	
 	
 	if (lvlNum.containsn("Back")): # return to the level select screen
-		#save_level() # saves the level (doesn't work yet)
 		get_tree().change_scene_to_file("res://Scenes/MainScene.tscn")
 	else: # go to a specific level
 		if(FileAccess.file_exists("res://Scenes/Levels/" + str(lvlNum) + ".tscn")):
@@ -26,14 +27,9 @@ func _on_pressed(lvlNum: String) -> void:
 			printerr("Level " + str(lvlNum) + " not found.")
 
 func save_level():
-	var completeScreen = get_tree().root.find_child("SudokuCompleteScreen", true, false)
-	var currLevelName = get_tree().root.name
-	#var packed_scene = PackedScene.new()
+	var packed_scene = PackedScene.new()
 	
 	# returning to level select throws an error
-	
-	if completeScreen:
-		completeScreen.free()
 	
 	#packed_scene.take_over_path("res://Scene/Levels/" + str(currLevelName) + "./tscn")
 	#packed_scene.pack(get_tree().current_scene)

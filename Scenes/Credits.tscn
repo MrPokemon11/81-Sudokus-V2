@@ -12,10 +12,13 @@ polygon = PackedVector2Array(-13, -11, 1165, -11, 1165, 664, -13, 664)
 offset_left = 57.0
 offset_top = 49.0
 offset_right = 1087.0
-offset_bottom = 361.0
+offset_bottom = 494.0
 theme_override_font_sizes/normal_font_size = 40
 text = "Game creator: Devon Rogers
-Some puzzles were created using Sudoku-Puzzles.net"
+
+Some puzzles were taken from Sudoku-Puzzles.net
+
+Puzzle generator adapted from https://github.com/nguyennd97/SudokuGeneratorAndSolver/"
 
 [node name="Return" type="Button" parent="." unique_id=1555921915]
 offset_left = 906.0

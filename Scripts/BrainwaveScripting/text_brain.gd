@@ -10,8 +10,12 @@ var this_label
 var column_count
 @export var allow_multiple_regions = false
 @export var auto_focus = true
+@export var saved_input: String = ""
 
 func _ready() -> void:
+	if saved_input != "":
+		self.text = saved_input
+	
 	idNum = self.name.right(-8).to_int() # this will remove "TextEdit" from the name, leaving just the number
 	allowedInputs = get_parent().get_meta("validInputs")
 	self.text_changed.connect(_on_text_changed.bind(self))
@@ -29,7 +33,7 @@ func _ready() -> void:
 	
 	# the below code block may look silly, but it handles the various ways i've set up the cells
 	# why not go back and change things? I'm lazy and this works.
-	# Update: The code no longer looks silly, because things no longer worked and so I went back and changed things.
+	# Update: The code no longer looks silly, because things no longer worked and I went back and changed things.
 	if(self.placeholder_text != ""):
 		self.editable = false
 		this_label.text = self.placeholder_text
@@ -206,6 +210,9 @@ func apply_focusing() -> void: # apply Focus via code
 	if idNum % column_count != 0:
 		self.focus_neighbor_right = "../TextEdit" + str(idNum + 1)
 	pass
+
+func save():
+	saved_input = self.text
 
 # debug
 #func focus_debug():

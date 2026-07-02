@@ -1,0 +1,15 @@
+[gd_resource type="Theme" format=3 uid="uid://cf6dalftd525e"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p4303"]
+bg_color = Color(0.9359655, 0.2561558, 0.24989319, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2h0ct"]
+bg_color = Color(0.80394447, 0.17427692, 0.18153304, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u64bv"]
+bg_color = Color(0.5568628, 0.09803922, 0.105882354, 1)
+
+[resource]
+TextEdit/styles/focus = SubResource("StyleBoxFlat_p4303")
+TextEdit/styles/normal = SubResource("StyleBoxFlat_2h0ct")
+TextEdit/styles/read_only = SubResource("StyleBoxFlat_u64bv")

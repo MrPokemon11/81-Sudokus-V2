@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [global_group]
 
 CompletedLevels="Levels in this group have been completed successfully"
+Persist="Trigger when save() is called"
 
 [physics]
 

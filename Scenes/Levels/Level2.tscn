@@ -30,7 +30,7 @@ columns = 4
 script = ExtResource("1_5awjf")
 metadata/validInputs = ["A", "B", "C", "D"]
 
-[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=2016698394 groups=["Region1"]]
+[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=2016698394 groups=["Persist", "Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -64,7 +64,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=1739864387 groups=["Region1"]]
+[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=1739864387 groups=["Persist", "Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -91,7 +91,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=992828659 groups=["Region2"]]
+[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=992828659 groups=["Persist", "Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -117,7 +117,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=884415001 groups=["Region2"]]
+[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=884415001 groups=["Persist", "Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -147,7 +147,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=1283596534 groups=["Region1"]]
+[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=1283596534 groups=["Persist", "Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -173,7 +173,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=1958476402 groups=["Region1"]]
+[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=1958476402 groups=["Persist", "Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -203,7 +203,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=296620987 groups=["Region2"]]
+[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=296620987 groups=["Persist", "Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -233,7 +233,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=1689282006 groups=["Region2"]]
+[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=1689282006 groups=["Persist", "Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -259,7 +259,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=1895325220 groups=["Region3"]]
+[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=1895325220 groups=["Persist", "Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -289,7 +289,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=1817794754 groups=["Region3"]]
+[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=1817794754 groups=["Persist", "Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -315,7 +315,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=26338918 groups=["Region4"]]
+[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=26338918 groups=["Persist", "Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -341,7 +341,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=142357723 groups=["Region4"]]
+[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=142357723 groups=["Persist", "Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -371,7 +371,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=1173054141 groups=["Region3"]]
+[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=1173054141 groups=["Persist", "Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -401,7 +401,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=131492950 groups=["Region3"]]
+[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=131492950 groups=["Persist", "Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -427,7 +427,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=1370783588 groups=["Region4"]]
+[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=1370783588 groups=["Persist", "Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -457,7 +457,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit16" type="TextEdit" parent="Control/TextEdits" unique_id=262546454 groups=["Region4"]]
+[node name="TextEdit16" type="TextEdit" parent="Control/TextEdits" unique_id=262546454 groups=["Persist", "Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3

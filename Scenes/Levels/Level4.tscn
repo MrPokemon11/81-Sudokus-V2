@@ -45,7 +45,7 @@ columns = 4
 script = ExtResource("1_gpvrs")
 metadata/validInputs = [1, 2, 3, 4]
 
-[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=646378347 groups=["Cage1", "Region1"]]
+[node name="TextEdit1" type="TextEdit" parent="Control/TextEdits" unique_id=646378347 groups=["Cage1", "Persist", "Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -87,7 +87,7 @@ position = Vector2(61, 61)
 scale = Vector2(0.1875, 0.1875)
 texture = ExtResource("4_bfawm")
 
-[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=77926927 groups=["Region1"]]
+[node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=77926927 groups=["Persist", "Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -118,7 +118,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=484232250 groups=["Region2"]]
+[node name="TextEdit3" type="TextEdit" parent="Control/TextEdits" unique_id=484232250 groups=["Persist", "Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -144,7 +144,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=960865979 groups=["Region2"]]
+[node name="TextEdit4" type="TextEdit" parent="Control/TextEdits" unique_id=960865979 groups=["Persist", "Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -170,7 +170,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=1833057122 groups=["Region1"]]
+[node name="TextEdit5" type="TextEdit" parent="Control/TextEdits" unique_id=1833057122 groups=["Persist", "Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -184,10 +184,9 @@ script = ExtResource("3_inj8u")
 
 [node name="Label5" type="RichTextLabel" parent="Control/TextEdits/TextEdit5" unique_id=729777137]
 layout_mode = 1
-offset_left = -21.0
-offset_top = 29.0
-offset_right = 101.0
-offset_bottom = 151.0
+offset_left = 1.0
+offset_right = 123.0
+offset_bottom = 122.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
@@ -198,7 +197,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=506107854 groups=["Cage1", "Region2"]]
+[node name="TextEdit6" type="TextEdit" parent="Control/TextEdits" unique_id=506107854 groups=["Cage1", "Persist", "Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -232,7 +231,7 @@ position = Vector2(61, 61)
 scale = Vector2(0.1875, 0.1875)
 texture = ExtResource("4_bfawm")
 
-[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=1629918718 groups=["Region2"]]
+[node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=1629918718 groups=["Persist", "Region2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -246,10 +245,9 @@ script = ExtResource("3_inj8u")
 
 [node name="Label7" type="RichTextLabel" parent="Control/TextEdits/TextEdit7" unique_id=1007726849]
 layout_mode = 1
-offset_left = 24.0
-offset_top = -30.0
-offset_right = 146.0
-offset_bottom = 92.0
+offset_top = -1.0
+offset_right = 122.0
+offset_bottom = 121.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
@@ -260,7 +258,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=6894655 groups=["Region3"]]
+[node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=6894655 groups=["Persist", "Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -286,7 +284,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=451914775 groups=["Region1"]]
+[node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=451914775 groups=["Persist", "Region1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -312,7 +310,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=660273365 groups=["Region4"]]
+[node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=660273365 groups=["Persist", "Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -326,10 +324,10 @@ script = ExtResource("3_inj8u")
 
 [node name="Label10" type="RichTextLabel" parent="Control/TextEdits/TextEdit10" unique_id=472083105]
 layout_mode = 1
-offset_left = -18.0
-offset_top = 25.0
-offset_right = 104.0
-offset_bottom = 147.0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 123.0
+offset_bottom = 123.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
@@ -340,7 +338,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=185763233 groups=["Cage1", "Region4"]]
+[node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=185763233 groups=["Cage1", "Persist", "Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -374,7 +372,7 @@ position = Vector2(61, 61)
 scale = Vector2(0.1875, 0.1875)
 texture = ExtResource("4_bfawm")
 
-[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=279191973 groups=["Region3"]]
+[node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=279191973 groups=["Persist", "Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -388,10 +386,10 @@ script = ExtResource("3_inj8u")
 
 [node name="Label12" type="RichTextLabel" parent="Control/TextEdits/TextEdit12" unique_id=947001846]
 layout_mode = 1
-offset_left = 26.0
-offset_top = -25.0
-offset_right = 148.0
-offset_bottom = 97.0
+offset_left = 1.0
+offset_top = -1.0
+offset_right = 123.0
+offset_bottom = 121.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
@@ -402,7 +400,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=1770811395 groups=["Region4"]]
+[node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=1770811395 groups=["Persist", "Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -428,7 +426,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=1989721699 groups=["Region4"]]
+[node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=1989721699 groups=["Persist", "Region4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -454,7 +452,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=374240035 groups=["Region3"]]
+[node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=374240035 groups=["Persist", "Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -485,7 +483,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit16" type="TextEdit" parent="Control/TextEdits" unique_id=1576302140 groups=["Cage1", "Region3"]]
+[node name="TextEdit16" type="TextEdit" parent="Control/TextEdits" unique_id=1576302140 groups=["Cage1", "Persist", "Region3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
