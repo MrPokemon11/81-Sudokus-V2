@@ -62,6 +62,8 @@ func check_cage():
 						sum += 14
 					"F":
 						sum += 15
+					"G":
+						sum += 16
 		elif cellText.is_valid_int() == false:
 			continue
 		else:
