@@ -9,12 +9,9 @@ var clear_grid = false
 # called when the tool is run
 func _run() -> void:
 	# given values (ie 1, 2, A, B, etc) go in here
-	grid_values = [9,4,8,6,7,8,4,2,7,9,
-		9,8,4,2,7,6,2,5,7,9,3,6,4,8,3,1,5,9,
-		3,5,6,1,8,7,9,8,1]
+	grid_values = [7,6,8,9,3,4,6,2,4,2,1,4,9,3,1,7,4,5,9,8,6,9,7,5,3,8,4,7,6,3,5,1,9,1,4,9,8,5]
 	# the locations of the above given values go here. Note that the grid is 1 indexed.
-	grid_locations = [3,5,6,7,9,12,18,21,22,23,
-		28,29,31,32,34,36,37,38,41,42,45,47,48,49,50,54,52,53,55,59,62,64,67,68,72,73,81]
+	grid_locations = [3,5,6,7,13,15,16,18,21,22,26,28,30,37,39,40,41,42,44,45,47,49,54,55,57,58,61,62,63,68,69,70,72,73,76,77,79,81]
 	# each array is a region, containing every cell within that region.
 	# it still needs to be manually filled, but it's faster than setting them in the editor. Probably.
 	# also, the grid is still 1 indexed.
