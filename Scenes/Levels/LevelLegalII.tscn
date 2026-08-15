@@ -8021,10 +8021,10 @@ offset_top = 61.0
 offset_right = 251.0
 offset_bottom = 141.0
 theme_override_font_sizes/font_size = 32
-text = "0, 1, 2, 3,
-4, 5, 6, 7,
-8, 9, A, B,
-C, D, E, F"
+text = "1, 2, 3, 4,
+5, 6, 7, 8,
+9, A, B, C,
+D, E, F, G"
 horizontal_alignment = 1
 
 [node name="ExtraRules" type="Label" parent="." unique_id=2011654506]
@@ -8046,7 +8046,8 @@ offset_bottom = 295.0
 theme_override_font_sizes/normal_font_size = 18
 theme_override_font_sizes/bold_font_size = 18
 bbcode_enabled = true
-text = "[b]Sectors[/b]: All cells that contain the same symbol must add up to the value on the left. Inputs may repeat within a sector."
+text = "[b]Sectors[/b]: All cells that contain the same symbol must add up to the value on the left. Inputs may repeat within a sector.
+[b]Hexadecimal[/b]: The letters A to G are equivalent to the numbers 10 to 16."
 horizontal_alignment = 1
 
 [node name="SectorValues" type="Label" parent="." unique_id=1280646514]
