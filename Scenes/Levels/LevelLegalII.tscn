@@ -3871,7 +3871,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit129" type="TextEdit" parent="Control/TextEdits" unique_id=892873486 groups=["Region9"]]
+[node name="TextEdit129" type="TextEdit" parent="Control/TextEdits" unique_id=892873486 groups=["Region9", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -3901,7 +3901,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit130" type="TextEdit" parent="Control/TextEdits" unique_id=856474050 groups=["Region9"]]
+[node name="TextEdit130" type="TextEdit" parent="Control/TextEdits" unique_id=856474050 groups=["Region9", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -3931,7 +3931,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit131" type="TextEdit" parent="Control/TextEdits" unique_id=909947103 groups=["Region9"]]
+[node name="TextEdit131" type="TextEdit" parent="Control/TextEdits" unique_id=909947103 groups=["Region9", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -3961,7 +3961,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit132" type="TextEdit" parent="Control/TextEdits" unique_id=1515805948 groups=["Region9"]]
+[node name="TextEdit132" type="TextEdit" parent="Control/TextEdits" unique_id=1515805948 groups=["Region9", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -3991,7 +3991,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit133" type="TextEdit" parent="Control/TextEdits" unique_id=1270044222 groups=["Region10"]]
+[node name="TextEdit133" type="TextEdit" parent="Control/TextEdits" unique_id=1270044222 groups=["Region10", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4021,7 +4021,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit134" type="TextEdit" parent="Control/TextEdits" unique_id=730320397 groups=["Region10"]]
+[node name="TextEdit134" type="TextEdit" parent="Control/TextEdits" unique_id=730320397 groups=["Region10", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4051,7 +4051,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit135" type="TextEdit" parent="Control/TextEdits" unique_id=2142916290 groups=["Region10"]]
+[node name="TextEdit135" type="TextEdit" parent="Control/TextEdits" unique_id=2142916290 groups=["Region10", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4081,7 +4081,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit136" type="TextEdit" parent="Control/TextEdits" unique_id=1065836438 groups=["Region10"]]
+[node name="TextEdit136" type="TextEdit" parent="Control/TextEdits" unique_id=1065836438 groups=["Region10", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4111,7 +4111,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit137" type="TextEdit" parent="Control/TextEdits" unique_id=1063669344 groups=["Region11"]]
+[node name="TextEdit137" type="TextEdit" parent="Control/TextEdits" unique_id=1063669344 groups=["Region11", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4141,7 +4141,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit138" type="TextEdit" parent="Control/TextEdits" unique_id=2130243739 groups=["Region11"]]
+[node name="TextEdit138" type="TextEdit" parent="Control/TextEdits" unique_id=2130243739 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4171,7 +4171,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit139" type="TextEdit" parent="Control/TextEdits" unique_id=1900116440 groups=["Region11"]]
+[node name="TextEdit139" type="TextEdit" parent="Control/TextEdits" unique_id=1900116440 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4201,7 +4201,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit140" type="TextEdit" parent="Control/TextEdits" unique_id=1941624543 groups=["Region11"]]
+[node name="TextEdit140" type="TextEdit" parent="Control/TextEdits" unique_id=1941624543 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4231,7 +4231,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit141" type="TextEdit" parent="Control/TextEdits" unique_id=242654863 groups=["Region12"]]
+[node name="TextEdit141" type="TextEdit" parent="Control/TextEdits" unique_id=242654863 groups=["Region12", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4261,7 +4261,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit142" type="TextEdit" parent="Control/TextEdits" unique_id=1290948897 groups=["Region12"]]
+[node name="TextEdit142" type="TextEdit" parent="Control/TextEdits" unique_id=1290948897 groups=["Region12", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4291,7 +4291,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit143" type="TextEdit" parent="Control/TextEdits" unique_id=241903027 groups=["Region12"]]
+[node name="TextEdit143" type="TextEdit" parent="Control/TextEdits" unique_id=241903027 groups=["Region12", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4321,7 +4321,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit144" type="TextEdit" parent="Control/TextEdits" unique_id=509260344 groups=["Region12"]]
+[node name="TextEdit144" type="TextEdit" parent="Control/TextEdits" unique_id=509260344 groups=["Region12", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4351,7 +4351,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit145" type="TextEdit" parent="Control/TextEdits" unique_id=1779788623 groups=["Region9"]]
+[node name="TextEdit145" type="TextEdit" parent="Control/TextEdits" unique_id=1779788623 groups=["Region9", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4381,7 +4381,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit146" type="TextEdit" parent="Control/TextEdits" unique_id=5044661 groups=["Region9"]]
+[node name="TextEdit146" type="TextEdit" parent="Control/TextEdits" unique_id=5044661 groups=["Region9", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4411,7 +4411,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit147" type="TextEdit" parent="Control/TextEdits" unique_id=99866907 groups=["Region9"]]
+[node name="TextEdit147" type="TextEdit" parent="Control/TextEdits" unique_id=99866907 groups=["Region9", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4441,7 +4441,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit148" type="TextEdit" parent="Control/TextEdits" unique_id=404316013 groups=["Region9"]]
+[node name="TextEdit148" type="TextEdit" parent="Control/TextEdits" unique_id=404316013 groups=["Region9", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4471,7 +4471,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit149" type="TextEdit" parent="Control/TextEdits" unique_id=2039286679 groups=["Region10"]]
+[node name="TextEdit149" type="TextEdit" parent="Control/TextEdits" unique_id=2039286679 groups=["Region10", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4501,7 +4501,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit150" type="TextEdit" parent="Control/TextEdits" unique_id=1575522051 groups=["Region10"]]
+[node name="TextEdit150" type="TextEdit" parent="Control/TextEdits" unique_id=1575522051 groups=["Region10", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4531,7 +4531,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit151" type="TextEdit" parent="Control/TextEdits" unique_id=541283990 groups=["Region10"]]
+[node name="TextEdit151" type="TextEdit" parent="Control/TextEdits" unique_id=541283990 groups=["Region10", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4561,7 +4561,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit152" type="TextEdit" parent="Control/TextEdits" unique_id=1486763055 groups=["Region10"]]
+[node name="TextEdit152" type="TextEdit" parent="Control/TextEdits" unique_id=1486763055 groups=["Region10", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4591,7 +4591,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit153" type="TextEdit" parent="Control/TextEdits" unique_id=1401387377 groups=["Region11"]]
+[node name="TextEdit153" type="TextEdit" parent="Control/TextEdits" unique_id=1401387377 groups=["Region11", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4621,7 +4621,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit154" type="TextEdit" parent="Control/TextEdits" unique_id=1868129775 groups=["Region11"]]
+[node name="TextEdit154" type="TextEdit" parent="Control/TextEdits" unique_id=1868129775 groups=["Region11", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4651,7 +4651,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit155" type="TextEdit" parent="Control/TextEdits" unique_id=851564107 groups=["Region11"]]
+[node name="TextEdit155" type="TextEdit" parent="Control/TextEdits" unique_id=851564107 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4681,7 +4681,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit156" type="TextEdit" parent="Control/TextEdits" unique_id=1130489136 groups=["Region11"]]
+[node name="TextEdit156" type="TextEdit" parent="Control/TextEdits" unique_id=1130489136 groups=["Region11", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4711,7 +4711,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit157" type="TextEdit" parent="Control/TextEdits" unique_id=1794349891 groups=["Region12"]]
+[node name="TextEdit157" type="TextEdit" parent="Control/TextEdits" unique_id=1794349891 groups=["Region12", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4741,7 +4741,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit158" type="TextEdit" parent="Control/TextEdits" unique_id=1566831013 groups=["Region12"]]
+[node name="TextEdit158" type="TextEdit" parent="Control/TextEdits" unique_id=1566831013 groups=["Region12", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4771,7 +4771,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit159" type="TextEdit" parent="Control/TextEdits" unique_id=1110884766 groups=["Region12"]]
+[node name="TextEdit159" type="TextEdit" parent="Control/TextEdits" unique_id=1110884766 groups=["Region12", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4801,7 +4801,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit160" type="TextEdit" parent="Control/TextEdits" unique_id=922358428 groups=["Region12"]]
+[node name="TextEdit160" type="TextEdit" parent="Control/TextEdits" unique_id=922358428 groups=["Region12", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4831,7 +4831,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit161" type="TextEdit" parent="Control/TextEdits" unique_id=298186838 groups=["Region9"]]
+[node name="TextEdit161" type="TextEdit" parent="Control/TextEdits" unique_id=298186838 groups=["Region9", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4861,7 +4861,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit162" type="TextEdit" parent="Control/TextEdits" unique_id=813571650 groups=["Region9"]]
+[node name="TextEdit162" type="TextEdit" parent="Control/TextEdits" unique_id=813571650 groups=["Region9", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4891,7 +4891,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit163" type="TextEdit" parent="Control/TextEdits" unique_id=1057919998 groups=["Region9"]]
+[node name="TextEdit163" type="TextEdit" parent="Control/TextEdits" unique_id=1057919998 groups=["Region9", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4921,7 +4921,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit164" type="TextEdit" parent="Control/TextEdits" unique_id=259154785 groups=["Region9"]]
+[node name="TextEdit164" type="TextEdit" parent="Control/TextEdits" unique_id=259154785 groups=["Region9", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4951,7 +4951,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit165" type="TextEdit" parent="Control/TextEdits" unique_id=1007623761 groups=["Region10"]]
+[node name="TextEdit165" type="TextEdit" parent="Control/TextEdits" unique_id=1007623761 groups=["Region10", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -4981,7 +4981,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit166" type="TextEdit" parent="Control/TextEdits" unique_id=172322943 groups=["Region10"]]
+[node name="TextEdit166" type="TextEdit" parent="Control/TextEdits" unique_id=172322943 groups=["Region10", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5011,7 +5011,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit167" type="TextEdit" parent="Control/TextEdits" unique_id=987403259 groups=["Region10"]]
+[node name="TextEdit167" type="TextEdit" parent="Control/TextEdits" unique_id=987403259 groups=["Region10", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5041,7 +5041,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit168" type="TextEdit" parent="Control/TextEdits" unique_id=1298318393 groups=["Region10"]]
+[node name="TextEdit168" type="TextEdit" parent="Control/TextEdits" unique_id=1298318393 groups=["Region10", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5071,7 +5071,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit169" type="TextEdit" parent="Control/TextEdits" unique_id=288173215 groups=["Region11"]]
+[node name="TextEdit169" type="TextEdit" parent="Control/TextEdits" unique_id=288173215 groups=["Region11", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5101,7 +5101,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit170" type="TextEdit" parent="Control/TextEdits" unique_id=658374839 groups=["Region11"]]
+[node name="TextEdit170" type="TextEdit" parent="Control/TextEdits" unique_id=658374839 groups=["Region11", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5131,7 +5131,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit171" type="TextEdit" parent="Control/TextEdits" unique_id=1919356418 groups=["Region11"]]
+[node name="TextEdit171" type="TextEdit" parent="Control/TextEdits" unique_id=1919356418 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5161,7 +5161,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit172" type="TextEdit" parent="Control/TextEdits" unique_id=851551141 groups=["Region11"]]
+[node name="TextEdit172" type="TextEdit" parent="Control/TextEdits" unique_id=851551141 groups=["Region11", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5191,7 +5191,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit173" type="TextEdit" parent="Control/TextEdits" unique_id=2131546363 groups=["Region12"]]
+[node name="TextEdit173" type="TextEdit" parent="Control/TextEdits" unique_id=2131546363 groups=["Region12", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5221,7 +5221,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit174" type="TextEdit" parent="Control/TextEdits" unique_id=553162594 groups=["Region12"]]
+[node name="TextEdit174" type="TextEdit" parent="Control/TextEdits" unique_id=553162594 groups=["Region12", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5251,7 +5251,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit175" type="TextEdit" parent="Control/TextEdits" unique_id=1595481816 groups=["Region12"]]
+[node name="TextEdit175" type="TextEdit" parent="Control/TextEdits" unique_id=1595481816 groups=["Region12", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5281,7 +5281,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit176" type="TextEdit" parent="Control/TextEdits" unique_id=1461602465 groups=["Region12"]]
+[node name="TextEdit176" type="TextEdit" parent="Control/TextEdits" unique_id=1461602465 groups=["Region12", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5311,7 +5311,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit177" type="TextEdit" parent="Control/TextEdits" unique_id=1307979496 groups=["Region9"]]
+[node name="TextEdit177" type="TextEdit" parent="Control/TextEdits" unique_id=1307979496 groups=["Region9", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5341,7 +5341,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit178" type="TextEdit" parent="Control/TextEdits" unique_id=1392642452 groups=["Region9"]]
+[node name="TextEdit178" type="TextEdit" parent="Control/TextEdits" unique_id=1392642452 groups=["Region9", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5371,7 +5371,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit179" type="TextEdit" parent="Control/TextEdits" unique_id=1550463385 groups=["Region9"]]
+[node name="TextEdit179" type="TextEdit" parent="Control/TextEdits" unique_id=1550463385 groups=["Region9", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5401,7 +5401,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit180" type="TextEdit" parent="Control/TextEdits" unique_id=1562777395 groups=["Region9"]]
+[node name="TextEdit180" type="TextEdit" parent="Control/TextEdits" unique_id=1562777395 groups=["Region9", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5431,7 +5431,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit181" type="TextEdit" parent="Control/TextEdits" unique_id=1366824493 groups=["Region10"]]
+[node name="TextEdit181" type="TextEdit" parent="Control/TextEdits" unique_id=1366824493 groups=["Region10", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5461,7 +5461,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit182" type="TextEdit" parent="Control/TextEdits" unique_id=490601740 groups=["Region10"]]
+[node name="TextEdit182" type="TextEdit" parent="Control/TextEdits" unique_id=490601740 groups=["Region10", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5491,7 +5491,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit183" type="TextEdit" parent="Control/TextEdits" unique_id=619702146 groups=["Region10"]]
+[node name="TextEdit183" type="TextEdit" parent="Control/TextEdits" unique_id=619702146 groups=["Region10", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5521,7 +5521,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit184" type="TextEdit" parent="Control/TextEdits" unique_id=78025709 groups=["Region10"]]
+[node name="TextEdit184" type="TextEdit" parent="Control/TextEdits" unique_id=78025709 groups=["Region10", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5551,7 +5551,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit185" type="TextEdit" parent="Control/TextEdits" unique_id=1650336748 groups=["Region11"]]
+[node name="TextEdit185" type="TextEdit" parent="Control/TextEdits" unique_id=1650336748 groups=["Region11", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5581,7 +5581,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit186" type="TextEdit" parent="Control/TextEdits" unique_id=1220423179 groups=["Region11"]]
+[node name="TextEdit186" type="TextEdit" parent="Control/TextEdits" unique_id=1220423179 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5611,7 +5611,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit187" type="TextEdit" parent="Control/TextEdits" unique_id=548020760 groups=["Region11"]]
+[node name="TextEdit187" type="TextEdit" parent="Control/TextEdits" unique_id=548020760 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5641,7 +5641,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit188" type="TextEdit" parent="Control/TextEdits" unique_id=252178086 groups=["Region11"]]
+[node name="TextEdit188" type="TextEdit" parent="Control/TextEdits" unique_id=252178086 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5671,7 +5671,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit189" type="TextEdit" parent="Control/TextEdits" unique_id=2114457045 groups=["Region12"]]
+[node name="TextEdit189" type="TextEdit" parent="Control/TextEdits" unique_id=2114457045 groups=["Region12", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5701,7 +5701,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit190" type="TextEdit" parent="Control/TextEdits" unique_id=1574921390 groups=["Region12"]]
+[node name="TextEdit190" type="TextEdit" parent="Control/TextEdits" unique_id=1574921390 groups=["Region12", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5731,7 +5731,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit191" type="TextEdit" parent="Control/TextEdits" unique_id=517484018 groups=["Region12"]]
+[node name="TextEdit191" type="TextEdit" parent="Control/TextEdits" unique_id=517484018 groups=["Region12", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5761,7 +5761,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit192" type="TextEdit" parent="Control/TextEdits" unique_id=1112458003 groups=["Region12"]]
+[node name="TextEdit192" type="TextEdit" parent="Control/TextEdits" unique_id=1112458003 groups=["Region12", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5791,7 +5791,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit193" type="TextEdit" parent="Control/TextEdits" unique_id=1913380322 groups=["Region13"]]
+[node name="TextEdit193" type="TextEdit" parent="Control/TextEdits" unique_id=1913380322 groups=["Region13", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5821,7 +5821,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit194" type="TextEdit" parent="Control/TextEdits" unique_id=1608320493 groups=["Region13"]]
+[node name="TextEdit194" type="TextEdit" parent="Control/TextEdits" unique_id=1608320493 groups=["Region13", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5851,7 +5851,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit195" type="TextEdit" parent="Control/TextEdits" unique_id=969701247 groups=["Region13"]]
+[node name="TextEdit195" type="TextEdit" parent="Control/TextEdits" unique_id=969701247 groups=["Region13", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5881,7 +5881,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit196" type="TextEdit" parent="Control/TextEdits" unique_id=2060380488 groups=["Region13"]]
+[node name="TextEdit196" type="TextEdit" parent="Control/TextEdits" unique_id=2060380488 groups=["Region13", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5911,7 +5911,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit197" type="TextEdit" parent="Control/TextEdits" unique_id=1501925640 groups=["Region14"]]
+[node name="TextEdit197" type="TextEdit" parent="Control/TextEdits" unique_id=1501925640 groups=["Region14", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5941,7 +5941,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit198" type="TextEdit" parent="Control/TextEdits" unique_id=976536237 groups=["Region14"]]
+[node name="TextEdit198" type="TextEdit" parent="Control/TextEdits" unique_id=976536237 groups=["Region14", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -5971,7 +5971,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit199" type="TextEdit" parent="Control/TextEdits" unique_id=184011132 groups=["Region14"]]
+[node name="TextEdit199" type="TextEdit" parent="Control/TextEdits" unique_id=184011132 groups=["Region14", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6001,7 +6001,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit200" type="TextEdit" parent="Control/TextEdits" unique_id=1554337649 groups=["Region14"]]
+[node name="TextEdit200" type="TextEdit" parent="Control/TextEdits" unique_id=1554337649 groups=["Region14", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6031,7 +6031,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit201" type="TextEdit" parent="Control/TextEdits" unique_id=284672998 groups=["Region15"]]
+[node name="TextEdit201" type="TextEdit" parent="Control/TextEdits" unique_id=284672998 groups=["Region15", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6061,7 +6061,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit202" type="TextEdit" parent="Control/TextEdits" unique_id=1928423412 groups=["Region15"]]
+[node name="TextEdit202" type="TextEdit" parent="Control/TextEdits" unique_id=1928423412 groups=["Region15", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6091,7 +6091,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit203" type="TextEdit" parent="Control/TextEdits" unique_id=2015972141 groups=["Region15"]]
+[node name="TextEdit203" type="TextEdit" parent="Control/TextEdits" unique_id=2015972141 groups=["Region15", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6121,7 +6121,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit204" type="TextEdit" parent="Control/TextEdits" unique_id=793625583 groups=["Region15"]]
+[node name="TextEdit204" type="TextEdit" parent="Control/TextEdits" unique_id=793625583 groups=["Region15", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6151,7 +6151,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit205" type="TextEdit" parent="Control/TextEdits" unique_id=1476476598 groups=["Region16"]]
+[node name="TextEdit205" type="TextEdit" parent="Control/TextEdits" unique_id=1476476598 groups=["Region16", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6181,7 +6181,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit206" type="TextEdit" parent="Control/TextEdits" unique_id=455950157 groups=["Region16"]]
+[node name="TextEdit206" type="TextEdit" parent="Control/TextEdits" unique_id=455950157 groups=["Region16", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6211,7 +6211,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit207" type="TextEdit" parent="Control/TextEdits" unique_id=1420697944 groups=["Region16"]]
+[node name="TextEdit207" type="TextEdit" parent="Control/TextEdits" unique_id=1420697944 groups=["Region16", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6241,7 +6241,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit208" type="TextEdit" parent="Control/TextEdits" unique_id=1215211574 groups=["Region16"]]
+[node name="TextEdit208" type="TextEdit" parent="Control/TextEdits" unique_id=1215211574 groups=["Region16", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6271,7 +6271,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit209" type="TextEdit" parent="Control/TextEdits" unique_id=2070776571 groups=["Region13"]]
+[node name="TextEdit209" type="TextEdit" parent="Control/TextEdits" unique_id=2070776571 groups=["Region13", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6301,7 +6301,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit210" type="TextEdit" parent="Control/TextEdits" unique_id=1049480992 groups=["Region13"]]
+[node name="TextEdit210" type="TextEdit" parent="Control/TextEdits" unique_id=1049480992 groups=["Region13", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6331,7 +6331,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit211" type="TextEdit" parent="Control/TextEdits" unique_id=934005246 groups=["Region13"]]
+[node name="TextEdit211" type="TextEdit" parent="Control/TextEdits" unique_id=934005246 groups=["Region13", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6361,7 +6361,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit212" type="TextEdit" parent="Control/TextEdits" unique_id=550267604 groups=["Region13"]]
+[node name="TextEdit212" type="TextEdit" parent="Control/TextEdits" unique_id=550267604 groups=["Region13", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6391,7 +6391,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit213" type="TextEdit" parent="Control/TextEdits" unique_id=1503139374 groups=["Region14"]]
+[node name="TextEdit213" type="TextEdit" parent="Control/TextEdits" unique_id=1503139374 groups=["Region14", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6421,7 +6421,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit214" type="TextEdit" parent="Control/TextEdits" unique_id=1035500257 groups=["Region14"]]
+[node name="TextEdit214" type="TextEdit" parent="Control/TextEdits" unique_id=1035500257 groups=["Region14", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6451,7 +6451,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit215" type="TextEdit" parent="Control/TextEdits" unique_id=1270843885 groups=["Region14"]]
+[node name="TextEdit215" type="TextEdit" parent="Control/TextEdits" unique_id=1270843885 groups=["Region14", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6481,7 +6481,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit216" type="TextEdit" parent="Control/TextEdits" unique_id=2120708986 groups=["Region14"]]
+[node name="TextEdit216" type="TextEdit" parent="Control/TextEdits" unique_id=2120708986 groups=["Region14", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6511,7 +6511,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit217" type="TextEdit" parent="Control/TextEdits" unique_id=790798103 groups=["Region15"]]
+[node name="TextEdit217" type="TextEdit" parent="Control/TextEdits" unique_id=790798103 groups=["Region15", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6541,7 +6541,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit218" type="TextEdit" parent="Control/TextEdits" unique_id=401083686 groups=["Region15"]]
+[node name="TextEdit218" type="TextEdit" parent="Control/TextEdits" unique_id=401083686 groups=["Region15", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6571,7 +6571,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit219" type="TextEdit" parent="Control/TextEdits" unique_id=809775422 groups=["Region15"]]
+[node name="TextEdit219" type="TextEdit" parent="Control/TextEdits" unique_id=809775422 groups=["Region15", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6601,7 +6601,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit220" type="TextEdit" parent="Control/TextEdits" unique_id=162094918 groups=["Region15"]]
+[node name="TextEdit220" type="TextEdit" parent="Control/TextEdits" unique_id=162094918 groups=["Region15", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6631,7 +6631,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit221" type="TextEdit" parent="Control/TextEdits" unique_id=2120484707 groups=["Region16"]]
+[node name="TextEdit221" type="TextEdit" parent="Control/TextEdits" unique_id=2120484707 groups=["Region16", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6661,7 +6661,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit222" type="TextEdit" parent="Control/TextEdits" unique_id=956240523 groups=["Region16"]]
+[node name="TextEdit222" type="TextEdit" parent="Control/TextEdits" unique_id=956240523 groups=["Region16", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6691,7 +6691,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit223" type="TextEdit" parent="Control/TextEdits" unique_id=1958907800 groups=["Region16"]]
+[node name="TextEdit223" type="TextEdit" parent="Control/TextEdits" unique_id=1958907800 groups=["Region16", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6721,7 +6721,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit224" type="TextEdit" parent="Control/TextEdits" unique_id=300382845 groups=["Region16"]]
+[node name="TextEdit224" type="TextEdit" parent="Control/TextEdits" unique_id=300382845 groups=["Region16", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6751,7 +6751,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit225" type="TextEdit" parent="Control/TextEdits" unique_id=1148926744 groups=["Region13"]]
+[node name="TextEdit225" type="TextEdit" parent="Control/TextEdits" unique_id=1148926744 groups=["Region13", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6781,7 +6781,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit226" type="TextEdit" parent="Control/TextEdits" unique_id=1878637821 groups=["Region13"]]
+[node name="TextEdit226" type="TextEdit" parent="Control/TextEdits" unique_id=1878637821 groups=["Region13", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6811,7 +6811,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit227" type="TextEdit" parent="Control/TextEdits" unique_id=1334091067 groups=["Region13"]]
+[node name="TextEdit227" type="TextEdit" parent="Control/TextEdits" unique_id=1334091067 groups=["Region13", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6841,7 +6841,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit228" type="TextEdit" parent="Control/TextEdits" unique_id=667589015 groups=["Region13"]]
+[node name="TextEdit228" type="TextEdit" parent="Control/TextEdits" unique_id=667589015 groups=["Region13", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6871,7 +6871,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit229" type="TextEdit" parent="Control/TextEdits" unique_id=988829181 groups=["Region14"]]
+[node name="TextEdit229" type="TextEdit" parent="Control/TextEdits" unique_id=988829181 groups=["Region14", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6901,7 +6901,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit230" type="TextEdit" parent="Control/TextEdits" unique_id=589869624 groups=["Region14"]]
+[node name="TextEdit230" type="TextEdit" parent="Control/TextEdits" unique_id=589869624 groups=["Region14", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6931,7 +6931,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit231" type="TextEdit" parent="Control/TextEdits" unique_id=1541292007 groups=["Region14"]]
+[node name="TextEdit231" type="TextEdit" parent="Control/TextEdits" unique_id=1541292007 groups=["Region14", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6961,7 +6961,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit232" type="TextEdit" parent="Control/TextEdits" unique_id=1300360099 groups=["Region14"]]
+[node name="TextEdit232" type="TextEdit" parent="Control/TextEdits" unique_id=1300360099 groups=["Region14", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -6991,7 +6991,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit233" type="TextEdit" parent="Control/TextEdits" unique_id=526384025 groups=["Region15"]]
+[node name="TextEdit233" type="TextEdit" parent="Control/TextEdits" unique_id=526384025 groups=["Region15", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7021,7 +7021,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit234" type="TextEdit" parent="Control/TextEdits" unique_id=1385676295 groups=["Region15"]]
+[node name="TextEdit234" type="TextEdit" parent="Control/TextEdits" unique_id=1385676295 groups=["Region15", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7051,7 +7051,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit235" type="TextEdit" parent="Control/TextEdits" unique_id=259794260 groups=["Region15"]]
+[node name="TextEdit235" type="TextEdit" parent="Control/TextEdits" unique_id=259794260 groups=["Region15", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7081,7 +7081,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit236" type="TextEdit" parent="Control/TextEdits" unique_id=1067289637 groups=["Region15"]]
+[node name="TextEdit236" type="TextEdit" parent="Control/TextEdits" unique_id=1067289637 groups=["Region15", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7111,7 +7111,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit237" type="TextEdit" parent="Control/TextEdits" unique_id=2095848372 groups=["Region16"]]
+[node name="TextEdit237" type="TextEdit" parent="Control/TextEdits" unique_id=2095848372 groups=["Region16", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7141,7 +7141,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit238" type="TextEdit" parent="Control/TextEdits" unique_id=632516991 groups=["Region16"]]
+[node name="TextEdit238" type="TextEdit" parent="Control/TextEdits" unique_id=632516991 groups=["Region16", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7171,7 +7171,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit239" type="TextEdit" parent="Control/TextEdits" unique_id=1548319454 groups=["Region16"]]
+[node name="TextEdit239" type="TextEdit" parent="Control/TextEdits" unique_id=1548319454 groups=["Region16", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7201,7 +7201,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit240" type="TextEdit" parent="Control/TextEdits" unique_id=1023390157 groups=["Region16"]]
+[node name="TextEdit240" type="TextEdit" parent="Control/TextEdits" unique_id=1023390157 groups=["Region16", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7231,7 +7231,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit241" type="TextEdit" parent="Control/TextEdits" unique_id=1603039631 groups=["Region13"]]
+[node name="TextEdit241" type="TextEdit" parent="Control/TextEdits" unique_id=1603039631 groups=["Region13", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7261,7 +7261,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit242" type="TextEdit" parent="Control/TextEdits" unique_id=1841859694 groups=["Region13"]]
+[node name="TextEdit242" type="TextEdit" parent="Control/TextEdits" unique_id=1841859694 groups=["Region13", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7291,7 +7291,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit243" type="TextEdit" parent="Control/TextEdits" unique_id=948942797 groups=["Region13"]]
+[node name="TextEdit243" type="TextEdit" parent="Control/TextEdits" unique_id=948942797 groups=["Region13", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7321,7 +7321,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit244" type="TextEdit" parent="Control/TextEdits" unique_id=1379728718 groups=["Region13"]]
+[node name="TextEdit244" type="TextEdit" parent="Control/TextEdits" unique_id=1379728718 groups=["Region13", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7351,7 +7351,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit245" type="TextEdit" parent="Control/TextEdits" unique_id=421101991 groups=["Region14"]]
+[node name="TextEdit245" type="TextEdit" parent="Control/TextEdits" unique_id=421101991 groups=["Region14", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7381,7 +7381,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit246" type="TextEdit" parent="Control/TextEdits" unique_id=605209759 groups=["Region14"]]
+[node name="TextEdit246" type="TextEdit" parent="Control/TextEdits" unique_id=605209759 groups=["Region14", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7411,7 +7411,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit247" type="TextEdit" parent="Control/TextEdits" unique_id=1884808340 groups=["Region14"]]
+[node name="TextEdit247" type="TextEdit" parent="Control/TextEdits" unique_id=1884808340 groups=["Region14", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7441,7 +7441,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit248" type="TextEdit" parent="Control/TextEdits" unique_id=1670792711 groups=["Region14"]]
+[node name="TextEdit248" type="TextEdit" parent="Control/TextEdits" unique_id=1670792711 groups=["Region14", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7471,7 +7471,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit249" type="TextEdit" parent="Control/TextEdits" unique_id=402448025 groups=["Region15"]]
+[node name="TextEdit249" type="TextEdit" parent="Control/TextEdits" unique_id=402448025 groups=["Region15", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7501,7 +7501,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit250" type="TextEdit" parent="Control/TextEdits" unique_id=1291744030 groups=["Region15"]]
+[node name="TextEdit250" type="TextEdit" parent="Control/TextEdits" unique_id=1291744030 groups=["Region15", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7531,7 +7531,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit251" type="TextEdit" parent="Control/TextEdits" unique_id=989622300 groups=["Region15"]]
+[node name="TextEdit251" type="TextEdit" parent="Control/TextEdits" unique_id=989622300 groups=["Region15", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7561,7 +7561,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit252" type="TextEdit" parent="Control/TextEdits" unique_id=661878388 groups=["Region15"]]
+[node name="TextEdit252" type="TextEdit" parent="Control/TextEdits" unique_id=661878388 groups=["Region15", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7591,7 +7591,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit253" type="TextEdit" parent="Control/TextEdits" unique_id=2099424140 groups=["Region16"]]
+[node name="TextEdit253" type="TextEdit" parent="Control/TextEdits" unique_id=2099424140 groups=["Region16", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7621,7 +7621,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit254" type="TextEdit" parent="Control/TextEdits" unique_id=1192571884 groups=["Region16"]]
+[node name="TextEdit254" type="TextEdit" parent="Control/TextEdits" unique_id=1192571884 groups=["Region16", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7651,7 +7651,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit255" type="TextEdit" parent="Control/TextEdits" unique_id=1396751492 groups=["Region16"]]
+[node name="TextEdit255" type="TextEdit" parent="Control/TextEdits" unique_id=1396751492 groups=["Region16", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -7681,7 +7681,7 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextEdit256" type="TextEdit" parent="Control/TextEdits" unique_id=147656295 groups=["Region16"]]
+[node name="TextEdit256" type="TextEdit" parent="Control/TextEdits" unique_id=147656295 groups=["Region16", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
