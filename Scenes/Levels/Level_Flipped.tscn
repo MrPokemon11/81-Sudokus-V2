@@ -23,9 +23,9 @@ offset_bottom = 40.0
 [node name="TextEdits" type="GridContainer" parent="Control" unique_id=106982891]
 layout_mode = 0
 offset_left = 830.0
-offset_top = 611.0
+offset_top = 550.0
 offset_right = 1330.0
-offset_bottom = 1111.0
+offset_bottom = 1050.0
 rotation = 3.1415927
 columns = 9
 script = ExtResource("1_6p3q4")
@@ -2500,25 +2500,27 @@ vertical_alignment = 1
 
 [node name="Back" type="Button" parent="Control" unique_id=178242957]
 layout_mode = 0
-offset_left = 25.0
-offset_top = 18.0
-offset_right = 124.0
-offset_bottom = 85.0
+offset_left = 1105.0
+offset_top = 619.0
+offset_right = 1204.0
+offset_bottom = 686.0
+rotation = 3.1415927
 text = "Return to
 Level Select"
 script = ExtResource("4_3wpxf")
 
 [node name="RestartButton" type="Button" parent="Control" unique_id=1841350727]
 layout_mode = 0
-offset_left = 970.0
-offset_top = 23.0
-offset_right = 1128.0
-offset_bottom = 86.0
+offset_left = 211.0
+offset_top = 608.0
+offset_right = 369.0
+offset_bottom = 671.0
+rotation = 3.1415927
 text = "Restart Level"
 script = ExtResource("5_xnn3o")
 
 [node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=1170589940]
-position = Vector2(24, 0)
+position = Vector2(24, -61)
 
 [node name="ThinLine" type="Line2D" parent="CanvasGroup" unique_id=294590841]
 position = Vector2(-22, 12)
@@ -2651,10 +2653,11 @@ width = 5.0
 default_color = Color(0.973535, 0.9735351, 0.973535, 1)
 
 [node name="Title" type="Label" parent="." unique_id=1531523466]
-offset_left = 417.0
-offset_top = 17.0
-offset_right = 741.0
-offset_bottom = 96.0
+offset_left = 752.0
+offset_top = 627.0
+offset_right = 1076.0
+offset_bottom = 720.0
+rotation = 3.1415927
 theme_override_font_sizes/font_size = 32
 text = "Level ?: Flipped
 "
@@ -2662,10 +2665,11 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="AvailableInputs" type="Label" parent="." unique_id=463628975]
-offset_left = 869.0
-offset_top = 110.0
-offset_right = 1126.0
-offset_bottom = 172.0
+offset_left = 275.0
+offset_top = 438.0
+offset_right = 532.0
+offset_bottom = 500.0
+rotation = 3.1415927
 theme_override_font_sizes/font_size = 32
 text = "Valid Inputs:"
 horizontal_alignment = 1
@@ -2683,10 +2687,11 @@ text = "1, 2, 3,
 horizontal_alignment = 1
 
 [node name="ExtraRules" type="Label" parent="." unique_id=1611316930]
-offset_left = 852.0
-offset_top = 328.0
-offset_right = 1133.0
-offset_bottom = 407.0
+offset_left = 285.0
+offset_top = 223.0
+offset_right = 566.0
+offset_bottom = 301.99997
+rotation = 3.1415927
 theme_override_font_sizes/font_size = 32
 text = "Extra Rules:"
 horizontal_alignment = 1
