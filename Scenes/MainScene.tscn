@@ -144,50 +144,56 @@ text = "11"
 flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="Level12" type="Button" parent="Control/GridContainer" unique_id=422131004]
+[node name="Level_Askew" type="Button" parent="Control/GridContainer" unique_id=422131004]
 layout_mode = 2
 size_flags_vertical = 3
+tooltip_text = "Level 12: Askew
+"
 theme = ExtResource("1_nhkr4")
 text = "12"
 flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="Level13" type="Button" parent="Control/GridContainer" unique_id=1734520854]
+[node name="Level_Mirrored" type="Button" parent="Control/GridContainer" unique_id=1734520854]
 layout_mode = 2
 size_flags_vertical = 3
+tooltip_text = "Level 13: Mirrored"
 theme = ExtResource("1_nhkr4")
 text = "13"
 flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="Level14" type="Button" parent="Control/GridContainer" unique_id=1626418977]
+[node name="Level_LightsOut" type="Button" parent="Control/GridContainer" unique_id=1626418977]
 layout_mode = 2
 size_flags_vertical = 3
+tooltip_text = "Level 14: Lights Out"
 theme = ExtResource("1_nhkr4")
 text = "14"
 flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="Level_LightsOut" type="Button" parent="Control/GridContainer" unique_id=549820165]
+[node name="Level_Fall" type="Button" parent="Control/GridContainer" unique_id=549820165]
 layout_mode = 2
 size_flags_vertical = 3
+tooltip_text = "Level 15: Fall"
 theme = ExtResource("1_nhkr4")
 text = "15"
 flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="LevelLegalI" type="Button" parent="Control/GridContainer" unique_id=1184931149]
+[node name="Level_Flipped" type="Button" parent="Control/GridContainer" unique_id=1184931149]
 layout_mode = 2
 size_flags_vertical = 3
-tooltip_text = "Legally Distinct I"
+tooltip_text = "Level 16: Flipped"
 theme = ExtResource("1_nhkr4")
 text = "16"
 flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="Level17" type="Button" parent="Control/GridContainer" unique_id=825360991]
+[node name="LevelLegalI" type="Button" parent="Control/GridContainer" unique_id=825360991]
 layout_mode = 2
 size_flags_vertical = 3
+tooltip_text = "Level 17: Legally Distinct I"
 theme = ExtResource("1_nhkr4")
 text = "17"
 flat = true
