@@ -168,7 +168,7 @@ text = "14"
 flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="Level15" type="Button" parent="Control/GridContainer" unique_id=549820165]
+[node name="Level_LightsOut" type="Button" parent="Control/GridContainer" unique_id=549820165]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
@@ -176,9 +176,10 @@ text = "15"
 flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="Level16" type="Button" parent="Control/GridContainer" unique_id=1184931149]
+[node name="LevelLegalI" type="Button" parent="Control/GridContainer" unique_id=1184931149]
 layout_mode = 2
 size_flags_vertical = 3
+tooltip_text = "Legally Distinct I"
 theme = ExtResource("1_nhkr4")
 text = "16"
 flat = true
