@@ -68,6 +68,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit1/Label1" unique_id=1342633392]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit2" type="TextEdit" parent="Control/TextEdits" unique_id=680399793 groups=["Region1", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -254,6 +263,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit6/Label1" unique_id=731148567]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit7" type="TextEdit" parent="Control/TextEdits" unique_id=2105121513 groups=["Region2", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -283,6 +301,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit7/Label1" unique_id=1651558018]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit8" type="TextEdit" parent="Control/TextEdits" unique_id=1798220775 groups=["Region2", "Sector7"]]
 layout_mode = 2
@@ -314,6 +341,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit8/Label1" unique_id=1925402193]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit9" type="TextEdit" parent="Control/TextEdits" unique_id=425378901 groups=["Region3", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -343,6 +379,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit9/Label1" unique_id=1675114027]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit10" type="TextEdit" parent="Control/TextEdits" unique_id=238129131 groups=["Region3", "Sector4"]]
 layout_mode = 2
@@ -374,6 +419,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit10/Label1" unique_id=1900962099]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit11" type="TextEdit" parent="Control/TextEdits" unique_id=1887165262 groups=["Region3", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -403,6 +457,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit11/Label1" unique_id=1356138476]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit12" type="TextEdit" parent="Control/TextEdits" unique_id=461868097 groups=["Region3", "Sector4"]]
 layout_mode = 2
@@ -434,6 +497,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit12/Label1" unique_id=26201701]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit13" type="TextEdit" parent="Control/TextEdits" unique_id=39091873 groups=["Region4", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -463,6 +535,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit13/Label1" unique_id=186835201]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit14" type="TextEdit" parent="Control/TextEdits" unique_id=1871931783 groups=["Region4", "Sector2"]]
 layout_mode = 2
@@ -494,6 +575,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit14/Label1" unique_id=1624803167]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit15" type="TextEdit" parent="Control/TextEdits" unique_id=2109649935 groups=["Region4", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -523,6 +613,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit15/Label1" unique_id=836096304]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit16" type="TextEdit" parent="Control/TextEdits" unique_id=1738760298 groups=["Region4", "Sector5"]]
 layout_mode = 2
@@ -554,6 +653,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit16/Label1" unique_id=648066048]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit17" type="TextEdit" parent="Control/TextEdits" unique_id=1909833225 groups=["Region1", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -583,6 +691,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit17/Label1" unique_id=860095932]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit18" type="TextEdit" parent="Control/TextEdits" unique_id=140959351 groups=["Region1", "Sector2"]]
 layout_mode = 2
@@ -614,6 +731,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit18/Label1" unique_id=1517386618]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit19" type="TextEdit" parent="Control/TextEdits" unique_id=2107197546 groups=["Region1", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -643,6 +769,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit19/Label1" unique_id=2137575731]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit20" type="TextEdit" parent="Control/TextEdits" unique_id=1178703820 groups=["Region1", "Sector1"]]
 layout_mode = 2
@@ -791,6 +926,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit23/Label1" unique_id=10419825]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit24" type="TextEdit" parent="Control/TextEdits" unique_id=2133960531 groups=["Region2", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -820,6 +964,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit24/Label1" unique_id=161332307]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit25" type="TextEdit" parent="Control/TextEdits" unique_id=654423797 groups=["Region3", "Sector2"]]
 layout_mode = 2
@@ -851,6 +1004,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit25/Label1" unique_id=576051403]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit26" type="TextEdit" parent="Control/TextEdits" unique_id=532387363 groups=["Region3", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -880,6 +1042,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit26/Label1" unique_id=1210571758]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit27" type="TextEdit" parent="Control/TextEdits" unique_id=1531020430 groups=["Region3", "Sector4"]]
 layout_mode = 2
@@ -911,6 +1082,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit27/Label1" unique_id=1123891056]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit28" type="TextEdit" parent="Control/TextEdits" unique_id=971227824 groups=["Region3", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -940,6 +1120,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit28/Label1" unique_id=1644897498]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit29" type="TextEdit" parent="Control/TextEdits" unique_id=2057590733 groups=["Region4", "Sector2"]]
 layout_mode = 2
@@ -971,6 +1160,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit29/Label1" unique_id=614049110]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit30" type="TextEdit" parent="Control/TextEdits" unique_id=1288528970 groups=["Region4", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1000,6 +1198,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit30/Label1" unique_id=823057676]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit31" type="TextEdit" parent="Control/TextEdits" unique_id=1603442677 groups=["Region4", "Sector4"]]
 layout_mode = 2
@@ -1031,6 +1238,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit31/Label1" unique_id=1323776494]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit32" type="TextEdit" parent="Control/TextEdits" unique_id=1636418368 groups=["Region4", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1060,6 +1276,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit32/Label1" unique_id=651394275]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit33" type="TextEdit" parent="Control/TextEdits" unique_id=76527515 groups=["Region1", "Sector5"]]
 layout_mode = 2
@@ -1091,6 +1316,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit33/Label1" unique_id=1187957569]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit34" type="TextEdit" parent="Control/TextEdits" unique_id=1382385689 groups=["Region1", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1121,6 +1355,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit34/Label1" unique_id=299153220]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit35" type="TextEdit" parent="Control/TextEdits" unique_id=1645211957 groups=["Region1", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1150,6 +1393,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit35/Label1" unique_id=1211229644]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit36" type="TextEdit" parent="Control/TextEdits" unique_id=551598370 groups=["Region1", "Sector1"]]
 layout_mode = 2
@@ -1259,6 +1511,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit38/Label1" unique_id=665294101]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit39" type="TextEdit" parent="Control/TextEdits" unique_id=1152086874 groups=["Region2", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1288,6 +1549,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit39/Label1" unique_id=814340198]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit40" type="TextEdit" parent="Control/TextEdits" unique_id=634363267 groups=["Region2", "Sector4"]]
 layout_mode = 2
@@ -1319,6 +1589,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit40/Label1" unique_id=1387539018]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit41" type="TextEdit" parent="Control/TextEdits" unique_id=1759808031 groups=["Region3", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1348,6 +1627,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit41/Label1" unique_id=951166452]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit42" type="TextEdit" parent="Control/TextEdits" unique_id=139506890 groups=["Region3", "Sector2"]]
 layout_mode = 2
@@ -1379,6 +1667,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit42/Label1" unique_id=950183722]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit43" type="TextEdit" parent="Control/TextEdits" unique_id=966228128 groups=["Region3", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1408,6 +1705,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit43/Label1" unique_id=1292187886]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit44" type="TextEdit" parent="Control/TextEdits" unique_id=1185059302 groups=["Region3", "Sector6"]]
 layout_mode = 2
@@ -1439,6 +1745,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit44/Label1" unique_id=1248368978]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit45" type="TextEdit" parent="Control/TextEdits" unique_id=1625509633 groups=["Region4", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1468,6 +1783,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit45/Label1" unique_id=2126452576]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit46" type="TextEdit" parent="Control/TextEdits" unique_id=733786128 groups=["Region4", "Sector4"]]
 layout_mode = 2
@@ -1499,6 +1823,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit46/Label1" unique_id=1166815818]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit47" type="TextEdit" parent="Control/TextEdits" unique_id=471694491 groups=["Region4", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1529,6 +1862,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit47/Label1" unique_id=563266641]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit48" type="TextEdit" parent="Control/TextEdits" unique_id=397633909 groups=["Region4", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1558,6 +1900,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit48/Label1" unique_id=587517788]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit49" type="TextEdit" parent="Control/TextEdits" unique_id=721700358 groups=["Region1", "Sector1"]]
 layout_mode = 2
@@ -1667,6 +2018,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit51/Label1" unique_id=2013521514]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit52" type="TextEdit" parent="Control/TextEdits" unique_id=525373048 groups=["Region1", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1696,6 +2056,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit52/Label1" unique_id=251816131]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit53" type="TextEdit" parent="Control/TextEdits" unique_id=1056498628 groups=["Region2", "Sector1"]]
 layout_mode = 2
@@ -1766,6 +2135,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit54/Label1" unique_id=482637431]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit55" type="TextEdit" parent="Control/TextEdits" unique_id=2030476709 groups=["Region2", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1795,6 +2173,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit55/Label1" unique_id=781424508]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit56" type="TextEdit" parent="Control/TextEdits" unique_id=779712584 groups=["Region2", "Sector4"]]
 layout_mode = 2
@@ -1826,6 +2213,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit56/Label1" unique_id=1399570527]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit57" type="TextEdit" parent="Control/TextEdits" unique_id=1270021460 groups=["Region3", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1855,6 +2251,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit57/Label1" unique_id=169471347]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit58" type="TextEdit" parent="Control/TextEdits" unique_id=1718373928 groups=["Region3", "Sector5"]]
 layout_mode = 2
@@ -1886,6 +2291,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit58/Label1" unique_id=185693275]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit59" type="TextEdit" parent="Control/TextEdits" unique_id=1566457427 groups=["Region3", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1915,6 +2329,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit59/Label1" unique_id=1285416322]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit60" type="TextEdit" parent="Control/TextEdits" unique_id=1125018237 groups=["Region3", "Sector4"]]
 layout_mode = 2
@@ -1946,6 +2369,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit60/Label1" unique_id=1875271229]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit61" type="TextEdit" parent="Control/TextEdits" unique_id=2074412269 groups=["Region4", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1975,6 +2407,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit61/Label1" unique_id=1754282980]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit62" type="TextEdit" parent="Control/TextEdits" unique_id=725748090 groups=["Region4", "Sector7"]]
 layout_mode = 2
@@ -2006,6 +2447,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit62/Label1" unique_id=347853962]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit63" type="TextEdit" parent="Control/TextEdits" unique_id=1129414737 groups=["Region4", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2036,6 +2486,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit63/Label1" unique_id=328533214]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit64" type="TextEdit" parent="Control/TextEdits" unique_id=287297371 groups=["Region4", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2065,6 +2524,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit64/Label1" unique_id=2123465112]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit65" type="TextEdit" parent="Control/TextEdits" unique_id=469096362 groups=["Region5", "Sector1"]]
 layout_mode = 2
@@ -2135,6 +2603,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit66/Label1" unique_id=1595195930]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit67" type="TextEdit" parent="Control/TextEdits" unique_id=953531612 groups=["Region5", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2164,6 +2641,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit67/Label1" unique_id=1014271892]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit68" type="TextEdit" parent="Control/TextEdits" unique_id=267388914 groups=["Region5", "Sector3"]]
 layout_mode = 2
@@ -2195,6 +2681,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit68/Label1" unique_id=1177121253]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit69" type="TextEdit" parent="Control/TextEdits" unique_id=854318474 groups=["Region6", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2224,6 +2719,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit69/Label1" unique_id=1200552688]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit70" type="TextEdit" parent="Control/TextEdits" unique_id=1817067629 groups=["Region6", "Sector4"]]
 layout_mode = 2
@@ -2255,6 +2759,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit70/Label1" unique_id=638073522]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit71" type="TextEdit" parent="Control/TextEdits" unique_id=1123206158 groups=["Region6", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2284,6 +2797,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit71/Label1" unique_id=1976303195]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit72" type="TextEdit" parent="Control/TextEdits" unique_id=1208787661 groups=["Region6", "Sector5"]]
 layout_mode = 2
@@ -2315,6 +2837,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit72/Label1" unique_id=852448446]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit73" type="TextEdit" parent="Control/TextEdits" unique_id=925022363 groups=["Region7", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2344,6 +2875,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit73/Label1" unique_id=1588426750]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit74" type="TextEdit" parent="Control/TextEdits" unique_id=410840472 groups=["Region7", "Sector5"]]
 layout_mode = 2
@@ -2375,6 +2915,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit74/Label1" unique_id=1587736907]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit75" type="TextEdit" parent="Control/TextEdits" unique_id=857445942 groups=["Region7", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2404,6 +2953,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit75/Label1" unique_id=640754154]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit76" type="TextEdit" parent="Control/TextEdits" unique_id=1980423524 groups=["Region7", "Sector6"]]
 layout_mode = 2
@@ -2435,6 +2993,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit76/Label1" unique_id=1132492719]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit77" type="TextEdit" parent="Control/TextEdits" unique_id=2106344162 groups=["Region8", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2464,6 +3031,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit77/Label1" unique_id=1775796682]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit78" type="TextEdit" parent="Control/TextEdits" unique_id=1546299996 groups=["Region8", "Sector7"]]
 layout_mode = 2
@@ -2495,6 +3071,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit78/Label1" unique_id=420817467]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit79" type="TextEdit" parent="Control/TextEdits" unique_id=951315140 groups=["Region8", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2525,6 +3110,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit79/Label1" unique_id=2027321473]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit80" type="TextEdit" parent="Control/TextEdits" unique_id=291559007 groups=["Region8", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2554,6 +3148,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit80/Label1" unique_id=1466253382]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit81" type="TextEdit" parent="Control/TextEdits" unique_id=1281701714 groups=["Region5", "Sector1"]]
 layout_mode = 2
@@ -2624,6 +3227,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit82/Label1" unique_id=1435877566]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit83" type="TextEdit" parent="Control/TextEdits" unique_id=395157299 groups=["Region5", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2653,6 +3265,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit83/Label1" unique_id=163328959]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit84" type="TextEdit" parent="Control/TextEdits" unique_id=582588886 groups=["Region5", "Sector6"]]
 layout_mode = 2
@@ -2684,6 +3305,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit84/Label1" unique_id=1677549631]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit85" type="TextEdit" parent="Control/TextEdits" unique_id=237854424 groups=["Region6", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2714,6 +3344,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit85/Label1" unique_id=718844428]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit86" type="TextEdit" parent="Control/TextEdits" unique_id=730865306 groups=["Region6", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2743,6 +3382,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit86/Label1" unique_id=550923957]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit87" type="TextEdit" parent="Control/TextEdits" unique_id=523136283 groups=["Region6", "Sector1"]]
 layout_mode = 2
@@ -2891,6 +3539,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit90/Label1" unique_id=1032809596]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit91" type="TextEdit" parent="Control/TextEdits" unique_id=1106958862 groups=["Region7", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2920,6 +3577,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit91/Label1" unique_id=700446560]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit92" type="TextEdit" parent="Control/TextEdits" unique_id=1763413089 groups=["Region7", "Sector6"]]
 layout_mode = 2
@@ -2951,6 +3617,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit92/Label1" unique_id=1734613496]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit93" type="TextEdit" parent="Control/TextEdits" unique_id=327556834 groups=["Region8", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -2980,6 +3655,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit93/Label1" unique_id=982115719]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit94" type="TextEdit" parent="Control/TextEdits" unique_id=1382811040 groups=["Region8", "Sector7"]]
 layout_mode = 2
@@ -3011,6 +3695,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit94/Label1" unique_id=283167328]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit95" type="TextEdit" parent="Control/TextEdits" unique_id=1396237122 groups=["Region8", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3041,6 +3734,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit95/Label1" unique_id=1101908484]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit96" type="TextEdit" parent="Control/TextEdits" unique_id=1338503985 groups=["Region8", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3070,6 +3772,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit96/Label1" unique_id=1566173968]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit97" type="TextEdit" parent="Control/TextEdits" unique_id=389823175 groups=["Region5", "Sector1"]]
 layout_mode = 2
@@ -3218,6 +3929,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit100/Label1" unique_id=1951201579]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit101" type="TextEdit" parent="Control/TextEdits" unique_id=200679335 groups=["Region6", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3247,6 +3967,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit101/Label1" unique_id=480232827]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit102" type="TextEdit" parent="Control/TextEdits" unique_id=270805449 groups=["Region6", "Sector3"]]
 layout_mode = 2
@@ -3278,6 +4007,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit102/Label1" unique_id=196946415]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit103" type="TextEdit" parent="Control/TextEdits" unique_id=638383994 groups=["Region6", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3308,6 +4046,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit103/Label1" unique_id=1043411361]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit104" type="TextEdit" parent="Control/TextEdits" unique_id=705620602 groups=["Region6", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3337,6 +4084,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit104/Label1" unique_id=1693110894]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit105" type="TextEdit" parent="Control/TextEdits" unique_id=2140542515 groups=["Region7", "Sector1"]]
 layout_mode = 2
@@ -3407,6 +4163,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit106/Label1" unique_id=384069889]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit107" type="TextEdit" parent="Control/TextEdits" unique_id=912914329 groups=["Region7", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3436,6 +4201,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit107/Label1" unique_id=1145018467]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit108" type="TextEdit" parent="Control/TextEdits" unique_id=1039424471 groups=["Region7", "Sector2"]]
 layout_mode = 2
@@ -3467,6 +4241,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit108/Label1" unique_id=1194912121]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit109" type="TextEdit" parent="Control/TextEdits" unique_id=824371469 groups=["Region8", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3496,6 +4279,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit109/Label1" unique_id=195844616]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit110" type="TextEdit" parent="Control/TextEdits" unique_id=1818337969 groups=["Region8", "Sector7"]]
 layout_mode = 2
@@ -3527,6 +4319,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit110/Label1" unique_id=1243564377]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit111" type="TextEdit" parent="Control/TextEdits" unique_id=1306534131 groups=["Region8", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3556,6 +4357,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit111/Label1" unique_id=1905544515]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit112" type="TextEdit" parent="Control/TextEdits" unique_id=2023547703 groups=["Region8", "Sector4"]]
 layout_mode = 2
@@ -3587,6 +4397,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit112/Label1" unique_id=647022992]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit113" type="TextEdit" parent="Control/TextEdits" unique_id=1876650604 groups=["Region5", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3617,6 +4436,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit113/Label1" unique_id=401737775]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit114" type="TextEdit" parent="Control/TextEdits" unique_id=1378293573 groups=["Region5", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3646,6 +4474,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit114/Label1" unique_id=306728229]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit115" type="TextEdit" parent="Control/TextEdits" unique_id=349348577 groups=["Region5", "Sector1"]]
 layout_mode = 2
@@ -3716,6 +4553,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit116/Label1" unique_id=1346735766]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit117" type="TextEdit" parent="Control/TextEdits" unique_id=1968594539 groups=["Region6", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3745,6 +4591,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit117/Label1" unique_id=830887422]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit118" type="TextEdit" parent="Control/TextEdits" unique_id=1384472226 groups=["Region6", "Sector5"]]
 layout_mode = 2
@@ -3776,6 +4631,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit118/Label1" unique_id=1600768804]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit119" type="TextEdit" parent="Control/TextEdits" unique_id=721679052 groups=["Region6", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3805,6 +4669,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit119/Label1" unique_id=1966187546]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit120" type="TextEdit" parent="Control/TextEdits" unique_id=515604029 groups=["Region6", "Sector2"]]
 layout_mode = 2
@@ -3836,6 +4709,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit120/Label1" unique_id=1597506734]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit121" type="TextEdit" parent="Control/TextEdits" unique_id=2110152731 groups=["Region7", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3865,6 +4747,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit121/Label1" unique_id=318370477]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit122" type="TextEdit" parent="Control/TextEdits" unique_id=390476177 groups=["Region7", "Sector6"]]
 layout_mode = 2
@@ -3896,6 +4787,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit122/Label1" unique_id=1291934347]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit123" type="TextEdit" parent="Control/TextEdits" unique_id=1523038689 groups=["Region7", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3925,6 +4825,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit123/Label1" unique_id=49014863]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit124" type="TextEdit" parent="Control/TextEdits" unique_id=1245310989 groups=["Region7", "Sector2"]]
 layout_mode = 2
@@ -3956,6 +4865,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit124/Label1" unique_id=972439888]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit125" type="TextEdit" parent="Control/TextEdits" unique_id=1227181039 groups=["Region8", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -3985,6 +4903,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit125/Label1" unique_id=659866939]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit126" type="TextEdit" parent="Control/TextEdits" unique_id=120705120 groups=["Region8", "Sector3"]]
 layout_mode = 2
@@ -4016,6 +4943,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit126/Label1" unique_id=1862788307]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit127" type="TextEdit" parent="Control/TextEdits" unique_id=519445490 groups=["Region8", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4045,6 +4981,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit127/Label1" unique_id=18334552]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit128" type="TextEdit" parent="Control/TextEdits" unique_id=1895906693 groups=["Region8", "Sector4"]]
 layout_mode = 2
@@ -4076,6 +5021,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit128/Label1" unique_id=868726438]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit129" type="TextEdit" parent="Control/TextEdits" unique_id=892873486 groups=["Region9", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4105,6 +5059,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit129/Label1" unique_id=172808156]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit130" type="TextEdit" parent="Control/TextEdits" unique_id=856474050 groups=["Region9", "Sector6"]]
 layout_mode = 2
@@ -4136,6 +5099,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit130/Label1" unique_id=712428513]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit131" type="TextEdit" parent="Control/TextEdits" unique_id=909947103 groups=["Region9", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4165,6 +5137,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit131/Label1" unique_id=244597063]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit132" type="TextEdit" parent="Control/TextEdits" unique_id=1515805948 groups=["Region9", "Sector5"]]
 layout_mode = 2
@@ -4196,6 +5177,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit132/Label1" unique_id=1156946559]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit133" type="TextEdit" parent="Control/TextEdits" unique_id=1270044222 groups=["Region10", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4225,6 +5215,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit133/Label1" unique_id=937233939]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit134" type="TextEdit" parent="Control/TextEdits" unique_id=730320397 groups=["Region10", "Sector5"]]
 layout_mode = 2
@@ -4256,6 +5255,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit134/Label1" unique_id=591472341]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit135" type="TextEdit" parent="Control/TextEdits" unique_id=2142916290 groups=["Region10", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4285,6 +5293,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit135/Label1" unique_id=741843859]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit136" type="TextEdit" parent="Control/TextEdits" unique_id=1065836438 groups=["Region10", "Sector3"]]
 layout_mode = 2
@@ -4316,6 +5333,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit136/Label1" unique_id=990876593]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit137" type="TextEdit" parent="Control/TextEdits" unique_id=1063669344 groups=["Region11", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4345,6 +5371,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit137/Label1" unique_id=1678059056]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit138" type="TextEdit" parent="Control/TextEdits" unique_id=2130243739 groups=["Region11", "Sector4"]]
 layout_mode = 2
@@ -4376,6 +5411,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit138/Label1" unique_id=1687027306]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit139" type="TextEdit" parent="Control/TextEdits" unique_id=1900116440 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4405,6 +5449,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit139/Label1" unique_id=570429312]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit140" type="TextEdit" parent="Control/TextEdits" unique_id=1941624543 groups=["Region11", "Sector4"]]
 layout_mode = 2
@@ -4436,6 +5489,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit140/Label1" unique_id=1465667788]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit141" type="TextEdit" parent="Control/TextEdits" unique_id=242654863 groups=["Region12", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4465,6 +5527,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit141/Label1" unique_id=371362954]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit142" type="TextEdit" parent="Control/TextEdits" unique_id=1290948897 groups=["Region12", "Sector3"]]
 layout_mode = 2
@@ -4496,6 +5567,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit142/Label1" unique_id=467921407]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit143" type="TextEdit" parent="Control/TextEdits" unique_id=241903027 groups=["Region12", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4525,6 +5605,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit143/Label1" unique_id=902182732]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit144" type="TextEdit" parent="Control/TextEdits" unique_id=509260344 groups=["Region12", "Sector2"]]
 layout_mode = 2
@@ -4556,6 +5645,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit144/Label1" unique_id=404343013]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit145" type="TextEdit" parent="Control/TextEdits" unique_id=1779788623 groups=["Region9", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4585,6 +5683,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit145/Label1" unique_id=722735825]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit146" type="TextEdit" parent="Control/TextEdits" unique_id=5044661 groups=["Region9", "Sector5"]]
 layout_mode = 2
@@ -4616,6 +5723,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit146/Label1" unique_id=34604925]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit147" type="TextEdit" parent="Control/TextEdits" unique_id=99866907 groups=["Region9", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4645,6 +5761,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit147/Label1" unique_id=2084746766]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit148" type="TextEdit" parent="Control/TextEdits" unique_id=404316013 groups=["Region9", "Sector5"]]
 layout_mode = 2
@@ -4676,6 +5801,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit148/Label1" unique_id=193460607]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit149" type="TextEdit" parent="Control/TextEdits" unique_id=2039286679 groups=["Region10", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4705,6 +5839,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit149/Label1" unique_id=392575081]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit150" type="TextEdit" parent="Control/TextEdits" unique_id=1575522051 groups=["Region10", "Sector3"]]
 layout_mode = 2
@@ -4736,6 +5879,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit150/Label1" unique_id=858823494]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit151" type="TextEdit" parent="Control/TextEdits" unique_id=541283990 groups=["Region10", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4765,6 +5917,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit151/Label1" unique_id=2075044232]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit152" type="TextEdit" parent="Control/TextEdits" unique_id=1486763055 groups=["Region10", "Sector1"]]
 layout_mode = 2
@@ -4796,9 +5957,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit152" unique_id=1990497511]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit152/Label1" unique_id=1990497511]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -4834,9 +5996,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit153" unique_id=818725919]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit153/Label1" unique_id=818725919]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -4872,6 +6035,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit154/Label1" unique_id=359839303]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit155" type="TextEdit" parent="Control/TextEdits" unique_id=851564107 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4901,6 +6073,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit155/Label1" unique_id=1338219260]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit156" type="TextEdit" parent="Control/TextEdits" unique_id=1130489136 groups=["Region11", "Sector5"]]
 layout_mode = 2
@@ -4932,6 +6113,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit156/Label1" unique_id=1464138459]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit157" type="TextEdit" parent="Control/TextEdits" unique_id=1794349891 groups=["Region12", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4961,6 +6151,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit157/Label1" unique_id=1204564756]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit158" type="TextEdit" parent="Control/TextEdits" unique_id=1566831013 groups=["Region12", "Sector5"]]
 layout_mode = 2
@@ -4992,6 +6191,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit158/Label1" unique_id=1625365336]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit159" type="TextEdit" parent="Control/TextEdits" unique_id=1110884766 groups=["Region12", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5021,6 +6229,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit159/Label1" unique_id=947053731]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit160" type="TextEdit" parent="Control/TextEdits" unique_id=922358428 groups=["Region12", "Sector2"]]
 layout_mode = 2
@@ -5052,6 +6269,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit160/Label1" unique_id=824328561]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit161" type="TextEdit" parent="Control/TextEdits" unique_id=298186838 groups=["Region9", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5081,6 +6307,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit161/Label1" unique_id=1513590426]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit162" type="TextEdit" parent="Control/TextEdits" unique_id=813571650 groups=["Region9", "Sector5"]]
 layout_mode = 2
@@ -5112,6 +6347,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit162/Label1" unique_id=946137706]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit163" type="TextEdit" parent="Control/TextEdits" unique_id=1057919998 groups=["Region9", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5141,6 +6385,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit163/Label1" unique_id=1362155475]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit164" type="TextEdit" parent="Control/TextEdits" unique_id=259154785 groups=["Region9", "Sector4"]]
 layout_mode = 2
@@ -5172,6 +6425,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit164/Label1" unique_id=58861109]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit165" type="TextEdit" parent="Control/TextEdits" unique_id=1007623761 groups=["Region10", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5201,6 +6463,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit165/Label1" unique_id=1769129721]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit166" type="TextEdit" parent="Control/TextEdits" unique_id=172322943 groups=["Region10", "Sector2"]]
 layout_mode = 2
@@ -5232,6 +6503,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit166/Label1" unique_id=376359981]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit167" type="TextEdit" parent="Control/TextEdits" unique_id=987403259 groups=["Region10", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5261,6 +6541,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit167/Label1" unique_id=172812490]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit168" type="TextEdit" parent="Control/TextEdits" unique_id=1298318393 groups=["Region10", "Sector1"]]
 layout_mode = 2
@@ -5292,9 +6581,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit168" unique_id=518727645]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit168/Label1" unique_id=518727645]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -5330,6 +6620,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit169/Label1" unique_id=1515813124]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit170" type="TextEdit" parent="Control/TextEdits" unique_id=658374839 groups=["Region11", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5359,6 +6658,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit170/Label1" unique_id=1464557978]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit171" type="TextEdit" parent="Control/TextEdits" unique_id=1919356418 groups=["Region11", "Sector4"]]
 layout_mode = 2
@@ -5390,6 +6698,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit171/Label1" unique_id=715833671]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit172" type="TextEdit" parent="Control/TextEdits" unique_id=851551141 groups=["Region11", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5419,6 +6736,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit172/Label1" unique_id=69916710]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit173" type="TextEdit" parent="Control/TextEdits" unique_id=2131546363 groups=["Region12", "Sector1"]]
 layout_mode = 2
@@ -5450,9 +6776,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit173" unique_id=1997597569]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit173/Label1" unique_id=1997597569]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -5488,9 +6815,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit174" unique_id=643963556]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit174/Label1" unique_id=643963556]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -5526,9 +6854,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit175" unique_id=1778739090]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit175/Label1" unique_id=1778739090]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -5564,6 +6893,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit176/Label1" unique_id=31856396]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit177" type="TextEdit" parent="Control/TextEdits" unique_id=1307979496 groups=["Region9", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5593,6 +6931,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit177/Label1" unique_id=1947959955]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit178" type="TextEdit" parent="Control/TextEdits" unique_id=1392642452 groups=["Region9", "Sector6"]]
 layout_mode = 2
@@ -5624,6 +6971,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit178/Label1" unique_id=2056529287]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit179" type="TextEdit" parent="Control/TextEdits" unique_id=1550463385 groups=["Region9", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5653,6 +7009,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit179/Label1" unique_id=488066193]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit180" type="TextEdit" parent="Control/TextEdits" unique_id=1562777395 groups=["Region9", "Sector1"]]
 layout_mode = 2
@@ -5684,9 +7049,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit180" unique_id=734061988]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit180/Label1" unique_id=734061988]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -5722,6 +7088,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit181/Label1" unique_id=1163551714]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit182" type="TextEdit" parent="Control/TextEdits" unique_id=490601740 groups=["Region10", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5751,6 +7126,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit182/Label1" unique_id=1587392353]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit183" type="TextEdit" parent="Control/TextEdits" unique_id=619702146 groups=["Region10", "Sector2"]]
 layout_mode = 2
@@ -5782,6 +7166,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit183/Label1" unique_id=558879606]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit184" type="TextEdit" parent="Control/TextEdits" unique_id=78025709 groups=["Region10", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5812,9 +7205,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit184" unique_id=159145896]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit184/Label1" unique_id=159145896]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -5850,6 +7244,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit185/Label1" unique_id=343761783]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit186" type="TextEdit" parent="Control/TextEdits" unique_id=1220423179 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5879,6 +7282,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit186/Label1" unique_id=1316272878]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit187" type="TextEdit" parent="Control/TextEdits" unique_id=548020760 groups=["Region11", "Sector4"]]
 layout_mode = 2
@@ -5910,6 +7322,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit187/Label1" unique_id=416830302]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit188" type="TextEdit" parent="Control/TextEdits" unique_id=252178086 groups=["Region11", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5939,6 +7360,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit188/Label1" unique_id=1348338193]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit189" type="TextEdit" parent="Control/TextEdits" unique_id=2114457045 groups=["Region12", "Sector6"]]
 layout_mode = 2
@@ -5970,6 +7400,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit189/Label1" unique_id=473484973]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit190" type="TextEdit" parent="Control/TextEdits" unique_id=1574921390 groups=["Region12", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -5999,6 +7438,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit190/Label1" unique_id=1577338582]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit191" type="TextEdit" parent="Control/TextEdits" unique_id=517484018 groups=["Region12", "Sector1"]]
 layout_mode = 2
@@ -6030,9 +7478,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit191" unique_id=53725135]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit191/Label1" unique_id=53725135]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -6068,6 +7517,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit192/Label1" unique_id=342205788]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit193" type="TextEdit" parent="Control/TextEdits" unique_id=1913380322 groups=["Region13", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6097,6 +7555,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit193/Label1" unique_id=580352985]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit194" type="TextEdit" parent="Control/TextEdits" unique_id=1608320493 groups=["Region13", "Sector6"]]
 layout_mode = 2
@@ -6128,6 +7595,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit194/Label1" unique_id=383531324]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit195" type="TextEdit" parent="Control/TextEdits" unique_id=969701247 groups=["Region13", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6157,6 +7633,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit195/Label1" unique_id=1673233557]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit196" type="TextEdit" parent="Control/TextEdits" unique_id=2060380488 groups=["Region13", "Sector1"]]
 layout_mode = 2
@@ -6188,9 +7673,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit196" unique_id=829331884]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit196/Label1" unique_id=829331884]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -6226,9 +7712,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit197" unique_id=77315499]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit197/Label1" unique_id=77315499]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -6264,9 +7751,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit198" unique_id=863422055]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit198/Label1" unique_id=863422055]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -6302,6 +7790,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit199/Label1" unique_id=312341283]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit200" type="TextEdit" parent="Control/TextEdits" unique_id=1554337649 groups=["Region14", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6331,6 +7828,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit200/Label1" unique_id=272707822]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit201" type="TextEdit" parent="Control/TextEdits" unique_id=284672998 groups=["Region15", "Sector7"]]
 layout_mode = 2
@@ -6362,6 +7868,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit201/Label1" unique_id=1235608556]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit202" type="TextEdit" parent="Control/TextEdits" unique_id=1928423412 groups=["Region15", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6391,6 +7906,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit202/Label1" unique_id=1585633405]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit203" type="TextEdit" parent="Control/TextEdits" unique_id=2015972141 groups=["Region15", "Sector7"]]
 layout_mode = 2
@@ -6422,6 +7946,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit203/Label1" unique_id=881427509]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit204" type="TextEdit" parent="Control/TextEdits" unique_id=793625583 groups=["Region15", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6451,6 +7984,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit204/Label1" unique_id=170519189]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit205" type="TextEdit" parent="Control/TextEdits" unique_id=1476476598 groups=["Region16", "Sector3"]]
 layout_mode = 2
@@ -6482,6 +8024,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit205/Label1" unique_id=1536413938]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit206" type="TextEdit" parent="Control/TextEdits" unique_id=455950157 groups=["Region16", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6511,6 +8062,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit206/Label1" unique_id=1705648765]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit207" type="TextEdit" parent="Control/TextEdits" unique_id=1420697944 groups=["Region16", "Sector6"]]
 layout_mode = 2
@@ -6542,6 +8102,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit207/Label1" unique_id=75129636]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit208" type="TextEdit" parent="Control/TextEdits" unique_id=1215211574 groups=["Region16", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6571,6 +8140,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit208/Label1" unique_id=1182225377]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit209" type="TextEdit" parent="Control/TextEdits" unique_id=2070776571 groups=["Region13", "Sector3"]]
 layout_mode = 2
@@ -6602,6 +8180,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit209/Label1" unique_id=206462127]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit210" type="TextEdit" parent="Control/TextEdits" unique_id=1049480992 groups=["Region13", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6631,6 +8218,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit210/Label1" unique_id=155123501]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit211" type="TextEdit" parent="Control/TextEdits" unique_id=934005246 groups=["Region13", "Sector4"]]
 layout_mode = 2
@@ -6662,6 +8258,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit211/Label1" unique_id=1512863456]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit212" type="TextEdit" parent="Control/TextEdits" unique_id=550267604 groups=["Region13", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6691,6 +8296,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit212/Label1" unique_id=1677845833]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit213" type="TextEdit" parent="Control/TextEdits" unique_id=1503139374 groups=["Region14", "Sector5"]]
 layout_mode = 2
@@ -6722,6 +8336,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit213/Label1" unique_id=164204273]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit214" type="TextEdit" parent="Control/TextEdits" unique_id=1035500257 groups=["Region14", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6751,6 +8374,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit214/Label1" unique_id=1758555571]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit215" type="TextEdit" parent="Control/TextEdits" unique_id=1270843885 groups=["Region14", "Sector7"]]
 layout_mode = 2
@@ -6782,6 +8414,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit215/Label1" unique_id=258382908]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
+
 [node name="TextEdit216" type="TextEdit" parent="Control/TextEdits" unique_id=2120708986 groups=["Region14", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6811,6 +8452,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit216/Label1" unique_id=523287176]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit217" type="TextEdit" parent="Control/TextEdits" unique_id=790798103 groups=["Region15", "Sector5"]]
 layout_mode = 2
@@ -6842,6 +8492,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit217/Label1" unique_id=120645031]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit218" type="TextEdit" parent="Control/TextEdits" unique_id=401083686 groups=["Region15", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6871,6 +8530,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit218/Label1" unique_id=878724021]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="TextEdit219" type="TextEdit" parent="Control/TextEdits" unique_id=809775422 groups=["Region15", "Sector3"]]
 layout_mode = 2
@@ -6902,6 +8570,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit219/Label1" unique_id=2020350379]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit220" type="TextEdit" parent="Control/TextEdits" unique_id=162094918 groups=["Region15", "Sector3"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6931,6 +8608,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit220/Label1" unique_id=248584430]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
 
 [node name="TextEdit221" type="TextEdit" parent="Control/TextEdits" unique_id=2120484707 groups=["Region16", "Sector4"]]
 layout_mode = 2
@@ -6962,6 +8648,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit221/Label1" unique_id=1960773982]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit222" type="TextEdit" parent="Control/TextEdits" unique_id=956240523 groups=["Region16", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -6991,6 +8686,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit222/Label1" unique_id=907170103]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit223" type="TextEdit" parent="Control/TextEdits" unique_id=1958907800 groups=["Region16", "Sector2"]]
 layout_mode = 2
@@ -7022,6 +8726,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit223/Label1" unique_id=70563633]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit224" type="TextEdit" parent="Control/TextEdits" unique_id=300382845 groups=["Region16", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7051,6 +8764,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit224/Label1" unique_id=755633617]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit225" type="TextEdit" parent="Control/TextEdits" unique_id=1148926744 groups=["Region13", "Sector1"]]
 layout_mode = 2
@@ -7082,9 +8804,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit225" unique_id=1889952306]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit225/Label1" unique_id=1889952306]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -7120,6 +8843,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit226/Label1" unique_id=1010590743]
+modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 0, 256, 256)
+
 [node name="TextEdit227" type="TextEdit" parent="Control/TextEdits" unique_id=1334091067 groups=["Region13", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7149,6 +8881,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit227/Label1" unique_id=1924925042]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit228" type="TextEdit" parent="Control/TextEdits" unique_id=667589015 groups=["Region13", "Sector2"]]
 layout_mode = 2
@@ -7180,6 +8921,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit228/Label1" unique_id=295988962]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit229" type="TextEdit" parent="Control/TextEdits" unique_id=988829181 groups=["Region14", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7209,6 +8959,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit229/Label1" unique_id=960315101]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit230" type="TextEdit" parent="Control/TextEdits" unique_id=589869624 groups=["Region14", "Sector5"]]
 layout_mode = 2
@@ -7240,6 +8999,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit230/Label1" unique_id=951301486]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit231" type="TextEdit" parent="Control/TextEdits" unique_id=1541292007 groups=["Region14", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7269,6 +9037,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit231/Label1" unique_id=1165070720]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit232" type="TextEdit" parent="Control/TextEdits" unique_id=1300360099 groups=["Region14", "Sector5"]]
 layout_mode = 2
@@ -7300,6 +9077,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit232/Label1" unique_id=1958444460]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit233" type="TextEdit" parent="Control/TextEdits" unique_id=526384025 groups=["Region15", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7329,6 +9115,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit233/Label1" unique_id=1301781103]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit234" type="TextEdit" parent="Control/TextEdits" unique_id=1385676295 groups=["Region15", "Sector6"]]
 layout_mode = 2
@@ -7360,6 +9155,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit234/Label1" unique_id=998709825]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit235" type="TextEdit" parent="Control/TextEdits" unique_id=259794260 groups=["Region15", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7389,6 +9193,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit235/Label1" unique_id=966072518]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit236" type="TextEdit" parent="Control/TextEdits" unique_id=1067289637 groups=["Region15", "Sector4"]]
 layout_mode = 2
@@ -7420,6 +9233,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit236/Label1" unique_id=133996853]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit237" type="TextEdit" parent="Control/TextEdits" unique_id=2095848372 groups=["Region16", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7449,6 +9271,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit237/Label1" unique_id=294915423]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit238" type="TextEdit" parent="Control/TextEdits" unique_id=632516991 groups=["Region16", "Sector2"]]
 layout_mode = 2
@@ -7480,6 +9311,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit238/Label1" unique_id=1353632054]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit239" type="TextEdit" parent="Control/TextEdits" unique_id=1548319454 groups=["Region16", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7509,6 +9349,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit239/Label1" unique_id=1422844302]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit240" type="TextEdit" parent="Control/TextEdits" unique_id=1023390157 groups=["Region16", "Sector5"]]
 layout_mode = 2
@@ -7540,6 +9389,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit240/Label1" unique_id=1457539228]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit241" type="TextEdit" parent="Control/TextEdits" unique_id=1603039631 groups=["Region13", "Sector1"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7570,9 +9428,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit241" unique_id=1803374270]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit241/Label1" unique_id=1803374270]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -7608,9 +9467,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit242" unique_id=642134324]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit242/Label1" unique_id=642134324]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -7646,9 +9506,10 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit243" unique_id=1723433965]
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit243/Label1" unique_id=1723433965]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
-position = Vector2(13.999995, 13.999999)
+show_behind_parent = true
+position = Vector2(14, 14)
 scale = Vector2(0.102538995, 0.102538995)
 texture = ExtResource("6_echef")
 region_enabled = true
@@ -7684,6 +9545,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit244/Label1" unique_id=344217907]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
+
 [node name="TextEdit245" type="TextEdit" parent="Control/TextEdits" unique_id=421101991 groups=["Region14", "Sector2"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7713,6 +9583,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit245/Label1" unique_id=578861465]
+modulate = Color(1, 0.85490197, 0.07058824, 1)
+show_behind_parent = true
+position = Vector2(14, 14)
+scale = Vector2(0.1015625, 0.1015625)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 0, 256, 256)
 
 [node name="TextEdit246" type="TextEdit" parent="Control/TextEdits" unique_id=605209759 groups=["Region14", "Sector5"]]
 layout_mode = 2
@@ -7744,6 +9623,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit246/Label1" unique_id=1355493696]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit247" type="TextEdit" parent="Control/TextEdits" unique_id=1884808340 groups=["Region14", "Sector7"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7773,6 +9661,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit247/Label1" unique_id=1950808273]
+modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.11328125, 0.11328125)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(512, 256, 256, 256)
 
 [node name="TextEdit248" type="TextEdit" parent="Control/TextEdits" unique_id=1670792711 groups=["Region14", "Sector4"]]
 layout_mode = 2
@@ -7804,6 +9701,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit248/Label1" unique_id=1969041184]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit249" type="TextEdit" parent="Control/TextEdits" unique_id=402448025 groups=["Region15", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7833,6 +9739,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit249/Label1" unique_id=1455874688]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit250" type="TextEdit" parent="Control/TextEdits" unique_id=1291744030 groups=["Region15", "Sector4"]]
 layout_mode = 2
@@ -7864,6 +9779,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit250/Label1" unique_id=348076144]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
+
 [node name="TextEdit251" type="TextEdit" parent="Control/TextEdits" unique_id=989622300 groups=["Region15", "Sector6"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7893,6 +9817,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit251/Label1" unique_id=679357875]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
 
 [node name="TextEdit252" type="TextEdit" parent="Control/TextEdits" unique_id=661878388 groups=["Region15", "Sector6"]]
 layout_mode = 2
@@ -7924,6 +9857,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit252/Label1" unique_id=1918657858]
+modulate = Color(0.702916, 0.13937089, 0.14867476, 1)
+show_behind_parent = true
+position = Vector2(13.5, 13.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(256, 256, 256, 256)
+
 [node name="TextEdit253" type="TextEdit" parent="Control/TextEdits" unique_id=2099424140 groups=["Region16", "Sector4"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -7953,6 +9895,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit253/Label1" unique_id=993454002]
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
+show_behind_parent = true
+position = Vector2(13.5, 14.5)
+scale = Vector2(0.10546875, 0.10546875)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(768, 0, 256, 256)
 
 [node name="TextEdit254" type="TextEdit" parent="Control/TextEdits" unique_id=1192571884 groups=["Region16", "Sector5"]]
 layout_mode = 2
@@ -7984,6 +9935,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit254/Label1" unique_id=715094606]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit255" type="TextEdit" parent="Control/TextEdits" unique_id=1396751492 groups=["Region16", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -8014,6 +9974,15 @@ scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit255/Label1" unique_id=1752541740]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
+
 [node name="TextEdit256" type="TextEdit" parent="Control/TextEdits" unique_id=147656295 groups=["Region16", "Sector5"]]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -8043,6 +10012,15 @@ fit_content = true
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/TextEdits/TextEdit256/Label1" unique_id=59167716]
+modulate = Color(0.8126224, 0.41954976, 0.09057582, 1)
+show_behind_parent = true
+position = Vector2(14, 15)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("6_echef")
+region_enabled = true
+region_rect = Rect2(0, 256, 256, 256)
 
 [node name="Back" type="Button" parent="Control" unique_id=282303490]
 layout_mode = 0
@@ -8493,7 +10471,7 @@ bbcode_enabled = true
 text = ":[i] "
 
 [node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector4" unique_id=1587952354]
-modulate = Color(0.53333336, 0.17254902, 0.92941177, 1)
+modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
 show_behind_parent = true
 position = Vector2(99.5, 110)
 scale = Vector2(0.25, 0.25)
