@@ -14,7 +14,17 @@ func _run() -> void:
 					8,1,'g','a',5,7,2,4,'d',
 					'c',5,'e',9,3,'g',1,
 					2,'d','e','f',8,'g',9,6,'b',
-					]
+					'd','f',8,'b',2,'a',4,'c',1,3,5,
+					'b',1,'c','g',8,3,6,'e','d',4,2,
+					5,'g','c',9,7,2,'a',8,1,
+					'e',6,5,3,7,'f','d','b',1,'c',
+					8,'g','c',1,5,3,'a','d',7,
+					'f','c',7,5,9,1,'g',4,6,'b','e',
+					1,'b','a','d',8,3,'c',7,'e',4,5,2,9,
+					6,'a','d',3,7,9,5,8,'g','c',4,
+					7,'c','g',4,5,6,'e',6,8,9,2,
+					4,3,9,8,6,'c','g','e','f',
+					'a',5,'f','b',9,3,'c',7,'e',6]
 	# the locations of the above given values go here. Note that the grid is 1 indexed.
 	grid_locations = []
 	# each array is a region, containing every cell within that region.
