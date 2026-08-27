@@ -10285,9 +10285,10 @@ offset_left = 133.5
 offset_top = 89.0
 offset_right = 190.0
 offset_bottom = 134.0
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/italics_font_size = 20
 bbcode_enabled = true
-text = ":[i] "
+text = ":[i] 275"
 
 [node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector1" unique_id=368601607]
 modulate = Color(0.29803923, 0.50980395, 0.99215686, 1)
@@ -10312,9 +10313,10 @@ offset_left = 133.5
 offset_top = 89.0
 offset_right = 190.0
 offset_bottom = 134.0
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/italics_font_size = 20
 bbcode_enabled = true
-text = ":[i] "
+text = ":[i] 361"
 
 [node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector2" unique_id=411442584]
 modulate = Color(0.7764706, 0.6627451, 0, 1)
@@ -10339,9 +10341,10 @@ offset_left = 133.5
 offset_top = 89.0
 offset_right = 190.0
 offset_bottom = 134.0
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/italics_font_size = 20
 bbcode_enabled = true
-text = ":[i] "
+text = ":[i] 259"
 
 [node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector3" unique_id=1368892122]
 modulate = Color(0.010218087, 0.71489275, 0.052847587, 1)
@@ -10366,9 +10369,10 @@ offset_left = 133.5
 offset_top = 89.0
 offset_right = 190.0
 offset_bottom = 134.0
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/italics_font_size = 20
 bbcode_enabled = true
-text = ":[i] "
+text = ":[i] 398"
 
 [node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector4" unique_id=1587952354]
 modulate = Color(0.410574, 0.09397464, 0.7332767, 1)
@@ -10393,9 +10397,10 @@ offset_left = 133.5
 offset_top = 89.0
 offset_right = 190.0
 offset_bottom = 134.0
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/italics_font_size = 20
 bbcode_enabled = true
-text = ":[i] "
+text = ":[i] 322"
 
 [node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector5" unique_id=269894581]
 modulate = Color(0.9361072, 0.47406566, 0.21084213, 1)
@@ -10420,9 +10425,10 @@ offset_left = 133.5
 offset_top = 89.0
 offset_right = 190.0
 offset_bottom = 134.0
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/italics_font_size = 20
 bbcode_enabled = true
-text = ":[i] "
+text = ":[i] 346"
 
 [node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector6" unique_id=1318896676]
 modulate = Color(0.80394447, 0.17427692, 0.18153304, 1)
@@ -10447,9 +10453,10 @@ offset_left = 133.5
 offset_top = 89.0
 offset_right = 190.0
 offset_bottom = 134.0
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/italics_font_size = 20
 bbcode_enabled = true
-text = ":[i] "
+text = ":[i] 199"
 
 [node name="Sprite2D" type="Sprite2D" parent="SectorValues/Sector7" unique_id=653445358]
 modulate = Color(0.18549222, 0.6739674, 0.72559464, 1)
