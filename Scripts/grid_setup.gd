@@ -26,7 +26,22 @@ func _run() -> void:
 					4,3,9,8,6,'c','g','e','f',
 					'a',5,'f','b',9,3,'c',7,'e',6]
 	# the locations of the above given values go here. Note that the grid is 1 indexed.
-	grid_locations = []
+	grid_locations = [1,3,4,5,6,7,8,9,11,13,14,
+						17,18,19,20,22,23,25,26,27,28,29,
+						34,36,38,40,41,43,45,46,48,
+						49,50,52,53,59,62,63,
+						65,69,71,74,75,76,77,79,80,
+						81,82,84,85,86,87,90,91,92,94,95,
+						97,99,100,101,103,105,107,109,110,111,112,
+						113,114,118,120,121,124,125,127,128,
+						129,130,131,132,133,135,137,138,141,144,
+						145,148,152,154,155,157,158,159,160,
+						161,163,164,165,166,168,171,173,174,174,176,
+						177,178,179,180,182,184,185,186,187,188,189,190,192,
+						193,197,198,199,200,201,202,204,205,207,208,
+						209,210,211,213,214,215,216,218,221,222,223,
+						225,226,228,229,230,231,233,234,237,
+						241,244,245,246,247,250,252,254,255,256]
 	# each array is a region, containing every cell within that region.
 	# it still needs to be manually filled, but it's faster than setting them in the editor. Probably.
 	# also, the grid is still 1 indexed.
@@ -94,7 +109,7 @@ func _run() -> void:
 		for index in range(0,grid_locations.size()):
 			var target_node = scene_root.find_child("TextEdit" + str(grid_locations[index]), true, false)
 			if (target_node):
-				target_node.placeholder_text = str(grid_values[index].to_upper())
+				target_node.placeholder_text = str(grid_values[index]).to_upper()
 			else:
 				printerr("Target node not found in current scene. Attempted to find " + target_node.name + " at index " + str(index))
 				return
