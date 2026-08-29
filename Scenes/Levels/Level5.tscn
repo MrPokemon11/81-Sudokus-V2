@@ -39,6 +39,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+placeholder_text = "4"
 emoji_menu_enabled = false
 script = ExtResource("3_agfdu")
 
@@ -1093,6 +1094,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_hy6wf")
+placeholder_text = "4"
 emoji_menu_enabled = false
 script = ExtResource("3_agfdu")
 
@@ -1282,5 +1284,5 @@ theme_override_font_sizes/italics_font_size = 18
 bbcode_enabled = true
 text = "Well done! Now let's go for something a little larger.
 
-No extra rules this time. 
+The rules are the same as the 4x4 grids. 
 Good luck!"

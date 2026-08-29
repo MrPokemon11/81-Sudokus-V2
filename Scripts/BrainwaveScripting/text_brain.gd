@@ -137,8 +137,8 @@ func check_groups_for_errors():
 		var eqChecker = node.check_for_issues(self.get_value_special())
 		if(eqChecker):
 			hasError = true
-		else:
-			hasError = false
+		#else:
+			#hasError = false
 	
 	if(hasError):
 		set_red(this_label)
