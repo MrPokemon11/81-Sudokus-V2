@@ -7,7 +7,7 @@
 [ext_resource type="Script" uid="uid://dn7sgry15kas3" path="res://Scripts/generic_scene_loader.gd" id="4_y4jh7"]
 [ext_resource type="Texture2D" uid="uid://cr85wa1gsiqa1" path="res://Textures/81SudokusTitleImageTransparent.png" id="5_qxria"]
 
-[node name="Node2D" type="Node2D" unique_id=52789031]
+[node name="MainScene" type="Node2D" unique_id=52789031]
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=2132189343]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)
@@ -43,8 +43,8 @@ size_flags_vertical = 3
 tooltip_text = "Level 1: First Steps"
 theme = ExtResource("1_nhkr4")
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "1"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level2" type="Button" parent="Control/GridContainer" unique_id=518743121]
@@ -53,8 +53,8 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 tooltip_text = "Level 2: Next Steps"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "2"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level3" type="Button" parent="Control/GridContainer" unique_id=1586090005]
@@ -63,8 +63,8 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 tooltip_text = "Level 3: Side Steps"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "3"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level4" type="Button" parent="Control/GridContainer" unique_id=1934050872]
@@ -73,8 +73,8 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 tooltip_text = "Level 4: Extra Steps"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "4"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level5" type="Button" parent="Control/GridContainer" unique_id=1452971893]
@@ -83,8 +83,8 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 tooltip_text = "Level 5: Stepping It Up"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "5"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level6" type="Button" parent="Control/GridContainer" unique_id=964179140]
@@ -93,8 +93,8 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 tooltip_text = "Level 6: Watch Your Step!"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "6"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level7" type="Button" parent="Control/GridContainer" unique_id=1123938347]
@@ -103,8 +103,8 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 tooltip_text = "Level 7: Step Around"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "7"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level8" type="Button" parent="Control/GridContainer" unique_id=199595356]
@@ -113,8 +113,8 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 tooltip_text = "Level 8: Step Around"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "8"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level9" type="Button" parent="Control/GridContainer" unique_id=2090367036]
@@ -123,16 +123,16 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 tooltip_text = "Level 9: I Ran Out Of \"Step\" Puns"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "9"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level10" type="Button" parent="Control/GridContainer" unique_id=384764049]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "10"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level11" type="Button" parent="Control/GridContainer" unique_id=1232700025]
@@ -140,8 +140,8 @@ layout_mode = 2
 size_flags_vertical = 3
 tooltip_text = "Level 11: 1x1"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "11"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level_Askew" type="Button" parent="Control/GridContainer" unique_id=422131004]
@@ -150,8 +150,8 @@ size_flags_vertical = 3
 tooltip_text = "Level 12: Askew
 "
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "12"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level_Mirrored" type="Button" parent="Control/GridContainer" unique_id=1734520854]
@@ -159,8 +159,8 @@ layout_mode = 2
 size_flags_vertical = 3
 tooltip_text = "Level 13: Mirrored"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "13"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level_LightsOut" type="Button" parent="Control/GridContainer" unique_id=1626418977]
@@ -168,26 +168,26 @@ layout_mode = 2
 size_flags_vertical = 3
 tooltip_text = "Level 14: Lights Out"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "14"
-flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="Level_Fall" type="Button" parent="Control/GridContainer" unique_id=549820165]
+[node name="Level_Flipped" type="Button" parent="Control/GridContainer" unique_id=549820165]
 layout_mode = 2
 size_flags_vertical = 3
-tooltip_text = "Level 15: Fall"
+tooltip_text = "Level 15: Flipped"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "15"
-flat = true
 script = ExtResource("2_tr2i4")
 
-[node name="Level_Flipped" type="Button" parent="Control/GridContainer" unique_id=1184931149]
+[node name="Level_Fall" type="Button" parent="Control/GridContainer" unique_id=1184931149]
 layout_mode = 2
 size_flags_vertical = 3
-tooltip_text = "Level 16: Flipped"
+tooltip_text = "Level 16: Fall"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "16"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="LevelLegalI" type="Button" parent="Control/GridContainer" unique_id=825360991]
@@ -195,216 +195,216 @@ layout_mode = 2
 size_flags_vertical = 3
 tooltip_text = "Level 17: Legally Distinct I"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "17"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level18" type="Button" parent="Control/GridContainer" unique_id=736142472]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "18"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level19" type="Button" parent="Control/GridContainer" unique_id=868527486]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "19"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level20" type="Button" parent="Control/GridContainer" unique_id=1055711229]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "20"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level21" type="Button" parent="Control/GridContainer" unique_id=311162171]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "21"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level22" type="Button" parent="Control/GridContainer" unique_id=1543337972]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "22"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level23" type="Button" parent="Control/GridContainer" unique_id=1607549022]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "23"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level24" type="Button" parent="Control/GridContainer" unique_id=1430169549]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "24"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level25" type="Button" parent="Control/GridContainer" unique_id=1449264134]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "25"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level26" type="Button" parent="Control/GridContainer" unique_id=1377696326]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "26"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level27" type="Button" parent="Control/GridContainer" unique_id=338315954]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "27"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level28" type="Button" parent="Control/GridContainer" unique_id=329161387]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "28"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level29" type="Button" parent="Control/GridContainer" unique_id=1609192898]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "29"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level30" type="Button" parent="Control/GridContainer" unique_id=1687412733]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "30"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level31" type="Button" parent="Control/GridContainer" unique_id=1986939199]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "31"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level32" type="Button" parent="Control/GridContainer" unique_id=10837318]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "32"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level33" type="Button" parent="Control/GridContainer" unique_id=1919519784]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "33"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level34" type="Button" parent="Control/GridContainer" unique_id=701185232]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "34"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level35" type="Button" parent="Control/GridContainer" unique_id=822966715]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "35"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level36" type="Button" parent="Control/GridContainer" unique_id=728414333]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "36"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level37" type="Button" parent="Control/GridContainer" unique_id=783335207]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "37"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level38" type="Button" parent="Control/GridContainer" unique_id=539233797]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "38"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level39" type="Button" parent="Control/GridContainer" unique_id=933958122]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "39"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level40" type="Button" parent="Control/GridContainer" unique_id=1133654215]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "40"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level41" type="Button" parent="Control/GridContainer" unique_id=45020413]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "41"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level42" type="Button" parent="Control/GridContainer" unique_id=2049298023]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "42"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level43" type="Button" parent="Control/GridContainer" unique_id=1577571625]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "43"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level44" type="Button" parent="Control/GridContainer" unique_id=22104728]
@@ -412,8 +412,8 @@ layout_mode = 2
 size_flags_vertical = 3
 tooltip_text = "Level 44: 4x4"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "44"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="LevelLegalII" type="Button" parent="Control/GridContainer" unique_id=1091713054]
@@ -421,296 +421,296 @@ layout_mode = 2
 size_flags_vertical = 3
 tooltip_text = "Level 45: Legally Distinct II"
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "45"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level46" type="Button" parent="Control/GridContainer" unique_id=1247739948]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "46"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level47" type="Button" parent="Control/GridContainer" unique_id=1854858798]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "47"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level48" type="Button" parent="Control/GridContainer" unique_id=2042142631]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "48"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level49" type="Button" parent="Control/GridContainer" unique_id=423556511]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "49"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level50" type="Button" parent="Control/GridContainer" unique_id=1182577842]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "50"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level51" type="Button" parent="Control/GridContainer" unique_id=1982983110]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "51"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level52" type="Button" parent="Control/GridContainer" unique_id=335717535]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "52"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level53" type="Button" parent="Control/GridContainer" unique_id=627864955]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "53"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level54" type="Button" parent="Control/GridContainer" unique_id=1295651124]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "54"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level55" type="Button" parent="Control/GridContainer" unique_id=1801478716]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "55"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level56" type="Button" parent="Control/GridContainer" unique_id=1651638336]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "56"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level57" type="Button" parent="Control/GridContainer" unique_id=1624651916]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "57"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level58" type="Button" parent="Control/GridContainer" unique_id=1507991394]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "58"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level59" type="Button" parent="Control/GridContainer" unique_id=494615631]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "59"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level60" type="Button" parent="Control/GridContainer" unique_id=748596172]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "60"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level61" type="Button" parent="Control/GridContainer" unique_id=572801408]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "61"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level62" type="Button" parent="Control/GridContainer" unique_id=1818250405]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "62"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level63" type="Button" parent="Control/GridContainer" unique_id=451187564]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "63"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level64" type="Button" parent="Control/GridContainer" unique_id=442018251]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "64"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level65" type="Button" parent="Control/GridContainer" unique_id=1505916388]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "65"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level66" type="Button" parent="Control/GridContainer" unique_id=1091478044]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "66"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level67" type="Button" parent="Control/GridContainer" unique_id=865457555]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "67"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level68" type="Button" parent="Control/GridContainer" unique_id=1300475277]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "68"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level69" type="Button" parent="Control/GridContainer" unique_id=798292622]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "69"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level70" type="Button" parent="Control/GridContainer" unique_id=455314606]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "70"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level71" type="Button" parent="Control/GridContainer" unique_id=391360596]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "71"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level72" type="Button" parent="Control/GridContainer" unique_id=1275114778]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "72"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level73" type="Button" parent="Control/GridContainer" unique_id=1725701923]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "73"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level74" type="Button" parent="Control/GridContainer" unique_id=1071664916]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "74"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level75" type="Button" parent="Control/GridContainer" unique_id=197754388]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "75"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level76" type="Button" parent="Control/GridContainer" unique_id=2068255586]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "76"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level77" type="Button" parent="Control/GridContainer" unique_id=756213944]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "77"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level78" type="Button" parent="Control/GridContainer" unique_id=1301091366]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "78"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level79" type="Button" parent="Control/GridContainer" unique_id=847767359]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "79"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level80" type="Button" parent="Control/GridContainer" unique_id=331956053]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "80"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="Level81" type="Button" parent="Control/GridContainer" unique_id=119164948]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_nhkr4")
+theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "81"
-flat = true
 script = ExtResource("2_tr2i4")
 
 [node name="QuitButton" type="Button" parent="Control" unique_id=1908324727]
@@ -867,14 +867,14 @@ width = 2.0
 default_color = Color(0.67068946, 0.6706895, 0.67068917, 1)
 
 [node name="Title" type="RichTextLabel" parent="." unique_id=530568592]
-visible = false
-offset_left = 363.0
-offset_top = 36.0
-offset_right = 792.0
-offset_bottom = 84.0
+offset_left = -38.0
+offset_top = 26.0
+offset_right = 391.0
+offset_bottom = 130.0
 theme_override_fonts/normal_font = ExtResource("3_nhkr4")
 theme_override_font_sizes/normal_font_size = 48
-text = "81 Sudokus"
+text = "Level
+Select"
 horizontal_alignment = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1928054277]

@@ -100,7 +100,7 @@ func _on_text_changed(textfield: TextEdit) -> void:
 	if (textfield.text.length() > 1):
 		var isValid = false
 		for valid_inputs in allowedInputs:
-			if (textfield.text.right(1) == str(valid_inputs)):
+			if (textfield.text.right(1).to_upper() == str(valid_inputs).to_upper()):
 				isValid = true
 				textfield.text = textfield.text.right(1)
 				textfield.set_caret_column(1)
@@ -137,6 +137,8 @@ func check_groups_for_errors():
 		var eqChecker = node.check_for_issues(self.get_value_special())
 		if(eqChecker):
 			hasError = true
+		else:
+			hasError = false
 	
 	if(hasError):
 		set_red(this_label)
