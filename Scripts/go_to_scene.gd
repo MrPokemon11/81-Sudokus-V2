@@ -31,9 +31,22 @@ func save_level():
 	
 	# returning to level select throws an error
 	
-	#packed_scene.take_over_path("res://Scene/Levels/" + str(currLevelName) + "./tscn")
-	#packed_scene.pack(get_tree().current_scene)
-	#ResourceSaver.save(packed_scene, "res://Scene/Levels/" + str(currLevelName) + "./tscn")
+	if(get_tree().root.name == "MainScene"):
+		packed_scene.take_over_path("user://Scene/MainScene.tscn")
+		packed_scene.pack(get_tree().current_scene)
+		if FileAccess.file_exists("user://Scene/MainScene.tscn"):
+			ResourceSaver.save(packed_scene, "user://Scene/MainScene.tscn")
+			return true
+		else:
+			return false
+	else:
+		packed_scene.take_over_path("user://Scene/Levels/" + get_tree().root.name + ".tscn")
+		packed_scene.pack(get_tree().current_scene)
+		if FileAccess.file_exists("user://Scene/Levels/" + get_tree().root.name + ".tscn"):
+			ResourceSaver.save(packed_scene, "user://Scene/Levels/" + get_tree().root.name + ".tscn")
+			return true
+		else:
+			return false
 	
 	
 # to do: make a Next Level loader that doesn't lag the larger the gap/# of completed levels

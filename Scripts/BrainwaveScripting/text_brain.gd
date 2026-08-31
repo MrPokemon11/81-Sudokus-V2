@@ -111,6 +111,7 @@ func _on_text_changed(textfield: TextEdit) -> void:
 	
 	this_label.text = textfield.text
 	
+	save()
 
 	check_groups_for_errors()
 	get_tree().call_group("hasError", "check_groups_for_errors")
