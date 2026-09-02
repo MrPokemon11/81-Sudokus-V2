@@ -19,9 +19,14 @@ func _on_pressed(lvlNum: String) -> void:
 		#lvlNum = handle_next_level()	
 	
 	if (lvlNum.containsn("Back")): # return to the level select screen
-		get_tree().change_scene_to_file("res://Scenes/MainScene.tscn")
+		if FileAccess.file_exists("user://Scene/MainScene.tscn"):
+			get_tree().change_scene_to_file("user://Scenes/MainScene.tscn")
+		else:
+			get_tree().change_scene_to_file("res://Scenes/MainScene.tscn")
 	else: # go to a specific level
-		if(FileAccess.file_exists("res://Scenes/Levels/" + str(lvlNum) + ".tscn")):
+		if(FileAccess.file_exists("user://Scenes/Levels/" + str(lvlNum) + ".tscn")):
+			get_tree().change_scene_to_file("user://Scenes/Levels/" + str(lvlNum) + ".tscn")		
+		elif(FileAccess.file_exists("res://Scenes/Levels/" + str(lvlNum) + ".tscn")):
 			get_tree().change_scene_to_file("res://Scenes/Levels/" + str(lvlNum) + ".tscn")
 		else:
 			printerr("Level " + str(lvlNum) + " not found.")
