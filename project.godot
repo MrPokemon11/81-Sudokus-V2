@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="81 Sudokus"
-run/main_scene="uid://bulehki8p403r"
+run/main_scene="uid://c83fs4xg725v4"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

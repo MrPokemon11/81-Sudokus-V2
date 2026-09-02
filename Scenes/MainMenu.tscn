@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://c83fs4xg725v4"]
+
+[ext_resource type="Texture2D" uid="uid://cr85wa1gsiqa1" path="res://Textures/81SudokusTitleImageTransparent.png" id="1_8saeu"]
+[ext_resource type="Script" uid="uid://cd35bkiuq1t5k" path="res://Scripts/QuitGame.gd" id="2_ghw46"]
+[ext_resource type="Script" uid="uid://dn7sgry15kas3" path="res://Scripts/generic_scene_loader.gd" id="3_df05h"]
+
+[node name="MainMenu" type="Node2D" unique_id=1237143043]
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1263101153]
+color = Color(0.19434929, 0.19434926, 0.19434926, 1)
+polygon = PackedVector2Array(-13, -11, 1165, -11, 1165, 664, -13, 664)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1143888741]
+position = Vector2(583.00006, 200)
+scale = Vector2(0.5942499, 0.59424996)
+texture = ExtResource("1_8saeu")
+
+[node name="QuitButton" type="Button" parent="." unique_id=572099901]
+offset_left = 20.0
+offset_top = 493.0
+offset_right = 308.33685
+offset_bottom = 621.0
+theme_override_font_sizes/font_size = 29
+text = "Quit Game"
+script = ExtResource("2_ghw46")
+
+[node name="PlayGame" type="Button" parent="." unique_id=535048808]
+offset_left = 417.0
+offset_top = 493.0
+offset_right = 705.33685
+offset_bottom = 621.0
+theme_override_font_sizes/font_size = 45
+text = "Play"
+script = ExtResource("3_df05h")
+metadata/Destination = "user://Scene/MainScene.tscn"
+metadata/Fallback = "res://Scenes/MainScene.tscn"
+
+[node name="Credits" type="Button" parent="." unique_id=84248087]
+offset_left = 829.4105
+offset_top = 492.0
+offset_right = 1120.0
+offset_bottom = 621.0
+theme_override_font_sizes/font_size = 29
+text = "Credits"
+script = ExtResource("3_df05h")
+metadata/Destination = "res://Scenes/Credits.tscn"
+metadata/Fallback = ""

@@ -29,6 +29,17 @@ func _on_pressed(lvlNum: String) -> void:
 	
 	var next_scene_inst = next_scene_res.instantiate()
 	
+	if (lvlNum.containsn("Back")):
+		if lvlNum.containsn("BackToLevels"):
+			get_tree().current_scene.add_to_group("CompletedLevels", true)
+		
+	else:
+		next_scene_inst.load_saved_vals()
+	
+	
+	
+	
+	
 	#old level load system
 	#if (lvlNum.containsn("Back")): # return to the level select screen
 		#if FileAccess.file_exists("user://Scene/MainScene.tscn"):
