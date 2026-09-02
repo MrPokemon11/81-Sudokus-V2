@@ -15,6 +15,11 @@ run/main_scene="uid://c83fs4xg725v4"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+HolderOfCells="*uid://ddl7m6tbn38ui"
+GlobalSceneLoad="*uid://q73o3hmt6mq2"
+
 [display]
 
 window/stretch/mode="viewport"

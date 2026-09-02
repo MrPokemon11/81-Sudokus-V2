@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://b8wapj8xlvj20"]
 
+[ext_resource type="Script" uid="uid://bo76i3458hhf8" path="res://cell_handler.gd" id="1_7f72b"]
 [ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_gpvrs"]
 [ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_rl5px"]
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_inj8u"]
@@ -8,6 +9,8 @@
 [ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_bfawm"]
 [ext_resource type="Texture2D" uid="uid://drfeyfvu0hxjf" path="res://Textures/CageLine.png" id="6_rl5px"]
 [ext_resource type="Script" uid="uid://dtmsekiogwy7h" path="res://Scripts/BrainwaveScripting/check_cage.gd" id="7_inj8u"]
+[ext_resource type="Script" uid="uid://cd35bkiuq1t5k" path="res://Scripts/QuitGame.gd" id="10_613b2"]
+[ext_resource type="Script" uid="uid://dn7sgry15kas3" path="res://Scripts/generic_scene_loader.gd" id="11_fsn6e"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_inj8u"]
 bg_color = Color(0.2992325, 0.5084096, 0.9903404, 1)
@@ -24,6 +27,8 @@ bg_color = Color(0.09477944, 0.22087029, 0.400887, 1)
 bg_color = Color(0.2766075, 0.62380576, 0.9208631, 1)
 
 [node name="Level4" type="Node2D" unique_id=727200872]
+script = ExtResource("1_7f72b")
+metadata/saved_values = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=1076472088]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)
@@ -740,3 +745,24 @@ Well now there's two of them.
 Any puzzle elements outside of the regular rules of sudoku are explained in the Extra Rules section on the right.
 
 "
+
+[node name="QuitButton" type="Button" parent="." unique_id=551022140]
+visible = false
+offset_left = 20.0
+offset_top = 526.0
+offset_right = 234.0
+offset_bottom = 621.0
+theme_override_font_sizes/font_size = 29
+text = "Quit Game"
+script = ExtResource("10_613b2")
+
+[node name="Credits" type="Button" parent="." unique_id=1865240141]
+visible = false
+offset_left = 906.0
+offset_top = 526.0
+offset_right = 1120.0
+offset_bottom = 621.0
+theme_override_font_sizes/font_size = 29
+text = "Credits"
+script = ExtResource("11_fsn6e")
+metadata/Destination = "res://Scenes/Credits.tscn"

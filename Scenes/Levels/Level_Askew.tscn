@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://ddamd5dg0dho1"]
 
+[ext_resource type="Script" uid="uid://bo76i3458hhf8" path="res://cell_handler.gd" id="1_msr15"]
 [ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_wp6td"]
 [ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_msr15"]
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_0x6kd"]
@@ -10,6 +11,8 @@
 
 [node name="LevelAskew" type="Node2D" unique_id=2017251247]
 skew = -0.08726646
+script = ExtResource("1_msr15")
+metadata/saved_values = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 
 [node name="Background" type="Polygon2D" parent="." unique_id=237125392]
 position = Vector2(-158.79742, -2.861023e-06)

@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://ccp8e6cspty1x"]
 
+[ext_resource type="Script" uid="uid://bo76i3458hhf8" path="res://cell_handler.gd" id="1_4rk67"]
 [ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_5awjf"]
 [ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_n3cqh"]
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_jriq2"]
@@ -9,6 +10,8 @@
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p4u3k"]
 
 [node name="Level2" type="Node2D" unique_id=2104498253]
+script = ExtResource("1_4rk67")
+metadata/saved_values = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=1402427672]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)

@@ -5,12 +5,15 @@
 [ext_resource type="Script" uid="uid://dq7n7giv50o3a" path="res://Scripts/BrainwaveScripting/Input_Gravity.gd" id="3_metij"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_l5pmb"]
 [ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="5_ivu2l"]
+[ext_resource type="Script" uid="uid://bo76i3458hhf8" path="res://cell_handler.gd" id="6_l5pmb"]
 [ext_resource type="Texture2D" uid="uid://drfeyfvu0hxjf" path="res://Textures/CageLine.png" id="6_uq7j5"]
 [ext_resource type="Script" uid="uid://dtmsekiogwy7h" path="res://Scripts/BrainwaveScripting/check_cage.gd" id="7_l5pmb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nwtpk"]
 
 [node name="LevelFall" type="Node2D" unique_id=419651865]
+script = ExtResource("6_l5pmb")
+metadata/saved_values = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 
 [node name="Background" type="Polygon2D" parent="." unique_id=2129957025]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)
@@ -2701,6 +2704,8 @@ text = "Restart Level"
 script = ExtResource("5_ivu2l")
 
 [node name="Node" type="Node" parent="Control" unique_id=416534468]
+script = ExtResource("6_l5pmb")
+metadata/saved_values = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 
 [node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=2094859485]
 position = Vector2(24, 0)

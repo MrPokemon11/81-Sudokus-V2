@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cxddej3hh1ojf"]
 
+[ext_resource type="Script" uid="uid://bo76i3458hhf8" path="res://cell_handler.gd" id="1_cqw05"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="1_t7mdl"]
 [ext_resource type="Script" uid="uid://b0hkyjackcuwc" path="res://Scripts/BrainwaveScripting/reset_cells.gd" id="2_cqw05"]
 [ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="3_wq6y1"]
@@ -9,6 +10,8 @@
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8766e"]
 
 [node name="LevelLegalI" type="Node2D" unique_id=85168970]
+script = ExtResource("1_cqw05")
+metadata/saved_values = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 
 [node name="Background" type="Polygon2D" parent="." unique_id=940990118]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)
@@ -2775,7 +2778,7 @@ offset_top = 18.0
 offset_right = 769.0
 offset_bottom = 97.0
 theme_override_font_sizes/font_size = 32
-text = "Level #: Legally Distinct I"
+text = "Level ?: Legally Distinct I"
 horizontal_alignment = 1
 vertical_alignment = 1
 

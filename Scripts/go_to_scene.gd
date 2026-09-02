@@ -16,27 +16,12 @@ func _on_pressed(lvlNum: String) -> void:
 	
 	save_level() #need to do more work on this func but it still goes first
 	
+	GlobalSceneLoad.load_scene(lvlNum)
+	
 	#if (lvlNum.containsn("Next")): # proceed to the next uncompleted level
 		#lvlNum = handle_next_level()	
 	
-	#new level load system
-	var next_scene_res
 
-	if (lvlNum.containsn("Back")):
-		next_scene_res = load_with_fallback("user://Scene/MainScene.tscn","res://Scenes/MainScene.tscn")
-	else:
-		next_scene_res = load_with_fallback("user://Scenes/Levels/" + str(lvlNum) + ".tscn","res://Scenes/Levels/" + str(lvlNum) + ".tscn")
-	
-	var next_scene_inst = next_scene_res.instantiate()
-	
-	if (lvlNum.containsn("Back")):
-		if lvlNum.containsn("BackToLevels"):
-			get_tree().current_scene.add_to_group("CompletedLevels", true)
-		
-	else:
-		next_scene_inst.load_saved_vals()
-	
-	
 	
 	
 	
@@ -57,34 +42,36 @@ func _on_pressed(lvlNum: String) -> void:
 func save_level():
 	var packed_scene = PackedScene.new()
 	
+	if not DirAccess.dir_exists_absolute("user://Scenes/Levels/"):
+		DirAccess.make_dir_recursive_absolute("user://Scenes/Levels/")
+	
 	# returning to level select throws an error
 	
 	if(get_tree().current_scene.name == "MainScene"):
-		packed_scene.take_over_path("user://Scene/MainScene.tscn")
+		if !FileAccess.file_exists("user://Scenes/MainScene.tscn"):
+			if FileAccess.file_exists("res://Scenes/MainScene.tscn"):
+				DirAccess.copy_absolute("res://Scenes/MainScene.tscn","user://Scenes/MainScene.tscn")
+		
+		packed_scene.take_over_path("user://Scenes/MainScene.tscn")
 		packed_scene.pack(get_tree().current_scene)
-		if FileAccess.file_exists("user://Scene/MainScene.tscn"):
-			ResourceSaver.save(packed_scene, "user://Scene/MainScene.tscn")
-			return true
-		else:
-			return false
+
+		ResourceSaver.save(packed_scene, "user://Scenes/MainScene.tscn")
+
 	else:
-		packed_scene.take_over_path("user://Scene/Levels/" + get_tree().root.name + ".tscn")
+		if !FileAccess.file_exists("user://Scenes/Levels/" + get_tree().current_scene.name + ".tscn"):
+			if FileAccess.file_exists("res://Scenes/Levels/" + get_tree().current_scene.name + ".tscn"):
+				DirAccess.copy_absolute("res://Scenes/Levels/" + get_tree().current_scene.name + ".tscn","user://Scenes/Levels/" + get_tree().current_scene.name + ".tscn")
+		
+		packed_scene.take_over_path("user://Scenes/Levels/" + get_tree().current_scene.name + ".tscn")
 		packed_scene.pack(get_tree().current_scene)
-		if FileAccess.file_exists("user://Scene/Levels/" + get_tree().root.name + ".tscn"):
-			ResourceSaver.save(packed_scene, "user://Scene/Levels/" + get_tree().root.name + ".tscn")
-			return true
-		else:
-			return false
+		
+		ResourceSaver.save(packed_scene, "user://Scenes/Levels/" + get_tree().current_scene.name + ".tscn")
+
+
+
 	
 
-func load_with_fallback(userpath: String, respath: String):
-	if(FileAccess.file_exists(userpath)):
-		return ResourceLoader.load(userpath)
-	elif(FileAccess.file_exists(respath)):
-		return ResourceLoader.load(respath)
-	
-	print("File not found in either path")
-	return null
+
 
 # to do: make a Next Level loader that doesn't lag the larger the gap/# of completed levels
 #func handle_next_level() -> String:

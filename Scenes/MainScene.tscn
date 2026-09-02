@@ -1,12 +1,15 @@
 [gd_scene format=3 uid="uid://bulehki8p403r"]
 
 [ext_resource type="Theme" uid="uid://cv6w28y5tjd6j" path="res://Themes/MenuLevelUnsolved.tres" id="1_nhkr4"]
+[ext_resource type="Script" uid="uid://bo76i3458hhf8" path="res://cell_handler.gd" id="1_y4jh7"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="2_tr2i4"]
 [ext_resource type="FontFile" uid="uid://c5v7cgicak1wx" path="res://Fonts/KIN668.TTF" id="3_nhkr4"]
 [ext_resource type="Script" uid="uid://dn7sgry15kas3" path="res://Scripts/generic_scene_loader.gd" id="4_y4jh7"]
 [ext_resource type="Texture2D" uid="uid://cr85wa1gsiqa1" path="res://Textures/81SudokusTitleImageTransparent.png" id="5_qxria"]
 
 [node name="MainScene" type="Node2D" unique_id=52789031]
+script = ExtResource("1_y4jh7")
+metadata/saved_values = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=2132189343]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)

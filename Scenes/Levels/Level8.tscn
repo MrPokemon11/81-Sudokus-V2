@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://0n0md3i8spqk"]
 
+[ext_resource type="Script" uid="uid://bo76i3458hhf8" path="res://cell_handler.gd" id="1_cbrqw"]
 [ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_vigkb"]
 [ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_cbrqw"]
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_qggba"]
@@ -9,6 +10,8 @@
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6ti5a"]
 
 [node name="Level8" type="Node2D" unique_id=1530962453]
+script = ExtResource("1_cbrqw")
+metadata/saved_values = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 
 [node name="Background" type="Polygon2D" parent="." unique_id=1317960645]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)

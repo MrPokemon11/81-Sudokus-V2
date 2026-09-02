@@ -11,7 +11,7 @@
 
 [node name="Level1" type="Node2D" unique_id=1425518412]
 script = ExtResource("1_4d3fe")
-metadata/saved_values = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+metadata/saved_values = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=220250481]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)

@@ -147,7 +147,7 @@ func check_groups_for_errors():
 	
 	if(hasError):
 		set_red(this_label)
-		add_to_group("hasError", true)
+		#add_to_group("hasError", true)
 	else:
 		clear_red(this_label)
 		remove_from_group("hasError")
@@ -158,9 +158,9 @@ func check_groups_for_errors():
 # current issues: this will clear red even if there are still other errors
 func check_for_issues(comparator: String) -> bool:
 	var isEqual = check_equality(self.get_value_special(), comparator)
-	#if (isEqual):
-		#set_red(this_label)
-		#add_to_group("hasError", true)
+	if (isEqual):
+		set_red(this_label)
+		add_to_group("hasError", true)
 	#else:
 		#clear_red(this_label)
 	return isEqual
@@ -188,6 +188,8 @@ func reset():
 	if self.is_in_group("hasError"):
 		clear_red(this_label)
 		remove_from_group("hasError")
+	
+	save()
 
 func set_label_font():
 	if self.editable:
