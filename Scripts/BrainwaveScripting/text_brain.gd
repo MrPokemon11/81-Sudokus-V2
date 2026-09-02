@@ -116,6 +116,10 @@ func _on_text_changed(textfield: TextEdit) -> void:
 	check_groups_for_errors()
 	get_tree().call_group("hasError", "check_groups_for_errors")
 
+func set_label():
+	if self.placeholder_text == "":
+		this_label.text = self.text
+
 # checks text within groups for errors.
 # this is separated so that fields with errors can re-check themselves
 func check_groups_for_errors():
@@ -215,7 +219,8 @@ func apply_focusing() -> void: # apply Focus via code
 	pass
 
 func save():
-	saved_input = self.text
+	var cellnum = name.right(-8).to_int()
+	get_tree().current_scene.save_cell_value(cellnum,get_value_special())
 
 # debug
 #func focus_debug():
