@@ -626,4 +626,9 @@ theme_override_font_sizes/bold_font_size = 18
 bbcode_enabled = true
 text = "Nicely done! Now it's time for something a little more complicated.
 
-Normal rules still apply, of course: one input per row, column, and region."
+Non-square regions are handled the same way as square regions.
+
+Normal rules still apply, of course: one input per row, column, and region.
+
+Also, you can move your selected cell with the arrow keys, and clear it using Backspace
+(Couldn't think of a better place to teach this)"
