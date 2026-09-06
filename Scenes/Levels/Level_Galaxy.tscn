@@ -2709,5 +2709,5 @@ offset_bottom = 295.0
 theme_override_font_sizes/normal_font_size = 20
 theme_override_font_sizes/bold_font_size = 20
 bbcode_enabled = true
-text = "[b]Magic Word[/b]: The highlighted cells spell a related word."
+text = "[b]Magic Words[/b]: The highlighted cells spell a related word or phrase."
 horizontal_alignment = 1
