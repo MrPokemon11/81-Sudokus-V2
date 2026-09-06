@@ -22,7 +22,6 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="NextLevel" type="Button" parent="SudokuComplete" unique_id=882929345]
-visible = false
 offset_left = 118.18179
 offset_top = 299.99994
 offset_right = 478.78787
@@ -34,10 +33,11 @@ text = "Next Level"
 script = ExtResource("1_us78w")
 
 [node name="BackToLevels" type="Button" parent="SudokuComplete" unique_id=1392501706]
-offset_left = 390.90903
+offset_left = 660.60596
 offset_top = 299.99994
-offset_right = 751.51514
+offset_right = 1021.21204
 offset_bottom = 554.54535
+tooltip_text = "Return to the level select menu."
 theme_override_font_sizes/font_size = 48
 text = "Return to
 Level Select"

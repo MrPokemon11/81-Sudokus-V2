@@ -201,9 +201,10 @@ theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446
 text = "17"
 script = ExtResource("2_tr2i4")
 
-[node name="Level18" type="Button" parent="Control/GridContainer" unique_id=736142472]
+[node name="Level_Galaxy" type="Button" parent="Control/GridContainer" unique_id=736142472]
 layout_mode = 2
 size_flags_vertical = 3
+tooltip_text = "Level 18: Galaxy"
 theme = ExtResource("1_nhkr4")
 theme_override_colors/icon_hover_color = Color(0.37036446, 0.3703645, 0.37036446, 1)
 text = "18"

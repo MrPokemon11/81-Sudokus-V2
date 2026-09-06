@@ -13,7 +13,7 @@ var column_count
 @export var saved_input: String = ""
 
 func _ready() -> void:
-	if saved_input != "":
+	if saved_input != "" and saved_input != null:
 		self.text = saved_input
 	
 	idNum = self.name.right(-8).to_int() # this will remove "TextEdit" from the name, leaving just the number

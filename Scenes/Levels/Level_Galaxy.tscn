@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c2g2ypw4e1fxl"]
 
 [ext_resource type="Script" uid="uid://dsajlj7rarnda" path="res://Scripts/BrainwaveScripting/check_level_completion.gd" id="1_4u0wi"]
+[ext_resource type="Script" uid="uid://bo76i3458hhf8" path="res://cell_handler.gd" id="1_dmkwu"]
 [ext_resource type="Theme" uid="uid://yhovisq3cyn3" path="res://Themes/PuzzlePlayerAnswers.tres" id="2_dmkwu"]
 [ext_resource type="Script" uid="uid://oss88i60kcc0" path="res://Scripts/BrainwaveScripting/text_brain.gd" id="3_yqku3"]
 [ext_resource type="Script" uid="uid://c7s0k1u40tvw7" path="res://Scripts/go_to_scene.gd" id="4_e275l"]
@@ -8,7 +9,12 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7f113"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6lk1x"]
+bg_color = Color(0.09411765, 0.21960784, 0.4, 1)
+
 [node name="Level_Galaxy" type="Node2D" unique_id=1610842854]
+script = ExtResource("1_dmkwu")
+metadata/saved_values = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 
 [node name="Background" type="Polygon2D" parent="." unique_id=1255872924]
 color = Color(0.19434929, 0.19434926, 0.19434926, 1)
@@ -70,6 +76,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "W"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -160,6 +167,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "Y"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -190,6 +198,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "R"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -310,6 +319,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "O"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -401,6 +411,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "A"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -491,6 +502,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "Y"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -581,6 +593,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "E"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -642,6 +655,8 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_colors/background_color = Color(0.2784314, 0.62352943, 0.92156863, 1)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_6lk1x")
+placeholder_text = "D"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -792,6 +807,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "R"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -852,6 +868,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "N"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -912,6 +929,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "O"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1093,6 +1111,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "E"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1123,6 +1142,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "W"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1213,6 +1233,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "N"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1244,6 +1265,8 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_colors/background_color = Color(0.2784314, 0.62352943, 0.92156863, 1)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_6lk1x")
+placeholder_text = "O"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1274,6 +1297,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "W"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1364,6 +1388,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "Y"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1394,6 +1419,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "W"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1575,6 +1601,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "R"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1635,6 +1662,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "N"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1695,6 +1723,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "O"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1846,6 +1875,8 @@ theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_colors/background_color = Color(0.2784314, 0.62352943, 0.92156863, 1)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_6lk1x")
+placeholder_text = "E"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1906,6 +1937,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "R"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -1996,6 +2028,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "A"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -2086,6 +2119,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "N"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -2177,6 +2211,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "W"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -2297,6 +2332,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "O"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -2327,6 +2363,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "R"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
@@ -2417,6 +2454,7 @@ theme_override_colors/caret_color = Color(0, 0, 0, 0)
 theme_override_colors/font_color = Color(0, 0, 0, 0)
 theme_override_colors/font_readonly_color = Color(0, 0, 0, 0)
 theme_override_styles/focus = SubResource("StyleBoxFlat_7f113")
+placeholder_text = "N"
 emoji_menu_enabled = false
 script = ExtResource("3_yqku3")
 
