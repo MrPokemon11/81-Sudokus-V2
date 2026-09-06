@@ -2685,9 +2685,9 @@ offset_top = 61.0
 offset_right = 251.0
 offset_bottom = 141.0
 theme_override_font_sizes/font_size = 32
-text = "1, 2, 3,
-4, 5, 6,
-7, 8, 9"
+text = "A, D, E,
+M, N, O,
+R, W, Y"
 horizontal_alignment = 1
 
 [node name="ExtraRules" type="Label" parent="." unique_id=1132464656]
