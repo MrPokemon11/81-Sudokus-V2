@@ -12,20 +12,25 @@ func _process(_delta: float) -> void:
 
 # check whether the level is complete
 func check_completion() -> bool:
+	# debug
+	if(get_tree().get_node_count_in_group("hasError") > 0):
+		print("Child has error, num errors:" + str(get_tree().get_node_count_in_group("hasError"))) 
+	else:
+		print("No errors.")
+	
 	var cellsFilled = true
 	for node in get_children():
-		if node.text == "":
+		if node.get_value_special() == "":
 			#print("Child is empty") # debug
 			cellsFilled = false
+			return false
 	
-	if cellsFilled == false:
-		return false
 	
 	get_tree().call_group("hasError", "check_groups_for_errors")
 	
 	# if any child has an error, the level is not complete
 	if(get_tree().get_node_count_in_group("hasError") > 0):
-		#print("Child has error") # debug
+		#print("Child has error, num errors:" + str(get_tree().get_node_count_in_group("hasError"))) # debug
 		return false
 	
 	# if there are no errors, check if every cell is filled. if not, the level is not complete
