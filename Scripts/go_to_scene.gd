@@ -14,8 +14,6 @@ func _process(_delta: float) -> void:
 # loads the relevant scene/level
 func _on_pressed(lvlNum: String) -> void:
 	
-	lvlNum.remove_char(95) # remove underscores
-	
 	save_level() #need to do more work on this func but it still goes first
 	
 	GlobalSceneLoad.load_scene(lvlNum)

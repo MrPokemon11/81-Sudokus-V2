@@ -9,7 +9,7 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lyt1c"]
 
-[node name="LevelFlipped" type="Node2D" unique_id=207149689]
+[node name="Level_Flipped" type="Node2D" unique_id=207149689]
 script = ExtResource("1_qbv7b")
 metadata/saved_values = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 
