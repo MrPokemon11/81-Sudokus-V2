@@ -14,6 +14,7 @@
 [ext_resource type="Theme" uid="uid://1lcbnx6qgb8b" path="res://Themes/Sectors/Sector4.tres" id="8_agtwm"]
 [ext_resource type="Theme" uid="uid://dq2vu1g8n14p8" path="res://Themes/Sectors/Sector3.tres" id="9_xs2vb"]
 [ext_resource type="Theme" uid="uid://cf6dalftd525e" path="res://Themes/Sectors/Sector6.tres" id="10_nfq4j"]
+[ext_resource type="Script" uid="uid://ccvtpu7jnhama" path="res://Scripts/BrainwaveScripting/check_sector.gd" id="15_kh0tm"]
 
 [node name="LevelLegalII" type="Node2D" unique_id=1928273271]
 script = ExtResource("1_fnrgx")
@@ -10281,6 +10282,7 @@ offset_top = 10.0
 offset_right = -12.0
 offset_bottom = 50.0
 theme = ExtResource("6_kh0tm")
+script = ExtResource("15_kh0tm")
 
 [node name="Label" type="RichTextLabel" parent="SectorValues/Sector1" unique_id=1048807586]
 layout_mode = 0
@@ -10309,6 +10311,7 @@ offset_top = 88.0
 offset_right = -12.0
 offset_bottom = 128.0
 theme = ExtResource("5_fnrgx")
+script = ExtResource("15_kh0tm")
 
 [node name="Label" type="RichTextLabel" parent="SectorValues/Sector2" unique_id=92028289]
 layout_mode = 0
@@ -10337,6 +10340,7 @@ offset_top = 171.0
 offset_right = -12.0
 offset_bottom = 211.0
 theme = ExtResource("9_xs2vb")
+script = ExtResource("15_kh0tm")
 
 [node name="Label" type="RichTextLabel" parent="SectorValues/Sector3" unique_id=14385166]
 layout_mode = 0
@@ -10365,6 +10369,7 @@ offset_top = 262.0
 offset_right = -12.0
 offset_bottom = 302.0
 theme = ExtResource("8_agtwm")
+script = ExtResource("15_kh0tm")
 
 [node name="Label" type="RichTextLabel" parent="SectorValues/Sector4" unique_id=1170101057]
 layout_mode = 0
@@ -10393,6 +10398,7 @@ offset_top = 8.0
 offset_right = 107.0
 offset_bottom = 48.0
 theme = ExtResource("2_so5td")
+script = ExtResource("15_kh0tm")
 
 [node name="Label" type="RichTextLabel" parent="SectorValues/Sector5" unique_id=327787950]
 layout_mode = 0
@@ -10421,6 +10427,7 @@ offset_top = 88.0
 offset_right = 107.0
 offset_bottom = 128.0
 theme = ExtResource("10_nfq4j")
+script = ExtResource("15_kh0tm")
 
 [node name="Label" type="RichTextLabel" parent="SectorValues/Sector6" unique_id=791204752]
 layout_mode = 0
@@ -10449,6 +10456,7 @@ offset_top = 169.0
 offset_right = 107.0
 offset_bottom = 209.0
 theme = ExtResource("7_23eef")
+script = ExtResource("15_kh0tm")
 
 [node name="Label" type="RichTextLabel" parent="SectorValues/Sector7" unique_id=18858055]
 layout_mode = 0
